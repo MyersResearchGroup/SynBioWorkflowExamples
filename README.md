@@ -1,2 +1,2 @@
-# SynBio_workflow_examples
+# SynBioWorkflowExamples
 Examples of the usage of the Synthetic Biology workflow
