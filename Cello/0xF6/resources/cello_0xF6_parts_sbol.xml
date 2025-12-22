@@ -1,0 +1,580 @@
+<rdf:RDF xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:sbol="http://sbols.org/v2#" xmlns:ns0="http://purl.org/dc/terms/">
+  <sbol:ComponentDefinition rdf:about="http://examples.org/pAmer/1">
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+    <sbol:sequence rdf:resource="http://examples.org/pAmer_sequence/1"/>
+    <sbol:displayId>pAmer</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/pAmer"/>
+    <ns0:title>pAmer</ns0:title>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/pBAD/1">
+    <sbol:displayId>pBAD</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns0:title>pBAD</ns0:title>
+    <sbol:sequence rdf:resource="http://examples.org/pBAD_sequence/1"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/pBAD"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/pBetI/1">
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+    <ns0:title>pBetI</ns0:title>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/pBetI"/>
+    <sbol:sequence rdf:resource="http://examples.org/pBetI_sequence/1"/>
+    <sbol:version>1</sbol:version>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:displayId>pBetI</sbol:displayId>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/pHlyIIR/1">
+    <ns0:title>pHlyIIR</ns0:title>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/pHlyIIR"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+    <sbol:sequence rdf:resource="http://examples.org/pHlyIIR_sequence/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:displayId>pHlyIIR</sbol:displayId>
+    <sbol:version>1</sbol:version>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/pSrpR/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/pSrpR"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:displayId>pSrpR</sbol:displayId>
+    <sbol:sequence rdf:resource="http://examples.org/pSrpR_sequence/1"/>
+    <sbol:version>1</sbol:version>
+    <ns0:title>pSrpR</ns0:title>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/pTac/1">
+    <ns0:title>pTac</ns0:title>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:sequence rdf:resource="http://examples.org/pTac_sequence/1"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+    <sbol:displayId>pTac</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/pTac"/>
+    <sbol:version>1</sbol:version>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/pTet/1">
+    <ns0:title>pTet</ns0:title>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/pTet"/>
+    <sbol:sequence rdf:resource="http://examples.org/pTet_sequence/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>pTet</sbol:displayId>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/J23105/1">
+    <sbol:version>1</sbol:version>
+    <ns0:title>J23105</ns0:title>
+    <sbol:displayId>J23105</sbol:displayId>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+    <sbol:sequence rdf:resource="http://examples.org/J23105_sequence/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/J23105"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/A1/1">
+    <sbol:version>1</sbol:version>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/A1"/>
+    <sbol:sequence rdf:resource="http://examples.org/A1_sequence/1"/>
+    <ns0:title>A1</ns0:title>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000139"/>
+    <sbol:displayId>A1</sbol:displayId>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/E1/1">
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000139"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/E1"/>
+    <sbol:sequence rdf:resource="http://examples.org/E1_sequence/1"/>
+    <sbol:version>1</sbol:version>
+    <ns0:title>E1</ns0:title>
+    <sbol:displayId>E1</sbol:displayId>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/F1/1">
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/F1"/>
+    <sbol:displayId>F1</sbol:displayId>
+    <sbol:sequence rdf:resource="http://examples.org/F1_sequence/1"/>
+    <ns0:title>F1</ns0:title>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000139"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/H1/1">
+    <sbol:version>1</sbol:version>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:sequence rdf:resource="http://examples.org/H1_sequence/1"/>
+    <ns0:title>H1</ns0:title>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000139"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/H1"/>
+    <sbol:displayId>H1</sbol:displayId>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/P3/1">
+    <ns0:title>P3</ns0:title>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/P3"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:version>1</sbol:version>
+    <sbol:sequence rdf:resource="http://examples.org/P3_sequence/1"/>
+    <sbol:displayId>P3</sbol:displayId>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000139"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/S3/1">
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns0:title>S3</ns0:title>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000139"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/S3"/>
+    <sbol:sequence rdf:resource="http://examples.org/S3_sequence/1"/>
+    <sbol:displayId>S3</sbol:displayId>
+    <sbol:version>1</sbol:version>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/AmtR/1">
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+    <ns0:title>AmtR</ns0:title>
+    <sbol:displayId>AmtR</sbol:displayId>
+    <sbol:sequence rdf:resource="http://examples.org/AmtR_sequence/1"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/AmtR"/>
+    <sbol:version>1</sbol:version>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/BetI/1">
+    <ns0:title>BetI</ns0:title>
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/BetI"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+    <sbol:displayId>BetI</sbol:displayId>
+    <sbol:sequence rdf:resource="http://examples.org/BetI_sequence/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/AmeR/1">
+    <ns0:title>AmeR</ns0:title>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/AmeR"/>
+    <sbol:version>1</sbol:version>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+    <sbol:sequence rdf:resource="http://examples.org/AmeR_sequence/1"/>
+    <sbol:displayId>AmeR</sbol:displayId>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/HIyIIR/1">
+    <ns0:title>HIyIIR</ns0:title>
+    <sbol:sequence rdf:resource="http://examples.org/HIyIIR_sequence/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:version>1</sbol:version>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+    <sbol:displayId>HIyIIR</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/HIyIIR"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/LacI/1">
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:sequence rdf:resource="http://examples.org/LacI_sequence/1"/>
+    <sbol:version>1</sbol:version>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/LacI"/>
+    <ns0:title>LacI</ns0:title>
+    <sbol:displayId>LacI</sbol:displayId>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/PhiF/1">
+    <sbol:sequence rdf:resource="http://examples.org/PhiF_sequence/1"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/PhiF"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+    <ns0:title>PhiF</ns0:title>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:displayId>PhiF</sbol:displayId>
+    <sbol:version>1</sbol:version>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/SrpR/1">
+    <ns0:title>SrpR</ns0:title>
+    <sbol:displayId>SrpR</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/SrpR"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:sequence rdf:resource="http://examples.org/SrpR_sequence/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/TetR/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/TetR"/>
+    <sbol:displayId>TetR</sbol:displayId>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:sequence rdf:resource="http://examples.org/TetR_sequence/1"/>
+    <ns0:title>TetR</ns0:title>
+    <sbol:version>1</sbol:version>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/L3S2P55/1">
+    <sbol:displayId>L3S2P55</sbol:displayId>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/L3S2P55"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000141"/>
+    <sbol:version>1</sbol:version>
+    <ns0:title>L3S2P55</ns0:title>
+    <sbol:sequence rdf:resource="http://examples.org/L3S2P55_sequence/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/L3S3P11/1">
+    <sbol:displayId>L3S3P11</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/L3S3P11"/>
+    <sbol:sequence rdf:resource="http://examples.org/L3S3P11_sequence/1"/>
+    <ns0:title>L3S3P11</ns0:title>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000141"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/L3S3P31/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/L3S3P31"/>
+    <sbol:sequence rdf:resource="http://examples.org/L3S3P31_sequence/1"/>
+    <ns0:title>L3S3P31</ns0:title>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>L3S3P31</sbol:displayId>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000141"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ECK120033736/1">
+    <ns0:title>ECK120033736</ns0:title>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ECK120033736"/>
+    <sbol:version>1</sbol:version>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:displayId>ECK120033736</sbol:displayId>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000141"/>
+    <sbol:sequence rdf:resource="http://examples.org/ECK120033736_sequence/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ECK120033737/1">
+    <sbol:displayId>ECK120033737</sbol:displayId>
+    <sbol:sequence rdf:resource="http://examples.org/ECK120033737_sequence/1"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ECK120033737"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:version>1</sbol:version>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000141"/>
+    <ns0:title>ECK120033737</ns0:title>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/ECK120029600/1">
+    <ns0:title>ECK120029600</ns0:title>
+    <sbol:version>1</sbol:version>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000141"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ECK120029600"/>
+    <sbol:displayId>ECK120029600</sbol:displayId>
+    <sbol:sequence rdf:resource="http://examples.org/ECK120029600_sequence/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/RiboJ53/1">
+    <sbol:displayId>RiboJ53</sbol:displayId>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0001977"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/RiboJ53"/>
+    <ns0:title>RiboJ53</ns0:title>
+    <sbol:sequence rdf:resource="http://examples.org/RiboJ53_sequence/1"/>
+    <sbol:version>1</sbol:version>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/RiboJ10/1">
+    <sbol:displayId>RiboJ10</sbol:displayId>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:version>1</sbol:version>
+    <ns0:title>RiboJ10</ns0:title>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0001977"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/RiboJ10"/>
+    <sbol:sequence rdf:resource="http://examples.org/RiboJ10_sequence/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/RiboJ57/1">
+    <sbol:sequence rdf:resource="http://examples.org/RiboJ57_sequence/1"/>
+    <sbol:version>1</sbol:version>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns0:title>RiboJ57</ns0:title>
+    <sbol:displayId>RiboJ57</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/RiboJ57"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0001977"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/RiboJ54/1">
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0001977"/>
+    <ns0:title>RiboJ54</ns0:title>
+    <sbol:displayId>RiboJ54</sbol:displayId>
+    <sbol:sequence rdf:resource="http://examples.org/RiboJ54_sequence/1"/>
+    <sbol:version>1</sbol:version>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/RiboJ54"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/RiboJ51/1">
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>RiboJ51</sbol:displayId>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0001977"/>
+    <sbol:sequence rdf:resource="http://examples.org/RiboJ51_sequence/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns0:title>RiboJ51</ns0:title>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/RiboJ51"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://examples.org/BydvJ/1">
+    <sbol:sequence rdf:resource="http://examples.org/BydvJ_sequence/1"/>
+    <sbol:displayId>BydvJ</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/BydvJ"/>
+    <ns0:title>BydvJ</ns0:title>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0001977"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://examples.org/pAmer_sequence/1">
+    <sbol:displayId>pAmer_sequence</sbol:displayId>
+    <sbol:elements>TCGTCACTAGAGGGCGATAGTGACAAACTTGACAACTCATCACTTCCTAGGTATAATGCTAGC</sbol:elements>
+    <sbol:version>1</sbol:version>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/pAmer_sequence"/>
+    <ns0:title>pAmer Sequence</ns0:title>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/pBAD_sequence/1">
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:version>1</sbol:version>
+    <sbol:elements>ACTTTTCATACTCCCGCCATTCAGAGAAGAAACCAATTGTCCATATTGCATCAGACATTGCCGTCACTGCGTCTTTTACTGGCTCTTCTCGCTAACCAAACCGGTAACCCCGCTTATTAAAAGCATTCTGTAACAAAGCGGGACCAAAGCCATGACAAAAACGCGTAACAAAAGTGTCTATAATCACGGCAGAAAAGTCCACATTGATTATTTGCACGGCGTCACACTTTGCTATGCCATAGCATTTTTATCCATAAGATTAGCGGATCCTACCTGACGCTTTTTATCGCAACTCTCTACTGTTTCTCCATACCCGTTTTTTTGGGCTAGC</sbol:elements>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/pBAD_sequence"/>
+    <sbol:displayId>pBAD_sequence</sbol:displayId>
+    <ns0:title>pBAD Sequence</ns0:title>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/pBetI_sequence/1">
+    <sbol:elements>AGCGCGGGTGAGAGGGATTCGTTACCAATTGACAATTGATTGGACGTTCAATATAATGCTAGC</sbol:elements>
+    <sbol:version>1</sbol:version>
+    <ns0:title>pBetI Sequence</ns0:title>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/pBetI_sequence"/>
+    <sbol:displayId>pBetI_sequence</sbol:displayId>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/pHlyIIR_sequence/1">
+    <ns0:title>pHlyIIR Sequence</ns0:title>
+    <sbol:version>1</sbol:version>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:elements>ACCAGGAATCTGAACGATTCGTTACCAATTGACATATTTAAAATTCTTGTTTAAAATGCTAGC</sbol:elements>
+    <sbol:displayId>pHlyIIR_sequence</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/pHlyIIR_sequence"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/pSrpR_sequence/1">
+    <sbol:version>1</sbol:version>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:displayId>pSrpR_sequence</sbol:displayId>
+    <ns0:title>pSrpR Sequence</ns0:title>
+    <sbol:elements>TCTATGATTGGTCCAGATTCGTTACCAATTGACAGCTAGCTCAGTCCTAGGTATATACATACATGCTTGTTTGTTTGTAAAC</sbol:elements>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/pSrpR_sequence"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/pTac_sequence/1">
+    <sbol:displayId>pTac_sequence</sbol:displayId>
+    <ns0:title>pTac Sequence</ns0:title>
+    <sbol:elements>AACGATCGTTGGCTGTGTTGACAATTAATCATCGGCTCGTATAATGTGTGGAATTGTGAGCGCTCACAATT</sbol:elements>
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/pTac_sequence"/>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/pTet_sequence/1">
+    <sbol:elements>TACTCCACCGTTGGCTTTTTTCCCTATCAGTGATAGAGATTGACATCCCTATCAGTGATAGAGATAATGAGCAC</sbol:elements>
+    <sbol:version>1</sbol:version>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:displayId>pTet_sequence</sbol:displayId>
+    <ns0:title>pTet Sequence</ns0:title>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/pTet_sequence"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/J23105_sequence/1">
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:elements>TTTACGGCTAGCTCAGTCCTAGGTACTATGCTAGC</sbol:elements>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/J23105_sequence"/>
+    <ns0:title>J23105 Sequence</ns0:title>
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>J23105_sequence</sbol:displayId>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/A1_sequence/1">
+    <ns0:title>A1 Sequence</ns0:title>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/A1_sequence"/>
+    <sbol:elements>AATGTTCCCTAATAATCAGCAAAGAGGTTACTAG</sbol:elements>
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>A1_sequence</sbol:displayId>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/E1_sequence/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/E1_sequence"/>
+    <sbol:elements>CCCCCCGAGGAGTAGCAC</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>E1_sequence</sbol:displayId>
+    <ns0:title>E1 Sequence</ns0:title>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/F1_sequence/1">
+    <sbol:displayId>F1_sequence</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/F1_sequence"/>
+    <ns0:title>F1 Sequence</ns0:title>
+    <sbol:elements>CTATGGACTATGTTTTCACATACGAGGGGGATTAG</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:version>1</sbol:version>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/H1_sequence/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/H1_sequence"/>
+    <sbol:elements>ACCCCCGAG</sbol:elements>
+    <sbol:version>1</sbol:version>
+    <ns0:title>H1 Sequence</ns0:title>
+    <sbol:displayId>H1_sequence</sbol:displayId>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/P3_sequence/1">
+    <sbol:displayId>P3_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <ns0:title>P3 Sequence</ns0:title>
+    <sbol:elements>CTTTACGAGGGCGATCCT</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/P3_sequence"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/S3_sequence/1">
+    <ns0:title>S3 Sequence</ns0:title>
+    <sbol:displayId>S3_sequence</sbol:displayId>
+    <sbol:elements>GAGTCTATGGACTATGTTTTCACAAAGGAAGTACCAGG</sbol:elements>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/S3_sequence"/>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:version>1</sbol:version>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/AmtR_sequence/1">
+    <sbol:version>1</sbol:version>
+    <sbol:elements>ATGGCAGGCGCAGTTGGTCGTCCGCGTCGTAGTGCACCGCGTCGTGCAGGTAAAAATCCGCGTGAAGAAATTCTGGATGCAAGCGCAGAACTGTTTACCCGTCAGGGTTTTGCAACCACCAGTACCCATCAGATTGCAGATGCAGTTGGTATTCGTCAGGCAAGCCTGTATTATCATTTTCCGAGCAAAACCGAAATCTTTCTGACCCTGCTGAAAAGCACCGTTGAACCGAGCACCGTTCTGGCAGAAGATCTGAGCACCCTGGATGCAGGTCCGGAAATGCGTCTGTGGGCAATTGTTGCAAGCGAAGTTCGTCTGCTGCTGAGCACCAAATGGAATGTTGGTCGTCTGTATCAGCTGCCGATTGTTGGTAGCGAAGAATTTGCAGAATATCATAGCCAGCGTGAAGCACTGACCAATGTTTTTCGTGATCTGGCAACCGAAATTGTTGGTGATGATCCGCGTGCAGAACTGCCGTTTCATATTACCATGAGCGTTATTGAAATGCGTCGCAATGATGGTAAAATTCCGAGTCCGCTGAGCGCAGATAGCCTGCCGGAAACCGCAATTATGCTGGCAGATGCAAGCCTGGCAGTTCTGGGTGCACCGCTGCCTGCAGATCGTGTTGAAAAAACCCTGGAACTGATTAAACAGGCAGATGCAAAATAA</sbol:elements>
+    <ns0:title>AmtR Sequence</ns0:title>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/AmtR_sequence"/>
+    <sbol:displayId>AmtR_sequence</sbol:displayId>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/BetI_sequence/1">
+    <sbol:elements>ATGCCGAAACTGGGTATGCAGAGCATTCGTCGTCGTCAGCTGATTGATGCAACCCTGGAAGCAATTAATGAAGTTGGTATGCATGATGCAACCATTGCACAGATTGCACGTCGTGCCGGTGTTAGCACCGGTATTATTAGCCATTATTTCCGCGATAAAAACGGTCTGCTGGAAGCAACCATGCGTGATATTACCAGCCAGCTGCGTGATGCAGTTCTGAATCGTCTGCATGCACTGCCGCAGGGTAGCGCAGAACAGCGTCTGCAGGCAATTGTTGGTGGTAATTTTGATGAAACCCAGGTTAGCAGCGCAGCAATGAAAGCATGGCTGGCATTTTGGGCAAGCAGCATGCATCAGCCGATGCTGTATCGTCTGCAGCAGGTTAGCAGTCGTCGTCTGCTGAGCAATCTGGTTAGCGAATTTCGTCGTGAACTGCCTCGTGAACAGGCACAAGAGGCAGGTTATGGTCTGGCAGCACTGATTGATGGTCTGTGGCTGCGTGCAGCACTGAGCGGTAAACCGCTGGATAAAACCCGTGCAAATAGCCTGACCCGTCATTTTATCACCCAGCATCTGCCGACCGATTAA</sbol:elements>
+    <sbol:version>1</sbol:version>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <ns0:title>BetI Sequence</ns0:title>
+    <sbol:displayId>BetI_sequence</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/BetI_sequence"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/AmeR_sequence/1">
+    <sbol:displayId>AmeR_sequence</sbol:displayId>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/AmeR_sequence"/>
+    <sbol:version>1</sbol:version>
+    <sbol:elements>ATGAACAAAACCATTGATCAGGTGCGTAAAGGTGATCGTAAAAGCGATCTGCCGGTTCGTCGTCGTCCGCGTCGTAGTGCCGAAGAAACCCGTCGTGATATTCTGGCAAAAGCCGAAGAACTGTTTCGTGAACGTGGTTTTAATGCAGTTGCCATTGCAGATATTGCAAGCGCACTGAATATGAGTCCGGCAAATGTGTTTAAACATTTTAGCAGCAAAAACGCACTGGTTGATGCAATTGGTTTTGGTCAGATTGGTGTTTTTGAACGTCAGATTTGTCCGCTGGATAAAAGCCATGCACCGCTGGATCGTCTGCGTCATCTGGCACGTAATCTGATGGAACAGCATCATCAGGATCATTTCAAACACATACGGGTTTTTATTCAGATCCTGATGACCGCCAAACAGGATATGAAATGTGGCGATTATTACAAAAGCGTGATTGCAAAACTGCTGGCCGAAATTATTCGTGATGGTGTTGAAGCAGGTCTGTATATTGCAACCGATATTCCGGTTCTGGCAGAAACCGTTCTGCATGCACTGACCAGCGTTATTCATCCGGTTCTGATTGCACAAGAAGATATTGGTAATCTGGCAACCCGTTGTGATCAGCTGGTTGATCTGATTGATGCAGGTCTGCGTAATCCGCTGGCAAAATAA</sbol:elements>
+    <ns0:title>AmeR Sequence</ns0:title>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/HIyIIR_sequence/1">
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:displayId>HIyIIR_sequence</sbol:displayId>
+    <ns0:title>HIyIIR Sequence</ns0:title>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/HIyIIR_sequence"/>
+    <sbol:elements>ATGAAATACATCCTGTTTGAGGTGTGCGAAATGGGTAAAAGCCGTGAACAGACCATGGAAAATATTCTGAAAGCAGCCAAAAAGAAATTCGGCGAACGTGGTTATGAAGGCACCAGCATTCAAGAAATTACCAAAGAAGCCAAAGTTAACGTTGCAATGGCCAGCTATTACTTTAATGGCAAAGAGAACCTGTACTACGAGGTGTTCAAAAAATACGGTCTGGCAAATGAACTGCCGAACTTTCTGGAAAAAAACCAGTTTAATCCGATTAATGCCCTGCGTGAATATCTGACCGTTTTTACCACCCACATTAAAGAAAATCCGGAAATTGGCACCCTGGCCTATGAAGAAATTATCAAAGAAAGCGCACGCCTGGAAAAAATCAAACCGTATTTTATCGGCAGCTTCGAACAGCTGAAAGAAATTCTGCAAGAGGGTGAAAAACAGGGTGTGTTTCACTTTTTTAGCATCAACCATACCATCCATTGGATTACCAGCATTGTTCTGTTTCCGAAATTCAAAAAATTCATCGATAGCCTGGGTCCGAATGAAACCAATGATACCAATCATGAATGGATGCCGGAAGATCTGGTTAGCCGTATTATTAGCGCACTGACCGATAAACCGAACATTTAA</sbol:elements>
+    <sbol:version>1</sbol:version>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/LacI_sequence/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/LacI_sequence"/>
+    <sbol:version>1</sbol:version>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:displayId>LacI_sequence</sbol:displayId>
+    <sbol:elements>ATGAAACCAGTAACGTTATACGATGTCGCAGAGTATGCCGGTGTCTCTTATCAGACCGTTTCCCGCGTGGTGAACCAGGCCAGCCACGTTTCTGCGAAAACGCGGGAAAAAGTGGAAGCGGCGATGGCGGAGCTGAATTACATTCCCAACCGCGTGGCACAACAACTGGCGGGCAAACAGTCGTTGCTGATTGGCGTTGCCACCTCCAGTCTGGCCCTGCACGCGCCGTCGCAAATTGTCGCGGCGATTAAATCTCGCGCCGATCAACTGGGTGCCAGCGTGGTGGTGTCGATGGTAGAACGAAGCGGCGTCGAAGCCTGTAAAGCGGCGGTGCACAATCTTCTCGCGCAACGCGTCAGTGGGCTGATCATTAACTATCCGCTGGATGACCAGGATGCCATTGCTGTGGAAGCTGCCTGCACTAATGTTCCGGCGTTATTTCTTGATGTCTCTGACCAGACACCCATCAACAGTATTATTTTCTCCCATGAGGACGGTACGCGACTGGGCGTGGAGCATCTGGTCGCATTGGGTCACCAGCAAATCGCGCTGTTAGCGGGCCCATTAAGTTCTGTCTCGGCGCGTCTGCGTCTGGCTGGCTGGCATAAATATCTCACTCGCAATCAAATTCAGCCGATAGCGGAACGGGAAGGCGACTGGAGTGCCATGTCCGGTTTTCAACAAACCATGCAAATGCTGAATGAGGGCATCGTTCCCACTGCGATGCTGGTTGCCAACGATCAGATGGCGCTGGGCGCAATGCGCGCCATTACCGAGTCCGGGCTGCGCGTTGGTGCGGATATCTCGGTAGTGGGATACGACGATACCGAAGATAGCTCATGTTATATCCCGCCGTTAACCACCATCAAACAGGATTTTCGCCTGCTGGGGCAAACCAGCGTGGACCGCTTGCTGCAACTCTCTCAGGGCCAGGCGGTGAAGGGCAATCAGCTGTTGCCAGTCTCACTGGTGAAAAGAAAAACCACCCTGGCGCCCAATACGCAAACCGCCTCTCCCCGCGCGTTGGCCGATTCATTAATGCAGCTGGCACGACAGGTTTCCCGACTGGAAAGCGGGCAGTGATAA</sbol:elements>
+    <ns0:title>LacI Sequence</ns0:title>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/PhiF_sequence/1">
+    <ns0:title>PhiF Sequence</ns0:title>
+    <sbol:elements>ATGGCACGTACCCCGAGCCGTAGCAGCATTGGTAGCCTGCGTAGTCCGCATACCCATAAAGCAATTCTGACCAGCACCATTGAAATCCTGAAAGAATGTGGTTATAGCGGTCTGAGCATTGAAAGCGTTGCACGTCGTGCCGGTGCAAGCAAACCGACCATTTATCGTTGGTGGACCAATAAAGCAGCACTGATTGCCGAAGTGTATGAAAATGAAAGCGAACAGGTGCGTAAATTTCCGGATCTGGGTAGCTTTAAAGCCGATCTGGATTTTCTGCTGCGTAATCTGTGGAAAGTTTGGCGTGAAACCATTTGTGGTGAAGCATTTCGTTGTGTTATTGCAGAAGCACAGCTGGACCCTGCAACCCTGACCCAGCTGAAAGATCAGTTTATGGAACGTCGTCGTGAGATGCCGAAAAAACTGGTTGAAAATGCCATTAGCAATGGTGAACTGCCGAAAGATACCAATCGTGAACTGCTGCTGGATATGATTTTTGGTTTTTGTTGGTATCGCCTGCTGACCGAACAGCTGACCGTTGAACAGGATATTGAAGAATTTACCTTCCTGCTGATTAATGGTGTTTGTCCGGGTACACAGCGTTAA</sbol:elements>
+    <sbol:displayId>PhiF_sequence</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/PhiF_sequence"/>
+    <sbol:version>1</sbol:version>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/SrpR_sequence/1">
+    <sbol:version>1</sbol:version>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <ns0:title>SrpR Sequence</ns0:title>
+    <sbol:displayId>SrpR_sequence</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/SrpR_sequence"/>
+    <sbol:elements>ATGGCACGTAAAACCGCAGCAGAAGCAGAAGAAACCCGTCAGCGTATTATTGATGCAGCACTGGAAGTTTTTGTTGCACAGGGTGTTAGTGATGCAACCCTGGATCAGATTGCACGTAAAGCCGGTGTTACCCGTGGTGCAGTTTATTGGCATTTTAATGGTAAACTGGAAGTTCTGCAGGCAGTTCTGGCAAGCCGTCAGCATCCGCTGGAACTGGATTTTACACCGGATCTGGGTATTGAACGTAGCTGGGAAGCAGTTGTTGTTGCAATGCTGGATGCAGTTCATAGTCCGCAGAGCAAACAGTTTAGCGAAATTCTGATTTATCAGGGTCTGGATGAAAGCGGTCTGATTCATAATCGTATGGTTCAGGCAAGCGATCGTTTTCTGCAGTATATTCATCAGGTTCTGCGTCATGCAGTTACCCAGGGTGAACTGCCGATTAATCTGGATCTGCAGACCAGCATTGGTGTTTTTAAAGGTCTGATTACCGGTCTGCTGTATGAAGGTCTGCGTAGCAAAGATCAGCAGGCACAGATTATCAAAGTTGCACTGGGTAGCTTTTGGGCACTGCTGCGTGAACCGCCTCGTTTTCTGCTGTGTGAAGAAGCACAGATTAAACAGGTGAAATCCTTCGAATAA</sbol:elements>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/TetR_sequence/1">
+    <sbol:elements>ATGTCCAGATTAGATAAAAGTAAAGTGATTAACAGCGCATTAGAGCTGCTTAATGAGGTCGGAATCGAAGGTTTAACAACCCGTAAACTCGCCCAGAAGCTAGGTGTAGAGCAGCCTACATTGTATTGGCATGTAAAAAATAAGCGGGCTTTGCTCGACGCCTTAGCCATTGAGATGTTAGATAGGCACCATACTCACTTTTGCCCTTTAGAAGGGGAAAGCTGGCAAGATTTTTTACGTAATAACGCTAAAAGTTTTAGATGTGCTTTACTAAGTCATCGCGATGGAGCAAAAGTACATTTAGGTACACGGCCTACAGAAAAACAGTATGAAACTCTCGAAAATCAATTAGCCTTTTTATGCCAACAAGGTTTTTCACTAGAGAATGCATTATATGCACTCAGCGCTGTGGGGCATTTTACTTTAGGTTGCGTATTGGAAGATCAAGAGCATCAAGTCGCTAAAGAAGAAAGGGAAACACCTACTACTGATAGTATGCCGCCATTATTACGACAAGCTATCGAATTATTTGATCACCAAGGTGCAGAGCCAGCCTTCTTATTCGGCCTTGAATTGATCATATGCGGATTAGAAAAACAACTTAAATGTGAAAGTGGGTCCTAA</sbol:elements>
+    <sbol:displayId>TetR_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <ns0:title>TetR Sequence</ns0:title>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/TetR_sequence"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/L3S2P55_sequence/1">
+    <sbol:displayId>L3S2P55_sequence</sbol:displayId>
+    <ns0:title>L3S2P55 Sequence</ns0:title>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/L3S2P55_sequence"/>
+    <sbol:elements>CTCGGTACCAAAGACGAACAATAAGACGCTGAAAAGCGTCTTTTTTCGTTTTGGTCC</sbol:elements>
+    <sbol:version>1</sbol:version>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/L3S3P11_sequence/1">
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>L3S3P11_sequence</sbol:displayId>
+    <sbol:elements>CCAATTATTGAACACCCTTCGGGGTGTTTTTTTGTTTCTGGTCTACC</sbol:elements>
+    <ns0:title>L3S3P11 Sequence</ns0:title>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/L3S3P11_sequence"/>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/L3S3P31_sequence/1">
+    <ns0:title>L3S3P31 Sequence</ns0:title>
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/L3S3P31_sequence"/>
+    <sbol:elements>CCAATTATTGAACACCCTAACGGGTGTTTTTTTTTTTTTGGTCTACC</sbol:elements>
+    <sbol:displayId>L3S3P31_sequence</sbol:displayId>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/ECK120033736_sequence/1">
+    <sbol:displayId>ECK120033736_sequence</sbol:displayId>
+    <sbol:elements>AACGCATGAGAAAGCCCCCGGAAGATCACCTTCCGGGGGCTTTTTTATTGCGC</sbol:elements>
+    <sbol:version>1</sbol:version>
+    <ns0:title>ECK120033736 Sequence</ns0:title>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ECK120033736_sequence"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/ECK120033737_sequence/1">
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <ns0:title>ECK120033737 Sequence</ns0:title>
+    <sbol:elements>GGAAACACAGAAAAAAGCCCGCACCTGACAGTGCGGGCTTTTTTTTTCGACCAAAGG</sbol:elements>
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ECK120033737_sequence"/>
+    <sbol:displayId>ECK120033737_sequence</sbol:displayId>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/ECK120029600_sequence/1">
+    <sbol:version>1</sbol:version>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/ECK120029600_sequence"/>
+    <ns0:title>ECK120029600 Sequence</ns0:title>
+    <sbol:elements>TTCAGCCAAAAAACTTAAGACCGCCGGTCTTGTCCACTACCTTGCAGTAATGCGGTGGACAGGATCGGCGGTTTTCTTTTCTCTTCTCAA</sbol:elements>
+    <sbol:displayId>ECK120029600_sequence</sbol:displayId>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/RiboJ53_sequence/1">
+    <sbol:elements>CTGAAGCGGTCAACGCATGTGCTTTGCGTTCTGATGAGACAGTGATGTCGAAACCGCCTCTACAAATAATTTTGTTTAA</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <ns0:title>RiboJ53 Sequence</ns0:title>
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/RiboJ53_sequence"/>
+    <sbol:displayId>RiboJ53_sequence</sbol:displayId>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/RiboJ10_sequence/1">
+    <sbol:persistentIdentity rdf:resource="http://examples.org/RiboJ10_sequence"/>
+    <ns0:title>RiboJ10 Sequence</ns0:title>
+    <sbol:displayId>RiboJ10_sequence</sbol:displayId>
+    <sbol:elements>CTGAAGCGCTCAACGGGTGTGCTTCCCGTTCTGATGAGTCCGTGAGGACGAAAGCGCCTCTACAAATAATTTTGTTTAA</sbol:elements>
+    <sbol:version>1</sbol:version>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/RiboJ57_sequence/1">
+    <sbol:version>1</sbol:version>
+    <ns0:title>RiboJ57 Sequence</ns0:title>
+    <sbol:displayId>RiboJ57_sequence</sbol:displayId>
+    <sbol:elements>CTGAAGAAGTCAATTAATGTGCTTTTAATTCTGATGAGTCGGTGACGACGAAACTTCCTCTACAAATAATTTTGTTTAA</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/RiboJ57_sequence"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/RiboJ54_sequence/1">
+    <sbol:elements>CTGAAGGGGTCAGTTGATGTGCTTTCAACTCTGATGAGTCAGTGATGACGAAACCCCCTCTACAAATAATTTTGTTTAA</sbol:elements>
+    <ns0:title>RiboJ54 Sequence</ns0:title>
+    <sbol:displayId>RiboJ54_sequence</sbol:displayId>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/RiboJ54_sequence"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/RiboJ51_sequence/1">
+    <sbol:elements>CTGAAGTAGTCACCGGCTGTGCTTGCCGGTCTGATGAGCCTGTGAAGGCGAAACTACCTCTACAAATAATTTTGTTTAA</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <ns0:title>RiboJ51 Sequence</ns0:title>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/RiboJ51_sequence"/>
+    <sbol:displayId>RiboJ51_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://examples.org/BydvJ_sequence/1">
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:displayId>BydvJ_sequence</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://examples.org/BydvJ_sequence"/>
+    <sbol:elements>CTGAAGGGTGTCTCAAGGTGCGTACCTTGACTGATGAGTCCGAAAGGACGAAACACCCCTCTACAAATAATTTTGTTTAA</sbol:elements>
+    <ns0:title>BydvJ Sequence</ns0:title>
+    <sbol:version>1</sbol:version>
+  </sbol:Sequence>
+</rdf:RDF>
