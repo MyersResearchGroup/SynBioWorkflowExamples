@@ -1,0 +1,1729 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ns0="https://seqimprove.org/" xmlns:ns1="http://wiki.synbiohub.org/wiki/Terms/synbiohub#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:sbol="http://sbols.org/v2#">
+  <sbol:ComponentDefinition rdf:about="https://example.com/pCir0xF6/1">
+    <sbol:component>
+      <sbol:Component rdf:about="https://example.com/pCir0xF6/pSrpR_comp_1/1">
+        <sbol:displayId>pSrpR_comp_1</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>pSrpR</dcterms:title>
+        <sbol:persistentIdentity rdf:resource="https://example.com/pCir0xF6/pSrpR_comp_1" />
+        <sbol:access rdf:resource="http://sbols.org/v2#public" />
+        <sbol:definition rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/pSrpR/1" />
+      </sbol:Component>
+    </sbol:component>
+    <sbol:component>
+      <sbol:Component rdf:about="https://example.com/pCir0xF6/E1_comp_1/1">
+        <sbol:displayId>E1_comp_1</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>E1</dcterms:title>
+        <sbol:persistentIdentity rdf:resource="https://example.com/pCir0xF6/E1_comp_1" />
+        <sbol:access rdf:resource="http://sbols.org/v2#public" />
+        <sbol:definition rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/E1/1" />
+      </sbol:Component>
+    </sbol:component>
+    <sbol:component>
+      <sbol:Component rdf:about="https://example.com/pCir0xF6/BetI_comp_1/1">
+        <sbol:displayId>BetI_comp_1</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>BetI</dcterms:title>
+        <sbol:persistentIdentity rdf:resource="https://example.com/pCir0xF6/BetI_comp_1" />
+        <sbol:access rdf:resource="http://sbols.org/v2#public" />
+        <sbol:definition rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/BetI/1" />
+      </sbol:Component>
+    </sbol:component>
+    <sbol:component>
+      <sbol:Component rdf:about="https://example.com/pCir0xF6/pTet_comp_1/1">
+        <sbol:displayId>pTet_comp_1</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>pTet</dcterms:title>
+        <sbol:persistentIdentity rdf:resource="https://example.com/pCir0xF6/pTet_comp_1" />
+        <sbol:access rdf:resource="http://sbols.org/v2#public" />
+        <sbol:definition rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/pTet/1" />
+      </sbol:Component>
+    </sbol:component>
+    <sbol:component>
+      <sbol:Component rdf:about="https://example.com/pCir0xF6/pBetI_comp_1/1">
+        <sbol:displayId>pBetI_comp_1</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>pBetI</dcterms:title>
+        <sbol:persistentIdentity rdf:resource="https://example.com/pCir0xF6/pBetI_comp_1" />
+        <sbol:access rdf:resource="http://sbols.org/v2#public" />
+        <sbol:definition rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/pBetI/1" />
+      </sbol:Component>
+    </sbol:component>
+    <sbol:component>
+      <sbol:Component rdf:about="https://example.com/pCir0xF6/L3S3P11_comp_1/1">
+        <sbol:displayId>L3S3P11_comp_1</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>L3S3P11</dcterms:title>
+        <sbol:persistentIdentity rdf:resource="https://example.com/pCir0xF6/L3S3P11_comp_1" />
+        <sbol:access rdf:resource="http://sbols.org/v2#public" />
+        <sbol:definition rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/L3S3P11/1" />
+      </sbol:Component>
+    </sbol:component>
+    <sbol:component>
+      <sbol:Component rdf:about="https://example.com/pCir0xF6/RiboJ10_comp_1/1">
+        <sbol:displayId>RiboJ10_comp_1</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>RiboJ10</dcterms:title>
+        <sbol:persistentIdentity rdf:resource="https://example.com/pCir0xF6/RiboJ10_comp_1" />
+        <sbol:access rdf:resource="http://sbols.org/v2#public" />
+        <sbol:definition rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/RiboJ10/1" />
+      </sbol:Component>
+    </sbol:component>
+    <sbol:component>
+      <sbol:Component rdf:about="https://example.com/pCir0xF6/RiboJ51_comp_1/1">
+        <sbol:displayId>RiboJ51_comp_1</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>RiboJ51</dcterms:title>
+        <sbol:persistentIdentity rdf:resource="https://example.com/pCir0xF6/RiboJ51_comp_1" />
+        <sbol:access rdf:resource="http://sbols.org/v2#public" />
+        <sbol:definition rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/RiboJ51/1" />
+      </sbol:Component>
+    </sbol:component>
+    <sbol:component>
+      <sbol:Component rdf:about="https://example.com/pCir0xF6/PhiF_comp_1/1">
+        <sbol:displayId>PhiF_comp_1</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>PhiF</dcterms:title>
+        <sbol:persistentIdentity rdf:resource="https://example.com/pCir0xF6/PhiF_comp_1" />
+        <sbol:access rdf:resource="http://sbols.org/v2#public" />
+        <sbol:definition rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/PhiF/1" />
+      </sbol:Component>
+    </sbol:component>
+    <sbol:component>
+      <sbol:Component rdf:about="https://example.com/pCir0xF6/pBAD_comp_1/1">
+        <sbol:displayId>pBAD_comp_1</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>pBAD</dcterms:title>
+        <sbol:persistentIdentity rdf:resource="https://example.com/pCir0xF6/pBAD_comp_1" />
+        <sbol:access rdf:resource="http://sbols.org/v2#public" />
+        <sbol:definition rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/pBAD/1" />
+      </sbol:Component>
+    </sbol:component>
+    <sbol:component>
+      <sbol:Component rdf:about="https://example.com/pCir0xF6/J23105_comp_1/1">
+        <sbol:displayId>J23105_comp_1</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>J23105</dcterms:title>
+        <sbol:persistentIdentity rdf:resource="https://example.com/pCir0xF6/J23105_comp_1" />
+        <sbol:access rdf:resource="http://sbols.org/v2#public" />
+        <sbol:definition rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/J23105/1" />
+      </sbol:Component>
+    </sbol:component>
+    <sbol:component>
+      <sbol:Component rdf:about="https://example.com/pCir0xF6/S3_comp_1/1">
+        <sbol:displayId>S3_comp_1</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>S3</dcterms:title>
+        <sbol:persistentIdentity rdf:resource="https://example.com/pCir0xF6/S3_comp_1" />
+        <sbol:access rdf:resource="http://sbols.org/v2#public" />
+        <sbol:definition rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/S3/1" />
+      </sbol:Component>
+    </sbol:component>
+    <sbol:component>
+      <sbol:Component rdf:about="https://example.com/pCir0xF6/L3S2P55_comp_1/1">
+        <sbol:displayId>L3S2P55_comp_1</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>L3S2P55</dcterms:title>
+        <sbol:persistentIdentity rdf:resource="https://example.com/pCir0xF6/L3S2P55_comp_1" />
+        <sbol:access rdf:resource="http://sbols.org/v2#public" />
+        <sbol:definition rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/L3S2P55/1" />
+      </sbol:Component>
+    </sbol:component>
+    <sbol:component>
+      <sbol:Component rdf:about="https://example.com/pCir0xF6/LacI_comp_1/1">
+        <sbol:displayId>LacI_comp_1</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>LacI</dcterms:title>
+        <sbol:persistentIdentity rdf:resource="https://example.com/pCir0xF6/LacI_comp_1" />
+        <sbol:access rdf:resource="http://sbols.org/v2#public" />
+        <sbol:definition rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/LacI/1" />
+      </sbol:Component>
+    </sbol:component>
+    <sbol:component>
+      <sbol:Component rdf:about="https://example.com/pCir0xF6/F1_comp_1/1">
+        <sbol:displayId>F1_comp_1</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>F1</dcterms:title>
+        <sbol:persistentIdentity rdf:resource="https://example.com/pCir0xF6/F1_comp_1" />
+        <sbol:access rdf:resource="http://sbols.org/v2#public" />
+        <sbol:definition rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/F1/1" />
+      </sbol:Component>
+    </sbol:component>
+    <sbol:component>
+      <sbol:Component rdf:about="https://example.com/pCir0xF6/ECK120029600_comp_1/1">
+        <sbol:displayId>ECK120029600_comp_1</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>ECK120029600</dcterms:title>
+        <sbol:persistentIdentity rdf:resource="https://example.com/pCir0xF6/ECK120029600_comp_1" />
+        <sbol:access rdf:resource="http://sbols.org/v2#public" />
+        <sbol:definition rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/ECK120029600/1" />
+      </sbol:Component>
+    </sbol:component>
+    <sbol:component>
+      <sbol:Component rdf:about="https://example.com/pCir0xF6/pHlyIIR_comp_1/1">
+        <sbol:displayId>pHlyIIR_comp_1</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>pHlyIIR</dcterms:title>
+        <sbol:persistentIdentity rdf:resource="https://example.com/pCir0xF6/pHlyIIR_comp_1" />
+        <sbol:access rdf:resource="http://sbols.org/v2#public" />
+        <sbol:definition rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/pHlyIIR/1" />
+      </sbol:Component>
+    </sbol:component>
+    <sbol:component>
+      <sbol:Component rdf:about="https://example.com/pCir0xF6/P3_comp_1/1">
+        <sbol:displayId>P3_comp_1</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>P3</dcterms:title>
+        <sbol:persistentIdentity rdf:resource="https://example.com/pCir0xF6/P3_comp_1" />
+        <sbol:access rdf:resource="http://sbols.org/v2#public" />
+        <sbol:definition rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/P3/1" />
+      </sbol:Component>
+    </sbol:component>
+    <sbol:component>
+      <sbol:Component rdf:about="https://example.com/pCir0xF6/ECK120033736_comp_1/1">
+        <sbol:displayId>ECK120033736_comp_1</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>ECK120033736</dcterms:title>
+        <sbol:persistentIdentity rdf:resource="https://example.com/pCir0xF6/ECK120033736_comp_1" />
+        <sbol:access rdf:resource="http://sbols.org/v2#public" />
+        <sbol:definition rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/ECK120033736/1" />
+      </sbol:Component>
+    </sbol:component>
+    <sbol:component>
+      <sbol:Component rdf:about="https://example.com/pCir0xF6/SrpR_comp_1/1">
+        <sbol:displayId>SrpR_comp_1</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>SrpR</dcterms:title>
+        <sbol:persistentIdentity rdf:resource="https://example.com/pCir0xF6/SrpR_comp_1" />
+        <sbol:access rdf:resource="http://sbols.org/v2#public" />
+        <sbol:definition rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/SrpR/1" />
+      </sbol:Component>
+    </sbol:component>
+    <sbol:component>
+      <sbol:Component rdf:about="https://example.com/pCir0xF6/AmtR_comp_1/1">
+        <sbol:displayId>AmtR_comp_1</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>AmtR</dcterms:title>
+        <sbol:persistentIdentity rdf:resource="https://example.com/pCir0xF6/AmtR_comp_1" />
+        <sbol:access rdf:resource="http://sbols.org/v2#public" />
+        <sbol:definition rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/AmtR/1" />
+      </sbol:Component>
+    </sbol:component>
+    <sbol:component>
+      <sbol:Component rdf:about="https://example.com/pCir0xF6/pTac_comp_2/1">
+        <sbol:displayId>pTac_comp_2</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>pTac</dcterms:title>
+        <sbol:persistentIdentity rdf:resource="https://example.com/pCir0xF6/pTac_comp_2" />
+        <sbol:access rdf:resource="http://sbols.org/v2#public" />
+        <sbol:definition rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/pTac/1" />
+      </sbol:Component>
+    </sbol:component>
+    <sbol:component>
+      <sbol:Component rdf:about="https://example.com/pCir0xF6/AmeR_comp_1/1">
+        <sbol:displayId>AmeR_comp_1</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>AmeR</dcterms:title>
+        <sbol:persistentIdentity rdf:resource="https://example.com/pCir0xF6/AmeR_comp_1" />
+        <sbol:access rdf:resource="http://sbols.org/v2#public" />
+        <sbol:definition rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/AmeR/1" />
+      </sbol:Component>
+    </sbol:component>
+    <sbol:component>
+      <sbol:Component rdf:about="https://example.com/pCir0xF6/RiboJ57_comp_1/1">
+        <sbol:displayId>RiboJ57_comp_1</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>RiboJ57</dcterms:title>
+        <sbol:persistentIdentity rdf:resource="https://example.com/pCir0xF6/RiboJ57_comp_1" />
+        <sbol:access rdf:resource="http://sbols.org/v2#public" />
+        <sbol:definition rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/RiboJ57/1" />
+      </sbol:Component>
+    </sbol:component>
+    <sbol:component>
+      <sbol:Component rdf:about="https://example.com/pCir0xF6/L3S3P31_comp_1/1">
+        <sbol:displayId>L3S3P31_comp_1</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>L3S3P31</dcterms:title>
+        <sbol:persistentIdentity rdf:resource="https://example.com/pCir0xF6/L3S3P31_comp_1" />
+        <sbol:access rdf:resource="http://sbols.org/v2#public" />
+        <sbol:definition rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/L3S3P31/1" />
+      </sbol:Component>
+    </sbol:component>
+    <sbol:component>
+      <sbol:Component rdf:about="https://example.com/pCir0xF6/pAmer_comp_1/1">
+        <sbol:displayId>pAmer_comp_1</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>pAmer</dcterms:title>
+        <sbol:persistentIdentity rdf:resource="https://example.com/pCir0xF6/pAmer_comp_1" />
+        <sbol:access rdf:resource="http://sbols.org/v2#public" />
+        <sbol:definition rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/pAmer/1" />
+      </sbol:Component>
+    </sbol:component>
+    <sbol:component>
+      <sbol:Component rdf:about="https://example.com/pCir0xF6/pTac_comp_1/1">
+        <sbol:displayId>pTac_comp_1</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>pTac</dcterms:title>
+        <sbol:persistentIdentity rdf:resource="https://example.com/pCir0xF6/pTac_comp_1" />
+        <sbol:access rdf:resource="http://sbols.org/v2#public" />
+        <sbol:definition rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/pTac/1" />
+      </sbol:Component>
+    </sbol:component>
+    <sbol:component>
+      <sbol:Component rdf:about="https://example.com/pCir0xF6/RiboJ54_comp_1/1">
+        <sbol:displayId>RiboJ54_comp_1</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>RiboJ54</dcterms:title>
+        <sbol:persistentIdentity rdf:resource="https://example.com/pCir0xF6/RiboJ54_comp_1" />
+        <sbol:access rdf:resource="http://sbols.org/v2#public" />
+        <sbol:definition rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/RiboJ54/1" />
+      </sbol:Component>
+    </sbol:component>
+    <sbol:component>
+      <sbol:Component rdf:about="https://example.com/pCir0xF6/HIyIIR_comp_1/1">
+        <sbol:displayId>HIyIIR_comp_1</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>HIyIIR</dcterms:title>
+        <sbol:persistentIdentity rdf:resource="https://example.com/pCir0xF6/HIyIIR_comp_1" />
+        <sbol:access rdf:resource="http://sbols.org/v2#public" />
+        <sbol:definition rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/HIyIIR/1" />
+      </sbol:Component>
+    </sbol:component>
+    <sbol:component>
+      <sbol:Component rdf:about="https://example.com/pCir0xF6/A1_comp_1/1">
+        <sbol:displayId>A1_comp_1</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>A1</dcterms:title>
+        <sbol:persistentIdentity rdf:resource="https://example.com/pCir0xF6/A1_comp_1" />
+        <sbol:access rdf:resource="http://sbols.org/v2#public" />
+        <sbol:definition rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/A1/1" />
+      </sbol:Component>
+    </sbol:component>
+    <sbol:component>
+      <sbol:Component rdf:about="https://example.com/pCir0xF6/pTet_comp_2/1">
+        <sbol:displayId>pTet_comp_2</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>pTet</dcterms:title>
+        <sbol:persistentIdentity rdf:resource="https://example.com/pCir0xF6/pTet_comp_2" />
+        <sbol:access rdf:resource="http://sbols.org/v2#public" />
+        <sbol:definition rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/pTet/1" />
+      </sbol:Component>
+    </sbol:component>
+    <sbol:component>
+      <sbol:Component rdf:about="https://example.com/pCir0xF6/TetR_comp_1/1">
+        <sbol:displayId>TetR_comp_1</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>TetR</dcterms:title>
+        <sbol:persistentIdentity rdf:resource="https://example.com/pCir0xF6/TetR_comp_1" />
+        <sbol:access rdf:resource="http://sbols.org/v2#public" />
+        <sbol:definition rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/TetR/1" />
+      </sbol:Component>
+    </sbol:component>
+    <sbol:component>
+      <sbol:Component rdf:about="https://example.com/pCir0xF6/BydvJ_comp_1/1">
+        <sbol:displayId>BydvJ_comp_1</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>BydvJ</dcterms:title>
+        <sbol:persistentIdentity rdf:resource="https://example.com/pCir0xF6/BydvJ_comp_1" />
+        <sbol:access rdf:resource="http://sbols.org/v2#public" />
+        <sbol:definition rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/BydvJ/1" />
+      </sbol:Component>
+    </sbol:component>
+    <sbol:component>
+      <sbol:Component rdf:about="https://example.com/pCir0xF6/RiboJ53_comp_1/1">
+        <sbol:displayId>RiboJ53_comp_1</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>RiboJ53</dcterms:title>
+        <sbol:persistentIdentity rdf:resource="https://example.com/pCir0xF6/RiboJ53_comp_1" />
+        <sbol:access rdf:resource="http://sbols.org/v2#public" />
+        <sbol:definition rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/RiboJ53/1" />
+      </sbol:Component>
+    </sbol:component>
+    <sbol:component>
+      <sbol:Component rdf:about="https://example.com/pCir0xF6/ECK120033737_comp_1/1">
+        <sbol:displayId>ECK120033737_comp_1</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>ECK120033737</dcterms:title>
+        <sbol:persistentIdentity rdf:resource="https://example.com/pCir0xF6/ECK120033737_comp_1" />
+        <sbol:access rdf:resource="http://sbols.org/v2#public" />
+        <sbol:definition rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/ECK120033737/1" />
+      </sbol:Component>
+    </sbol:component>
+    <sbol:displayId>pCir0xF6</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <dcterms:title>pCir0xF6</dcterms:title>
+    <sbol:persistentIdentity rdf:resource="https://example.com/pCir0xF6" />
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://example.com/pCir0xF6/pTet_anno_1/1">
+        <sbol:component rdf:resource="https://example.com/pCir0xF6/pTet_comp_1/1" />
+        <sbol:displayId>pTet_anno_1</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>pTet</dcterms:title>
+        <sbol:persistentIdentity rdf:resource="https://example.com/pCir0xF6/pTet_anno_1" />
+        <sbol:location>
+          <sbol:Range rdf:about="https://example.com/pCir0xF6/pTet_anno_1/pTet_anno_1_loc/1">
+            <sbol:displayId>pTet_anno_1_loc</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbol:persistentIdentity rdf:resource="https://example.com/pCir0xF6/pTet_anno_1/pTet_anno_1_loc" />
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline" />
+            <sbol:start>2891</sbol:start>
+            <sbol:end>2964</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://example.com/pCir0xF6/pBetI_anno_1/1">
+        <sbol:component rdf:resource="https://example.com/pCir0xF6/pBetI_comp_1/1" />
+        <sbol:displayId>pBetI_anno_1</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>pBetI</dcterms:title>
+        <sbol:persistentIdentity rdf:resource="https://example.com/pCir0xF6/pBetI_anno_1" />
+        <sbol:location>
+          <sbol:Range rdf:about="https://example.com/pCir0xF6/pBetI_anno_1/pBetI_anno_1_loc/1">
+            <sbol:displayId>pBetI_anno_1_loc</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbol:persistentIdentity rdf:resource="https://example.com/pCir0xF6/pBetI_anno_1/pBetI_anno_1_loc" />
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline" />
+            <sbol:start>1996</sbol:start>
+            <sbol:end>2058</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://example.com/pCir0xF6/pBAD_anno_1/1">
+        <sbol:component rdf:resource="https://example.com/pCir0xF6/pBAD_comp_1/1" />
+        <sbol:displayId>pBAD_anno_1</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>pBAD</dcterms:title>
+        <sbol:persistentIdentity rdf:resource="https://example.com/pCir0xF6/pBAD_anno_1" />
+        <sbol:location>
+          <sbol:Range rdf:about="https://example.com/pCir0xF6/pBAD_anno_1/pBAD_anno_1_loc/1">
+            <sbol:displayId>pBAD_anno_1_loc</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbol:persistentIdentity rdf:resource="https://example.com/pCir0xF6/pBAD_anno_1/pBAD_anno_1_loc" />
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline" />
+            <sbol:start>6431</sbol:start>
+            <sbol:end>6761</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://example.com/pCir0xF6/J23105_anno_1/1">
+        <sbol:component rdf:resource="https://example.com/pCir0xF6/J23105_comp_1/1" />
+        <sbol:displayId>J23105_anno_1</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>J23105</dcterms:title>
+        <sbol:persistentIdentity rdf:resource="https://example.com/pCir0xF6/J23105_anno_1" />
+        <sbol:location>
+          <sbol:Range rdf:about="https://example.com/pCir0xF6/J23105_anno_1/J23105_anno_1_loc/1">
+            <sbol:displayId>J23105_anno_1_loc</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbol:persistentIdentity rdf:resource="https://example.com/pCir0xF6/J23105_anno_1/J23105_anno_1_loc" />
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline" />
+            <sbol:start>7622</sbol:start>
+            <sbol:end>7656</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://example.com/pCir0xF6/S3_anno_1/1">
+        <sbol:component rdf:resource="https://example.com/pCir0xF6/S3_comp_1/1" />
+        <sbol:displayId>S3_anno_1</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>S3</dcterms:title>
+        <sbol:persistentIdentity rdf:resource="https://example.com/pCir0xF6/S3_anno_1" />
+        <sbol:location>
+          <sbol:Range rdf:about="https://example.com/pCir0xF6/S3_anno_1/S3_anno_1_loc/1">
+            <sbol:displayId>S3_anno_1_loc</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbol:persistentIdentity rdf:resource="https://example.com/pCir0xF6/S3_anno_1/S3_anno_1_loc" />
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline" />
+            <sbol:start>3044</sbol:start>
+            <sbol:end>3081</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://example.com/pCir0xF6/LacI_anno_1/1">
+        <sbol:component rdf:resource="https://example.com/pCir0xF6/LacI_comp_1/1" />
+        <sbol:displayId>LacI_anno_1</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>LacI</dcterms:title>
+        <sbol:persistentIdentity rdf:resource="https://example.com/pCir0xF6/LacI_anno_1" />
+        <sbol:location>
+          <sbol:Range rdf:about="https://example.com/pCir0xF6/LacI_anno_1/LacI_anno_1_loc/1">
+            <sbol:displayId>LacI_anno_1_loc</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbol:persistentIdentity rdf:resource="https://example.com/pCir0xF6/LacI_anno_1/LacI_anno_1_loc" />
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline" />
+            <sbol:start>8661</sbol:start>
+            <sbol:end>9746</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://example.com/pCir0xF6/F1_anno_1/1">
+        <sbol:component rdf:resource="https://example.com/pCir0xF6/F1_comp_1/1" />
+        <sbol:displayId>F1_anno_1</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>F1</dcterms:title>
+        <sbol:persistentIdentity rdf:resource="https://example.com/pCir0xF6/F1_anno_1" />
+        <sbol:location>
+          <sbol:Range rdf:about="https://example.com/pCir0xF6/F1_anno_1/F1_anno_1_loc/1">
+            <sbol:displayId>F1_anno_1_loc</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbol:persistentIdentity rdf:resource="https://example.com/pCir0xF6/F1_anno_1/F1_anno_1_loc" />
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline" />
+            <sbol:start>4833</sbol:start>
+            <sbol:end>4867</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://example.com/pCir0xF6/P3_anno_1/1">
+        <sbol:component rdf:resource="https://example.com/pCir0xF6/P3_comp_1/1" />
+        <sbol:displayId>P3_anno_1</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>P3</dcterms:title>
+        <sbol:persistentIdentity rdf:resource="https://example.com/pCir0xF6/P3_anno_1" />
+        <sbol:location>
+          <sbol:Range rdf:about="https://example.com/pCir0xF6/P3_anno_1/P3_anno_1_loc/1">
+            <sbol:displayId>P3_anno_1_loc</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbol:persistentIdentity rdf:resource="https://example.com/pCir0xF6/P3_anno_1/P3_anno_1_loc" />
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline" />
+            <sbol:start>2138</sbol:start>
+            <sbol:end>2155</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://example.com/pCir0xF6/SrpR_anno_1/1">
+        <sbol:component rdf:resource="https://example.com/pCir0xF6/SrpR_comp_1/1" />
+        <sbol:displayId>SrpR_anno_1</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>SrpR</dcterms:title>
+        <sbol:persistentIdentity rdf:resource="https://example.com/pCir0xF6/SrpR_anno_1" />
+        <sbol:location>
+          <sbol:Range rdf:about="https://example.com/pCir0xF6/SrpR_anno_1/SrpR_anno_1_loc/1">
+            <sbol:displayId>SrpR_anno_1_loc</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbol:persistentIdentity rdf:resource="https://example.com/pCir0xF6/SrpR_anno_1/SrpR_anno_1_loc" />
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline" />
+            <sbol:start>3082</sbol:start>
+            <sbol:end>3723</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://example.com/pCir0xF6/pTac_anno_2/1">
+        <sbol:component rdf:resource="https://example.com/pCir0xF6/pTac_comp_2/1" />
+        <sbol:displayId>pTac_anno_2</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>pTac</dcterms:title>
+        <sbol:persistentIdentity rdf:resource="https://example.com/pCir0xF6/pTac_anno_2" />
+        <sbol:location>
+          <sbol:Range rdf:about="https://example.com/pCir0xF6/pTac_anno_2/pTac_anno_2_loc/1">
+            <sbol:displayId>pTac_anno_2_loc</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbol:persistentIdentity rdf:resource="https://example.com/pCir0xF6/pTac_anno_2/pTac_anno_2_loc" />
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline" />
+            <sbol:start>5579</sbol:start>
+            <sbol:end>5649</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://example.com/pCir0xF6/L3S3P11_anno_1/1">
+        <sbol:component rdf:resource="https://example.com/pCir0xF6/L3S3P11_comp_1/1" />
+        <sbol:displayId>L3S3P11_anno_1</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>L3S3P11</dcterms:title>
+        <sbol:persistentIdentity rdf:resource="https://example.com/pCir0xF6/L3S3P11_anno_1" />
+        <sbol:location>
+          <sbol:Range rdf:about="https://example.com/pCir0xF6/L3S3P11_anno_1/L3S3P11_anno_1_loc/1">
+            <sbol:displayId>L3S3P11_anno_1_loc</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbol:persistentIdentity rdf:resource="https://example.com/pCir0xF6/L3S3P11_anno_1/L3S3P11_anno_1_loc" />
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline" />
+            <sbol:start>4629</sbol:start>
+            <sbol:end>4675</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://example.com/pCir0xF6/ECK120029600_anno_1/1">
+        <sbol:component rdf:resource="https://example.com/pCir0xF6/ECK120029600_comp_1/1" />
+        <sbol:displayId>ECK120029600_anno_1</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>ECK120029600</dcterms:title>
+        <sbol:persistentIdentity rdf:resource="https://example.com/pCir0xF6/ECK120029600_anno_1" />
+        <sbol:location>
+          <sbol:Range rdf:about="https://example.com/pCir0xF6/ECK120029600_anno_1/ECK120029600_anno_1_loc/1">
+            <sbol:displayId>ECK120029600_anno_1_loc</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbol:persistentIdentity rdf:resource="https://example.com/pCir0xF6/ECK120029600_anno_1/ECK120029600_anno_1_loc" />
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline" />
+            <sbol:start>3724</sbol:start>
+            <sbol:end>3813</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://example.com/pCir0xF6/L3S3P31_anno_1/1">
+        <sbol:component rdf:resource="https://example.com/pCir0xF6/L3S3P31_comp_1/1" />
+        <sbol:displayId>L3S3P31_anno_1</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>L3S3P31</dcterms:title>
+        <sbol:persistentIdentity rdf:resource="https://example.com/pCir0xF6/L3S3P31_anno_1" />
+        <sbol:location>
+          <sbol:Range rdf:about="https://example.com/pCir0xF6/L3S3P31_anno_1/L3S3P31_anno_1_loc/1">
+            <sbol:displayId>L3S3P31_anno_1_loc</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbol:persistentIdentity rdf:resource="https://example.com/pCir0xF6/L3S3P31_anno_1/L3S3P31_anno_1_loc" />
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline" />
+            <sbol:start>5528</sbol:start>
+            <sbol:end>5574</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://example.com/pCir0xF6/AmeR_anno_1/1">
+        <sbol:component rdf:resource="https://example.com/pCir0xF6/AmeR_comp_1/1" />
+        <sbol:displayId>AmeR_anno_1</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>AmeR</dcterms:title>
+        <sbol:persistentIdentity rdf:resource="https://example.com/pCir0xF6/AmeR_anno_1" />
+        <sbol:location>
+          <sbol:Range rdf:about="https://example.com/pCir0xF6/AmeR_anno_1/AmeR_anno_1_loc/1">
+            <sbol:displayId>AmeR_anno_1_loc</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbol:persistentIdentity rdf:resource="https://example.com/pCir0xF6/AmeR_anno_1/AmeR_anno_1_loc" />
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline" />
+            <sbol:start>4868</sbol:start>
+            <sbol:end>5527</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://example.com/pCir0xF6/E1_anno_1/1">
+        <sbol:component rdf:resource="https://example.com/pCir0xF6/E1_comp_1/1" />
+        <sbol:displayId>E1_anno_1</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>E1</dcterms:title>
+        <sbol:persistentIdentity rdf:resource="https://example.com/pCir0xF6/E1_anno_1" />
+        <sbol:location>
+          <sbol:Range rdf:about="https://example.com/pCir0xF6/E1_anno_1/E1_anno_1_loc/1">
+            <sbol:displayId>E1_anno_1_loc</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbol:persistentIdentity rdf:resource="https://example.com/pCir0xF6/E1_anno_1/E1_anno_1_loc" />
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline" />
+            <sbol:start>4023</sbol:start>
+            <sbol:end>4040</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://example.com/pCir0xF6/pAmer_anno_1/1">
+        <sbol:component rdf:resource="https://example.com/pCir0xF6/pAmer_comp_1/1" />
+        <sbol:displayId>pAmer_anno_1</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>pAmer</dcterms:title>
+        <sbol:persistentIdentity rdf:resource="https://example.com/pCir0xF6/pAmer_anno_1" />
+        <sbol:location>
+          <sbol:Range rdf:about="https://example.com/pCir0xF6/pAmer_anno_1/pAmer_anno_1_loc/1">
+            <sbol:displayId>pAmer_anno_1_loc</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbol:persistentIdentity rdf:resource="https://example.com/pCir0xF6/pAmer_anno_1/pAmer_anno_1_loc" />
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline" />
+            <sbol:start>3881</sbol:start>
+            <sbol:end>3943</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://example.com/pCir0xF6/HIyIIR_anno_1/1">
+        <sbol:component rdf:resource="https://example.com/pCir0xF6/HIyIIR_comp_1/1" />
+        <sbol:displayId>HIyIIR_anno_1</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>HIyIIR</dcterms:title>
+        <sbol:persistentIdentity rdf:resource="https://example.com/pCir0xF6/HIyIIR_anno_1" />
+        <sbol:location>
+          <sbol:Range rdf:about="https://example.com/pCir0xF6/HIyIIR_anno_1/HIyIIR_anno_1_loc/1">
+            <sbol:displayId>HIyIIR_anno_1_loc</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbol:persistentIdentity rdf:resource="https://example.com/pCir0xF6/HIyIIR_anno_1/HIyIIR_anno_1_loc" />
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline" />
+            <sbol:start>5738</sbol:start>
+            <sbol:end>6373</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://example.com/pCir0xF6/ECK120033736_anno_1/1">
+        <sbol:component rdf:resource="https://example.com/pCir0xF6/ECK120033736_comp_1/1" />
+        <sbol:displayId>ECK120033736_anno_1</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>ECK120033736</dcterms:title>
+        <sbol:persistentIdentity rdf:resource="https://example.com/pCir0xF6/ECK120033736_anno_1" />
+        <sbol:location>
+          <sbol:Range rdf:about="https://example.com/pCir0xF6/ECK120033736_anno_1/ECK120033736_anno_1_loc/1">
+            <sbol:displayId>ECK120033736_anno_1_loc</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbol:persistentIdentity rdf:resource="https://example.com/pCir0xF6/ECK120033736_anno_1/ECK120033736_anno_1_loc" />
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline" />
+            <sbol:start>6374</sbol:start>
+            <sbol:end>6426</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://example.com/pCir0xF6/pHlyIIR_anno_1/1">
+        <sbol:component rdf:resource="https://example.com/pCir0xF6/pHlyIIR_comp_1/1" />
+        <sbol:displayId>pHlyIIR_anno_1</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>pHlyIIR</dcterms:title>
+        <sbol:persistentIdentity rdf:resource="https://example.com/pCir0xF6/pHlyIIR_anno_1" />
+        <sbol:location>
+          <sbol:Range rdf:about="https://example.com/pCir0xF6/pHlyIIR_anno_1/pHlyIIR_anno_1_loc/1">
+            <sbol:displayId>pHlyIIR_anno_1_loc</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbol:persistentIdentity rdf:resource="https://example.com/pCir0xF6/pHlyIIR_anno_1/pHlyIIR_anno_1_loc" />
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline" />
+            <sbol:start>3818</sbol:start>
+            <sbol:end>3880</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://example.com/pCir0xF6/RiboJ54_anno_1/1">
+        <sbol:component rdf:resource="https://example.com/pCir0xF6/RiboJ54_comp_1/1" />
+        <sbol:displayId>RiboJ54_anno_1</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>RiboJ54</dcterms:title>
+        <sbol:persistentIdentity rdf:resource="https://example.com/pCir0xF6/RiboJ54_anno_1" />
+        <sbol:location>
+          <sbol:Range rdf:about="https://example.com/pCir0xF6/RiboJ54_anno_1/RiboJ54_anno_1_loc/1">
+            <sbol:displayId>RiboJ54_anno_1_loc</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbol:persistentIdentity rdf:resource="https://example.com/pCir0xF6/RiboJ54_anno_1/RiboJ54_anno_1_loc" />
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline" />
+            <sbol:start>4754</sbol:start>
+            <sbol:end>4832</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://example.com/pCir0xF6/AmtR_anno_1/1">
+        <sbol:component rdf:resource="https://example.com/pCir0xF6/AmtR_comp_1/1" />
+        <sbol:displayId>AmtR_anno_1</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>AmtR</dcterms:title>
+        <sbol:persistentIdentity rdf:resource="https://example.com/pCir0xF6/AmtR_anno_1" />
+        <sbol:location>
+          <sbol:Range rdf:about="https://example.com/pCir0xF6/AmtR_anno_1/AmtR_anno_1_loc/1">
+            <sbol:displayId>AmtR_anno_1_loc</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbol:persistentIdentity rdf:resource="https://example.com/pCir0xF6/AmtR_anno_1/AmtR_anno_1_loc" />
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline" />
+            <sbol:start>6876</sbol:start>
+            <sbol:end>7544</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://example.com/pCir0xF6/pTet_anno_2/1">
+        <sbol:component rdf:resource="https://example.com/pCir0xF6/pTet_comp_2/1" />
+        <sbol:displayId>pTet_anno_2</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>pTet</dcterms:title>
+        <sbol:persistentIdentity rdf:resource="https://example.com/pCir0xF6/pTet_anno_2" />
+        <sbol:location>
+          <sbol:Range rdf:about="https://example.com/pCir0xF6/pTet_anno_2/pTet_anno_2_loc/1">
+            <sbol:displayId>pTet_anno_2_loc</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbol:persistentIdentity rdf:resource="https://example.com/pCir0xF6/pTet_anno_2/pTet_anno_2_loc" />
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline" />
+            <sbol:start>4680</sbol:start>
+            <sbol:end>4753</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://example.com/pCir0xF6/pTac_anno_1/1">
+        <sbol:component rdf:resource="https://example.com/pCir0xF6/pTac_comp_1/1" />
+        <sbol:displayId>pTac_anno_1</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>pTac</dcterms:title>
+        <sbol:persistentIdentity rdf:resource="https://example.com/pCir0xF6/pTac_anno_1" />
+        <sbol:location>
+          <sbol:Range rdf:about="https://example.com/pCir0xF6/pTac_anno_1/pTac_anno_1_loc/1">
+            <sbol:displayId>pTac_anno_1_loc</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbol:persistentIdentity rdf:resource="https://example.com/pCir0xF6/pTac_anno_1/pTac_anno_1_loc" />
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline" />
+            <sbol:start>2820</sbol:start>
+            <sbol:end>2890</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://example.com/pCir0xF6/TetR_anno_1/1">
+        <sbol:component rdf:resource="https://example.com/pCir0xF6/TetR_comp_1/1" />
+        <sbol:displayId>TetR_anno_1</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>TetR</dcterms:title>
+        <sbol:persistentIdentity rdf:resource="https://example.com/pCir0xF6/TetR_anno_1" />
+        <sbol:location>
+          <sbol:Range rdf:about="https://example.com/pCir0xF6/TetR_anno_1/TetR_anno_1_loc/1">
+            <sbol:displayId>TetR_anno_1_loc</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbol:persistentIdentity rdf:resource="https://example.com/pCir0xF6/TetR_anno_1/TetR_anno_1_loc" />
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline" />
+            <sbol:start>9762</sbol:start>
+            <sbol:end>10385</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://example.com/pCir0xF6/BydvJ_anno_1/1">
+        <sbol:component rdf:resource="https://example.com/pCir0xF6/BydvJ_comp_1/1" />
+        <sbol:displayId>BydvJ_anno_1</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>BydvJ</dcterms:title>
+        <sbol:persistentIdentity rdf:resource="https://example.com/pCir0xF6/BydvJ_anno_1" />
+        <sbol:location>
+          <sbol:Range rdf:about="https://example.com/pCir0xF6/BydvJ_anno_1/BydvJ_anno_1_loc/1">
+            <sbol:displayId>BydvJ_anno_1_loc</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbol:persistentIdentity rdf:resource="https://example.com/pCir0xF6/BydvJ_anno_1/BydvJ_anno_1_loc" />
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline" />
+            <sbol:start>6762</sbol:start>
+            <sbol:end>6841</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://example.com/pCir0xF6/L3S2P55_anno_1/1">
+        <sbol:component rdf:resource="https://example.com/pCir0xF6/L3S2P55_comp_1/1" />
+        <sbol:displayId>L3S2P55_anno_1</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>L3S2P55</dcterms:title>
+        <sbol:persistentIdentity rdf:resource="https://example.com/pCir0xF6/L3S2P55_anno_1" />
+        <sbol:location>
+          <sbol:Range rdf:about="https://example.com/pCir0xF6/L3S2P55_anno_1/L3S2P55_anno_1_loc/1">
+            <sbol:displayId>L3S2P55_anno_1_loc</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbol:persistentIdentity rdf:resource="https://example.com/pCir0xF6/L3S2P55_anno_1/L3S2P55_anno_1_loc" />
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline" />
+            <sbol:start>7545</sbol:start>
+            <sbol:end>7601</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://example.com/pCir0xF6/BetI_anno_1/1">
+        <sbol:component rdf:resource="https://example.com/pCir0xF6/BetI_comp_1/1" />
+        <sbol:displayId>BetI_anno_1</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>BetI</dcterms:title>
+        <sbol:persistentIdentity rdf:resource="https://example.com/pCir0xF6/BetI_anno_1" />
+        <sbol:location>
+          <sbol:Range rdf:about="https://example.com/pCir0xF6/BetI_anno_1/BetI_anno_1_loc/1">
+            <sbol:displayId>BetI_anno_1_loc</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbol:persistentIdentity rdf:resource="https://example.com/pCir0xF6/BetI_anno_1/BetI_anno_1_loc" />
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline" />
+            <sbol:start>4041</sbol:start>
+            <sbol:end>4628</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://example.com/pCir0xF6/A1_anno_1/1">
+        <sbol:component rdf:resource="https://example.com/pCir0xF6/A1_comp_1/1" />
+        <sbol:displayId>A1_anno_1</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>A1</dcterms:title>
+        <sbol:persistentIdentity rdf:resource="https://example.com/pCir0xF6/A1_anno_1" />
+        <sbol:location>
+          <sbol:Range rdf:about="https://example.com/pCir0xF6/A1_anno_1/A1_anno_1_loc/1">
+            <sbol:displayId>A1_anno_1_loc</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbol:persistentIdentity rdf:resource="https://example.com/pCir0xF6/A1_anno_1/A1_anno_1_loc" />
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline" />
+            <sbol:start>6842</sbol:start>
+            <sbol:end>6875</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://example.com/pCir0xF6/RiboJ10_anno_1/1">
+        <sbol:component rdf:resource="https://example.com/pCir0xF6/RiboJ10_comp_1/1" />
+        <sbol:displayId>RiboJ10_anno_1</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>RiboJ10</dcterms:title>
+        <sbol:persistentIdentity rdf:resource="https://example.com/pCir0xF6/RiboJ10_anno_1" />
+        <sbol:location>
+          <sbol:Range rdf:about="https://example.com/pCir0xF6/RiboJ10_anno_1/RiboJ10_anno_1_loc/1">
+            <sbol:displayId>RiboJ10_anno_1_loc</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbol:persistentIdentity rdf:resource="https://example.com/pCir0xF6/RiboJ10_anno_1/RiboJ10_anno_1_loc" />
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline" />
+            <sbol:start>2965</sbol:start>
+            <sbol:end>3043</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://example.com/pCir0xF6/pSrpR_anno_1/1">
+        <sbol:component rdf:resource="https://example.com/pCir0xF6/pSrpR_comp_1/1" />
+        <sbol:displayId>pSrpR_anno_1</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>pSrpR</dcterms:title>
+        <sbol:persistentIdentity rdf:resource="https://example.com/pCir0xF6/pSrpR_anno_1" />
+        <sbol:location>
+          <sbol:Range rdf:about="https://example.com/pCir0xF6/pSrpR_anno_1/pSrpR_anno_1_loc/1">
+            <sbol:displayId>pSrpR_anno_1_loc</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbol:persistentIdentity rdf:resource="https://example.com/pCir0xF6/pSrpR_anno_1/pSrpR_anno_1_loc" />
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline" />
+            <sbol:start>1914</sbol:start>
+            <sbol:end>1995</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://example.com/pCir0xF6/RiboJ51_anno_1/1">
+        <sbol:component rdf:resource="https://example.com/pCir0xF6/RiboJ51_comp_1/1" />
+        <sbol:displayId>RiboJ51_anno_1</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>RiboJ51</dcterms:title>
+        <sbol:persistentIdentity rdf:resource="https://example.com/pCir0xF6/RiboJ51_anno_1" />
+        <sbol:location>
+          <sbol:Range rdf:about="https://example.com/pCir0xF6/RiboJ51_anno_1/RiboJ51_anno_1_loc/1">
+            <sbol:displayId>RiboJ51_anno_1_loc</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbol:persistentIdentity rdf:resource="https://example.com/pCir0xF6/RiboJ51_anno_1/RiboJ51_anno_1_loc" />
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline" />
+            <sbol:start>5650</sbol:start>
+            <sbol:end>5728</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://example.com/pCir0xF6/RiboJ57_anno_1/1">
+        <sbol:component rdf:resource="https://example.com/pCir0xF6/RiboJ57_comp_1/1" />
+        <sbol:displayId>RiboJ57_anno_1</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>RiboJ57</dcterms:title>
+        <sbol:persistentIdentity rdf:resource="https://example.com/pCir0xF6/RiboJ57_anno_1" />
+        <sbol:location>
+          <sbol:Range rdf:about="https://example.com/pCir0xF6/RiboJ57_anno_1/RiboJ57_anno_1_loc/1">
+            <sbol:displayId>RiboJ57_anno_1_loc</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbol:persistentIdentity rdf:resource="https://example.com/pCir0xF6/RiboJ57_anno_1/RiboJ57_anno_1_loc" />
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline" />
+            <sbol:start>3944</sbol:start>
+            <sbol:end>4022</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://example.com/pCir0xF6/RiboJ53_anno_1/1">
+        <sbol:component rdf:resource="https://example.com/pCir0xF6/RiboJ53_comp_1/1" />
+        <sbol:displayId>RiboJ53_anno_1</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>RiboJ53</dcterms:title>
+        <sbol:persistentIdentity rdf:resource="https://example.com/pCir0xF6/RiboJ53_anno_1" />
+        <sbol:location>
+          <sbol:Range rdf:about="https://example.com/pCir0xF6/RiboJ53_anno_1/RiboJ53_anno_1_loc/1">
+            <sbol:displayId>RiboJ53_anno_1_loc</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbol:persistentIdentity rdf:resource="https://example.com/pCir0xF6/RiboJ53_anno_1/RiboJ53_anno_1_loc" />
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline" />
+            <sbol:start>2059</sbol:start>
+            <sbol:end>2137</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://example.com/pCir0xF6/PhiF_anno_1/1">
+        <sbol:component rdf:resource="https://example.com/pCir0xF6/PhiF_comp_1/1" />
+        <sbol:displayId>PhiF_anno_1</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>PhiF</dcterms:title>
+        <sbol:persistentIdentity rdf:resource="https://example.com/pCir0xF6/PhiF_anno_1" />
+        <sbol:location>
+          <sbol:Range rdf:about="https://example.com/pCir0xF6/PhiF_anno_1/PhiF_anno_1_loc/1">
+            <sbol:displayId>PhiF_anno_1_loc</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbol:persistentIdentity rdf:resource="https://example.com/pCir0xF6/PhiF_anno_1/PhiF_anno_1_loc" />
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline" />
+            <sbol:start>2156</sbol:start>
+            <sbol:end>2758</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://example.com/pCir0xF6/ECK120033737_anno_1/1">
+        <sbol:component rdf:resource="https://example.com/pCir0xF6/ECK120033737_comp_1/1" />
+        <sbol:displayId>ECK120033737_anno_1</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>ECK120033737</dcterms:title>
+        <sbol:persistentIdentity rdf:resource="https://example.com/pCir0xF6/ECK120033737_anno_1" />
+        <sbol:location>
+          <sbol:Range rdf:about="https://example.com/pCir0xF6/ECK120033737_anno_1/ECK120033737_anno_1_loc/1">
+            <sbol:displayId>ECK120033737_anno_1_loc</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbol:persistentIdentity rdf:resource="https://example.com/pCir0xF6/ECK120033737_anno_1/ECK120033737_anno_1_loc" />
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline" />
+            <sbol:start>2759</sbol:start>
+            <sbol:end>2815</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <ns0:richDescription>This is your description. Click on the Text link to edit it.</ns0:richDescription>
+    <dcterms:description>This is your description. Click on the Text link to edit it.</dcterms:description>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion" />
+    <sbol:sequence rdf:resource="https://example.com/pCir0xF6_seq/1" />
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="https://synbiohub.org/user/Gon/Cello0x6Fparts/pSrpR/1">
+    <sbol:displayId>pSrpR</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <dcterms:title>pSrpR</dcterms:title>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/pSrpR" />
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion" />
+    <sbol:sequence rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/pSrpR_sequence/1" />
+    <ns1:ownedBy rdf:resource="https://synbiohub.org/user/Gon" />
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167" />
+    <ns1:topLevel rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/pSrpR/1" />
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="https://synbiohub.org/user/Gon/Cello0x6Fparts/E1/1">
+    <sbol:displayId>E1</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <dcterms:title>E1</dcterms:title>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/E1" />
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion" />
+    <sbol:sequence rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/E1_sequence/1" />
+    <ns1:ownedBy rdf:resource="https://synbiohub.org/user/Gon" />
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000139" />
+    <ns1:topLevel rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/E1/1" />
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="https://synbiohub.org/user/Gon/Cello0x6Fparts/BetI/1">
+    <sbol:displayId>BetI</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <dcterms:title>BetI</dcterms:title>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/BetI" />
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion" />
+    <sbol:sequence rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/BetI_sequence/1" />
+    <ns1:ownedBy rdf:resource="https://synbiohub.org/user/Gon" />
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316" />
+    <ns1:topLevel rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/BetI/1" />
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="https://synbiohub.org/user/Gon/Cello0x6Fparts/pTet/1">
+    <sbol:displayId>pTet</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <dcterms:title>pTet</dcterms:title>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/pTet" />
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion" />
+    <sbol:sequence rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/pTet_sequence/1" />
+    <ns1:ownedBy rdf:resource="https://synbiohub.org/user/Gon" />
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167" />
+    <ns1:topLevel rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/pTet/1" />
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="https://synbiohub.org/user/Gon/Cello0x6Fparts/pBetI/1">
+    <sbol:displayId>pBetI</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <dcterms:title>pBetI</dcterms:title>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/pBetI" />
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion" />
+    <sbol:sequence rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/pBetI_sequence/1" />
+    <ns1:ownedBy rdf:resource="https://synbiohub.org/user/Gon" />
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167" />
+    <ns1:topLevel rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/pBetI/1" />
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="https://synbiohub.org/user/Gon/Cello0x6Fparts/L3S3P11/1">
+    <sbol:displayId>L3S3P11</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <dcterms:title>L3S3P11</dcterms:title>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/L3S3P11" />
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion" />
+    <sbol:sequence rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/L3S3P11_sequence/1" />
+    <ns1:ownedBy rdf:resource="https://synbiohub.org/user/Gon" />
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000141" />
+    <ns1:topLevel rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/L3S3P11/1" />
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="https://synbiohub.org/user/Gon/Cello0x6Fparts/RiboJ10/1">
+    <sbol:displayId>RiboJ10</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <dcterms:title>RiboJ10</dcterms:title>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/RiboJ10" />
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion" />
+    <sbol:sequence rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/RiboJ10_sequence/1" />
+    <ns1:ownedBy rdf:resource="https://synbiohub.org/user/Gon" />
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0001977" />
+    <ns1:topLevel rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/RiboJ10/1" />
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="https://synbiohub.org/user/Gon/Cello0x6Fparts/RiboJ51/1">
+    <sbol:displayId>RiboJ51</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <dcterms:title>RiboJ51</dcterms:title>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/RiboJ51" />
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion" />
+    <sbol:sequence rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/RiboJ51_sequence/1" />
+    <ns1:ownedBy rdf:resource="https://synbiohub.org/user/Gon" />
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0001977" />
+    <ns1:topLevel rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/RiboJ51/1" />
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="https://synbiohub.org/user/Gon/Cello0x6Fparts/PhiF/1">
+    <sbol:displayId>PhiF</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <dcterms:title>PhiF</dcterms:title>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/PhiF" />
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion" />
+    <sbol:sequence rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/PhiF_sequence/1" />
+    <ns1:ownedBy rdf:resource="https://synbiohub.org/user/Gon" />
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316" />
+    <ns1:topLevel rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/PhiF/1" />
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="https://synbiohub.org/user/Gon/Cello0x6Fparts/pBAD/1">
+    <sbol:displayId>pBAD</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <dcterms:title>pBAD</dcterms:title>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/pBAD" />
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion" />
+    <sbol:sequence rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/pBAD_sequence/1" />
+    <ns1:ownedBy rdf:resource="https://synbiohub.org/user/Gon" />
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167" />
+    <ns1:topLevel rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/pBAD/1" />
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="https://synbiohub.org/user/Gon/Cello0x6Fparts/J23105/1">
+    <sbol:displayId>J23105</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <dcterms:title>J23105</dcterms:title>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/J23105" />
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion" />
+    <sbol:sequence rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/J23105_sequence/1" />
+    <ns1:ownedBy rdf:resource="https://synbiohub.org/user/Gon" />
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167" />
+    <ns1:topLevel rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/J23105/1" />
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="https://synbiohub.org/user/Gon/Cello0x6Fparts/S3/1">
+    <sbol:displayId>S3</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <dcterms:title>S3</dcterms:title>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/S3" />
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion" />
+    <sbol:sequence rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/S3_sequence/1" />
+    <ns1:ownedBy rdf:resource="https://synbiohub.org/user/Gon" />
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000139" />
+    <ns1:topLevel rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/S3/1" />
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="https://synbiohub.org/user/Gon/Cello0x6Fparts/L3S2P55/1">
+    <sbol:displayId>L3S2P55</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <dcterms:title>L3S2P55</dcterms:title>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/L3S2P55" />
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion" />
+    <sbol:sequence rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/L3S2P55_sequence/1" />
+    <ns1:ownedBy rdf:resource="https://synbiohub.org/user/Gon" />
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000141" />
+    <ns1:topLevel rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/L3S2P55/1" />
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="https://synbiohub.org/user/Gon/Cello0x6Fparts/LacI/1">
+    <sbol:displayId>LacI</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <dcterms:title>LacI</dcterms:title>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/LacI" />
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion" />
+    <sbol:sequence rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/LacI_sequence/1" />
+    <ns1:ownedBy rdf:resource="https://synbiohub.org/user/Gon" />
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316" />
+    <ns1:topLevel rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/LacI/1" />
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="https://synbiohub.org/user/Gon/Cello0x6Fparts/F1/1">
+    <sbol:displayId>F1</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <dcterms:title>F1</dcterms:title>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/F1" />
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion" />
+    <sbol:sequence rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/F1_sequence/1" />
+    <ns1:ownedBy rdf:resource="https://synbiohub.org/user/Gon" />
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000139" />
+    <ns1:topLevel rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/F1/1" />
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="https://synbiohub.org/user/Gon/Cello0x6Fparts/ECK120029600/1">
+    <sbol:displayId>ECK120029600</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <dcterms:title>ECK120029600</dcterms:title>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/ECK120029600" />
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion" />
+    <sbol:sequence rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/ECK120029600_sequence/1" />
+    <ns1:ownedBy rdf:resource="https://synbiohub.org/user/Gon" />
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000141" />
+    <ns1:topLevel rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/ECK120029600/1" />
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="https://synbiohub.org/user/Gon/Cello0x6Fparts/pHlyIIR/1">
+    <sbol:displayId>pHlyIIR</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <dcterms:title>pHlyIIR</dcterms:title>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/pHlyIIR" />
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion" />
+    <sbol:sequence rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/pHlyIIR_sequence/1" />
+    <ns1:ownedBy rdf:resource="https://synbiohub.org/user/Gon" />
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167" />
+    <ns1:topLevel rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/pHlyIIR/1" />
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="https://synbiohub.org/user/Gon/Cello0x6Fparts/P3/1">
+    <sbol:displayId>P3</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <dcterms:title>P3</dcterms:title>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/P3" />
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion" />
+    <sbol:sequence rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/P3_sequence/1" />
+    <ns1:ownedBy rdf:resource="https://synbiohub.org/user/Gon" />
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000139" />
+    <ns1:topLevel rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/P3/1" />
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="https://synbiohub.org/user/Gon/Cello0x6Fparts/ECK120033736/1">
+    <sbol:displayId>ECK120033736</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <dcterms:title>ECK120033736</dcterms:title>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/ECK120033736" />
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion" />
+    <sbol:sequence rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/ECK120033736_sequence/1" />
+    <ns1:ownedBy rdf:resource="https://synbiohub.org/user/Gon" />
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000141" />
+    <ns1:topLevel rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/ECK120033736/1" />
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="https://synbiohub.org/user/Gon/Cello0x6Fparts/SrpR/1">
+    <sbol:displayId>SrpR</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <dcterms:title>SrpR</dcterms:title>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/SrpR" />
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion" />
+    <sbol:sequence rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/SrpR_sequence/1" />
+    <ns1:ownedBy rdf:resource="https://synbiohub.org/user/Gon" />
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316" />
+    <ns1:topLevel rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/SrpR/1" />
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="https://synbiohub.org/user/Gon/Cello0x6Fparts/AmtR/1">
+    <sbol:displayId>AmtR</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <dcterms:title>AmtR</dcterms:title>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/AmtR" />
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion" />
+    <sbol:sequence rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/AmtR_sequence/1" />
+    <ns1:ownedBy rdf:resource="https://synbiohub.org/user/Gon" />
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316" />
+    <ns1:topLevel rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/AmtR/1" />
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="https://synbiohub.org/user/Gon/Cello0x6Fparts/pTac/1">
+    <sbol:displayId>pTac</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <dcterms:title>pTac</dcterms:title>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/pTac" />
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion" />
+    <sbol:sequence rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/pTac_sequence/1" />
+    <ns1:ownedBy rdf:resource="https://synbiohub.org/user/Gon" />
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167" />
+    <ns1:topLevel rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/pTac/1" />
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="https://synbiohub.org/user/Gon/Cello0x6Fparts/AmeR/1">
+    <sbol:displayId>AmeR</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <dcterms:title>AmeR</dcterms:title>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/AmeR" />
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion" />
+    <sbol:sequence rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/AmeR_sequence/1" />
+    <ns1:ownedBy rdf:resource="https://synbiohub.org/user/Gon" />
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316" />
+    <ns1:topLevel rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/AmeR/1" />
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="https://synbiohub.org/user/Gon/Cello0x6Fparts/RiboJ57/1">
+    <sbol:displayId>RiboJ57</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <dcterms:title>RiboJ57</dcterms:title>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/RiboJ57" />
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion" />
+    <sbol:sequence rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/RiboJ57_sequence/1" />
+    <ns1:ownedBy rdf:resource="https://synbiohub.org/user/Gon" />
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0001977" />
+    <ns1:topLevel rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/RiboJ57/1" />
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="https://synbiohub.org/user/Gon/Cello0x6Fparts/L3S3P31/1">
+    <sbol:displayId>L3S3P31</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <dcterms:title>L3S3P31</dcterms:title>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/L3S3P31" />
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion" />
+    <sbol:sequence rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/L3S3P31_sequence/1" />
+    <ns1:ownedBy rdf:resource="https://synbiohub.org/user/Gon" />
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000141" />
+    <ns1:topLevel rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/L3S3P31/1" />
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="https://synbiohub.org/user/Gon/Cello0x6Fparts/pAmer/1">
+    <sbol:displayId>pAmer</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <dcterms:title>pAmer</dcterms:title>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/pAmer" />
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion" />
+    <sbol:sequence rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/pAmer_sequence/1" />
+    <ns1:ownedBy rdf:resource="https://synbiohub.org/user/Gon" />
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167" />
+    <ns1:topLevel rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/pAmer/1" />
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="https://synbiohub.org/user/Gon/Cello0x6Fparts/RiboJ54/1">
+    <sbol:displayId>RiboJ54</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <dcterms:title>RiboJ54</dcterms:title>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/RiboJ54" />
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion" />
+    <sbol:sequence rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/RiboJ54_sequence/1" />
+    <ns1:ownedBy rdf:resource="https://synbiohub.org/user/Gon" />
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0001977" />
+    <ns1:topLevel rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/RiboJ54/1" />
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="https://synbiohub.org/user/Gon/Cello0x6Fparts/HIyIIR/1">
+    <sbol:displayId>HIyIIR</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <dcterms:title>HIyIIR</dcterms:title>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/HIyIIR" />
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion" />
+    <sbol:sequence rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/HIyIIR_sequence/1" />
+    <ns1:ownedBy rdf:resource="https://synbiohub.org/user/Gon" />
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316" />
+    <ns1:topLevel rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/HIyIIR/1" />
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="https://synbiohub.org/user/Gon/Cello0x6Fparts/A1/1">
+    <sbol:displayId>A1</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <dcterms:title>A1</dcterms:title>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/A1" />
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion" />
+    <sbol:sequence rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/A1_sequence/1" />
+    <ns1:ownedBy rdf:resource="https://synbiohub.org/user/Gon" />
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000139" />
+    <ns1:topLevel rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/A1/1" />
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="https://synbiohub.org/user/Gon/Cello0x6Fparts/TetR/1">
+    <sbol:displayId>TetR</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <dcterms:title>TetR</dcterms:title>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/TetR" />
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion" />
+    <sbol:sequence rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/TetR_sequence/1" />
+    <ns1:ownedBy rdf:resource="https://synbiohub.org/user/Gon" />
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316" />
+    <ns1:topLevel rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/TetR/1" />
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="https://synbiohub.org/user/Gon/Cello0x6Fparts/BydvJ/1">
+    <sbol:displayId>BydvJ</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <dcterms:title>BydvJ</dcterms:title>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/BydvJ" />
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion" />
+    <sbol:sequence rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/BydvJ_sequence/1" />
+    <ns1:ownedBy rdf:resource="https://synbiohub.org/user/Gon" />
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0001977" />
+    <ns1:topLevel rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/BydvJ/1" />
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="https://synbiohub.org/user/Gon/Cello0x6Fparts/RiboJ53/1">
+    <sbol:displayId>RiboJ53</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <dcterms:title>RiboJ53</dcterms:title>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/RiboJ53" />
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion" />
+    <sbol:sequence rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/RiboJ53_sequence/1" />
+    <ns1:ownedBy rdf:resource="https://synbiohub.org/user/Gon" />
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0001977" />
+    <ns1:topLevel rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/RiboJ53/1" />
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="https://synbiohub.org/user/Gon/Cello0x6Fparts/ECK120033737/1">
+    <sbol:displayId>ECK120033737</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <dcterms:title>ECK120033737</dcterms:title>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/ECK120033737" />
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion" />
+    <sbol:sequence rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/ECK120033737_sequence/1" />
+    <ns1:ownedBy rdf:resource="https://synbiohub.org/user/Gon" />
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000141" />
+    <ns1:topLevel rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/ECK120033737/1" />
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="https://example.com/pCir0xF6_seq/1">
+    <sbol:displayId>pCir0xF6_seq</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <dcterms:title>pCir0xF6_seq</dcterms:title>
+    <sbol:persistentIdentity rdf:resource="https://example.com/pCir0xF6_seq" />
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html" />
+    <sbol:elements>gcttcctcgctcactgactcgctgcacgaggcagacctcagcgctagcggagtgtatactggcttactatgttggcactgatgagggtgtcagtgaagtgcttcatgtggcaggagaaaaaaggctgcaccggtgcgtcagcagaatatgtgatacaggatatattccgcttcctcgctcactgactcgctacgctcggtcgttcgactgcggcgagcggaaatggcttacgaacggggcggagatttcctggaagatgccaggaagatacttaacagggaagtgagagggccgcggcaaagccgtttttccataggctccgcccccctgacaagcatcacgaaatctgacgctcaaatcagtggtggcgaaacccgacaggactataaagataccaggcgtttcccctggcggctccctcgtgcgctctcctgttcctgcctttcggtttaccggtgtcattccgctgttatggccgcgtttgtctcattccacgcctgacactcagttccgggtaggcagttcgctccaagctggactgtatgcacgaaccccccgttcagtccgaccgctgcgccttatccggtaactatcgtcttgagtccaacccggaaagacatgcaaaagcaccactggcagcagccactggtaattgatttagaggagttagtcttgaagtcatgcgccggttaaggctaaactgaaaggacaagttttggtgactgcgctcctccaagccagttacctcggttcaaagagttggtagctcagagaaccttcgaaaaaccgccctgcaaggcggttttttcgttttcagagcaagagattacgcgcagaccaaaacgatctcaagaagatcatcttattaaggggtctgacgctcagtggaacgaaaaatcaatctaaagtatatatgagtaaacttggtctgacagttaccttagaaaaactcatcgagcatcaaatgaaactgcaatttattcatatcaggattatcaataccatatttttgaaaaagccgtttctgtaatgaaggagaaaactcaccgaggcagttccataggatggcaagatcctggtatcggtctgcgattccgactcgtccaacatcaatacaacctattaatttcccctcgtcaaaaataaggttatcaagtgagaaatcaccatgagtgacgactgaatccggtgagaatggcaaaagcttatgcatttctttccagacttgttcaacaggccagccattacgctcgtcatcaaaatcactcgcatcaaccaaaccgttattcattcgtgattgcgcctgagcgagacgaaatacgcgatcgctgttaaaaggacaattacaaacaggaatcgaatgcaaccggcgcaggaacactgccagcgcatcaacaatattttcacctgaatcaggatattcttctaatacctggaatgctgttttcccggggatcgcagtggtgagtaaccatgcatcatcaggagtacggataaaatgcttgatggtcggaagaggcataaattccgtcagccagtttagtctgaccatctcatctgtaacatcattggcaacgctacctttgccatgtttcagaaacaactctggcgcatcgggcttcccatacaatcgatagattgtcgcacctgattgcccgacattatcgcgagcccatttatacccatataaatcagcatccatgttggaatttaatcgcggcctcgagcaagacgtttcccgttgaatatggctcataacaccccttgtattactgtttatgtaagcagacagttttattgttcatgatgatatatttttatcttgtgcaatgtacatcagagattttgagacacaaccaattattgaaggcctccctaacggggggcctttttttgtttctggtctcccgctttctatgattggtccagattcgttaccaattgacagctagctcagtcctaggtatatacatacatgcttgtttgtttgtaaacagcgcgggtgagagggattcgttaccaattgacaattgattggacgttcaatataatgctagcctgaagcggtcaacgcatgtgctttgcgttctgatgagacagtgatgtcgaaaccgcctctacaaataattttgtttaactttacgagggcgatcctatggcacgtaccccgagccgtagcagcattggtagcctgcgtagtccgcatacccataaagcaattctgaccagcaccattgaaatcctgaaagaatgtggttatagcggtctgagcattgaaagcgttgcacgtcgtgccggtgcaagcaaaccgaccatttatcgttggtggaccaataaagcagcactgattgccgaagtgtatgaaaatgaaagcgaacaggtgcgtaaatttccggatctgggtagctttaaagccgatctggattttctgctgcgtaatctgtggaaagtttggcgtgaaaccatttgtggtgaagcatttcgttgtgttattgcagaagcacagctggaccctgcaaccctgacccagctgaaagatcagtttatggaacgtcgtcgtgagatgccgaaaaaactggttgaaaatgccattagcaatggtgaactgccgaaagataccaatcgtgaactgctgctggatatgatttttggtttttgttggtatcgcctgctgaccgaacagctgaccgttgaacaggatattgaagaatttaccttcctgctgattaatggtgtttgtccgggtacacagcgttaaggaaacacagaaaaaagcccgcacctgacagtgcgggctttttttttcgaccaaaggtgtcaacgatcgttggctgtgttgacaattaatcatcggctcgtataatgtgtggaattgtgagcgctcacaatttactccaccgttggcttttttccctatcagtgatagagattgacatccctatcagtgatagagataatgagcacctgaagcgctcaacgggtgtgcttcccgttctgatgagtccgtgaggacgaaagcgcctctacaaataattttgtttaagagtctatggactatgttttcacaaaggaagtaccaggatggcacgtaaaaccgcagcagaagcagaagaaacccgtcagcgtattattgatgcagcactggaagtttttgttgcacagggtgttagtgatgcaaccctggatcagattgcacgtaaagccggtgttacccgtggtgcagtttattggcattttaatggtaaactggaagttctgcaggcagttctggcaagccgtcagcatccgctggaactggattttacaccggatctgggtattgaacgtagctgggaagcagttgttgttgcaatgctggatgcagttcatagtccgcagagcaaacagtttagcgaaattctgatttatcagggtctggatgaaagcggtctgattcataatcgtatggttcaggcaagcgatcgttttctgcagtatattcatcaggttctgcgtcatgcagttacccagggtgaactgccgattaatctggatctgcagaccagcattggtgtttttaaaggtctgattaccggtctgctgtatgaaggtctgcgtagcaaagatcagcaggcacagattatcaaagttgcactgggtagcttttgggcactgctgcgtgaaccgcctcgttttctgctgtgtgaagaagcacagattaaacaggtgaaatccttcgaataattcagccaaaaaacttaagaccgccggtcttgtccactaccttgcagtaatgcggtggacaggatcggcggttttcttttctcttctcaagggcaccaggaatctgaacgattcgttaccaattgacatatttaaaattcttgtttaaaatgctagctcgtcactagagggcgatagtgacaaacttgacaactcatcacttcctaggtataatgctagcctgaagaagtcaattaatgtgcttttaattctgatgagtcggtgacgacgaaacttcctctacaaataattttgtttaaccccccgaggagtagcacatgccgaaactgggtatgcagagcattcgtcgtcgtcagctgattgatgcaaccctggaagcaattaatgaagttggtatgcatgatgcaaccattgcacagattgcacgtcgtgccggtgttagcaccggtattattagccattatttccgcgataaaaacggtctgctggaagcaaccatgcgtgatattaccagccagctgcgtgatgcagttctgaatcgtctgcatgcactgccgcagggtagcgcagaacagcgtctgcaggcaattgttggtggtaattttgatgaaacccaggttagcagcgcagcaatgaaagcatggctggcattttgggcaagcagcatgcatcagccgatgctgtatcgtctgcagcaggttagcagtcgtcgtctgctgagcaatctggttagcgaatttcgtcgtgaactgcctcgtgaacaggcacaagaggcaggttatggtctggcagcactgattgatggtctgtggctgcgtgcagcactgagcggtaaaccgctggataaaacccgtgcaaatagcctgacccgtcattttatcacccagcatctgccgaccgattaaccaattattgaacacccttcggggtgtttttttgtttctggtctaccgtaatactccaccgttggcttttttccctatcagtgatagagattgacatccctatcagtgatagagataatgagcacctgaaggggtcagttgatgtgctttcaactctgatgagtcagtgatgacgaaaccccctctacaaataattttgtttaactatggactatgttttcacatacgagggggattagatgaacaaaaccattgatcaggtgcgtaaaggtgatcgtaaaagcgatctgccggttcgtcgtcgtccgcgtcgtagtgccgaagaaacccgtcgtgatattctggcaaaagccgaagaactgtttcgtgaacgtggttttaatgcagttgccattgcagatattgcaagcgcactgaatatgagtccggcaaatgtgtttaaacattttagcagcaaaaacgcactggttgatgcaattggttttggtcagattggtgtttttgaacgtcagatttgtccgctggataaaagccatgcaccgctggatcgtctgcgtcatctggcacgtaatctgatggaacagcatcatcaggatcatttcaaacacatacgggtttttattcagatcctgatgaccgccaaacaggatatgaaatgtggcgattattacaaaagcgtgattgcaaaactgctggccgaaattattcgtgatggtgttgaagcaggtctgtatattgcaaccgatattccggttctggcagaaaccgttctgcatgcactgaccagcgttattcatccggttctgattgcacaagaagatattggtaatctggcaacccgttgtgatcagctggttgatctgattgatgcaggtctgcgtaatccgctggcaaaataaccaattattgaacaccctaacgggtgtttttttttttttggtctacccgctaacgatcgttggctgtgttgacaattaatcatcggctcgtataatgtgtggaattgtgagcgctcacaattctgaagtagtcaccggctgtgcttgccggtctgatgagcctgtgaaggcgaaactacctctacaaataattttgtttaaacccccgagatgaaatacatcctgtttgaggtgtgcgaaatgggtaaaagccgtgaacagaccatggaaaatattctgaaagcagccaaaaagaaattcggcgaacgtggttatgaaggcaccagcattcaagaaattaccaaagaagccaaagttaacgttgcaatggccagctattactttaatggcaaagagaacctgtactacgaggtgttcaaaaaatacggtctggcaaatgaactgccgaactttctggaaaaaaaccagtttaatccgattaatgccctgcgtgaatatctgaccgtttttaccacccacattaaagaaaatccggaaattggcaccctggcctatgaagaaattatcaaagaaagcgcacgcctggaaaaaatcaaaccgtattttatcggcagcttcgaacagctgaaagaaattctgcaagagggtgaaaaacagggtgtgtttcacttttttagcatcaaccataccatccattggattaccagcattgttctgtttccgaaattcaaaaaattcatcgatagcctgggtccgaatgaaaccaatgataccaatcatgaatggatgccggaagatctggttagccgtattattagcgcactgaccgataaaccgaacatttaaaacgcatgagaaagcccccggaagatcaccttccgggggcttttttattgcgcaggtacttttcatactcccgccattcagagaagaaaccaattgtccatattgcatcagacattgccgtcactgcgtcttttactggctcttctcgctaaccaaaccggtaaccccgcttattaaaagcattctgtaacaaagcgggaccaaagccatgacaaaaacgcgtaacaaaagtgtctataatcacggcagaaaagtccacattgattatttgcacggcgtcacactttgctatgccatagcatttttatccataagattagcggatcctacctgacgctttttatcgcaactctctactgtttctccatacccgtttttttgggctagcctgaagggtgtctcaaggtgcgtaccttgactgatgagtccgaaaggacgaaacacccctctacaaataattttgtttaaaatgttccctaataatcagcaaagaggttactagatggcaggcgcagttggtcgtccgcgtcgtagtgcaccgcgtcgtgcaggtaaaaatccgcgtgaagaaattctggatgcaagcgcagaactgtttacccgtcagggttttgcaaccaccagtacccatcagattgcagatgcagttggtattcgtcaggcaagcctgtattatcattttccgagcaaaaccgaaatctttctgaccctgctgaaaagcaccgttgaaccgagcaccgttctggcagaagatctgagcaccctggatgcaggtccggaaatgcgtctgtgggcaattgttgcaagcgaagttcgtctgctgctgagcaccaaatggaatgttggtcgtctgtatcagctgccgattgttggtagcgaagaatttgcagaatatcatagccagcgtgaagcactgaccaatgtttttcgtgatctggcaaccgaaattgttggtgatgatccgcgtgcagaactgccgtttcatattaccatgagcgttattgaaatgcgtcgcaatgatggtaaaattccgagtccgctgagcgcagatagcctgccggaaaccgcaattatgctggcagatgcaagcctggcagttctgggtgcaccgctgcctgcagatcgtgttgaaaaaaccctggaactgattaaacaggcagatgcaaaataactcggtaccaaagacgaacaataagacgctgaaaagcgtcttttttcgttttggtccaatggtcaccatatatcaagtttacggctagctcagtcctaggtactatgctagctactagagaaagaggagaaatactagatggctgaagcgcaaaatgatcccctgctgccgggatactcgtttaatgcccatctggtggcgggtttaacgccgattgaggccaacggttatctcgatttttttatcgaccgaccgctgggaatgaaaggttatattctcaatctcaccattcgcggtcagggggtggtgaaaaatcagggacgagaatttgtttgccgaccgggtgatattttgctgttcccgccaggagagattcatcactacggtcgtcatccggaggctcgcgaatggtatcaccagtgggtttactttcgtccgcgcgcctactggcatgaatggcttaactggccgtcaatatttgccaatacggggttctttcgcccggatgaagcgcaccagccgcatttcagcgacctgtttgggcaaatcattaacgccgggcaaggggaagggcgctattcggagctgctggcgataaatctgcttgagcaattgttactgcggcgcatggaagcgattaacgagtcgctccatccaccgatggataatcgggtacgcgaggcttgtcagtacatcagcgatcacctggcagacagcaattttgatatcgccagcgtcgcacagcatgtttgcttgtcgccgtcgcgtctgtcacatcttttccgccagcagttagggattagcgtcttaagctggcgcgaggaccaacgtatcagccaggcgaagctgcttttgagcaccacccggatgcctatcgccaccgtcggtcgcaatgttggttttgacgatcaactctatttctcgcgggtatttaaaaaatgcaccggggccagcccgagcgagttccgtgccggttaataaccaattattgaaggccgctaacgcagcctttttttgtttctggtctcccaatggcggcgcgccatcgaatggcgcaaaacctttcgcggtatggcatgatagcgcccggaagagagtcaattcagggtggtgaatatgaaaccagtaacgttatacgatgtcgcagagtatgccggtgtctcttatcagaccgtttcccgcgtggtgaaccaggccagccacgtttctgcgaaaacgcgggaaaaagtggaagcggcgatggcggagctgaattacattcccaaccgcgtggcacaacaactggcgggcaaacagtcgttgctgattggcgttgccacctccagtctggccctgcacgcgccgtcgcaaattgtcgcggcgattaaatctcgcgccgatcaactgggtgccagcgtggtggtgtcgatggtagaacgaagcggcgtcgaagcctgtaaagcggcggtgcacaatcttctcgcgcaacgcgtcagtgggctgatcattaactatccgctggatgaccaggatgccattgctgtggaagctgcctgcactaatgttccggcgttatttcttgatgtctctgaccagacacccatcaacagtattattttctcccatgaggacggtacgcgactgggcgtggagcatctggtcgcattgggtcaccagcaaatcgcgctgttagcgggcccattaagttctgtctcggcgcgtctgcgtctggctggctggcataaatatctcactcgcaatcaaattcagccgatagcggaacgggaaggcgactggagtgccatgtccggttttcaacaaaccatgcaaatgctgaatgagggcatcgttcccactgcgatgctggttgccaacgatcagatggcgctgggcgcaatgcgcgccattaccgagtccgggctgcgcgttggtgcggatatctcggtagtgggatacgacgataccgaagatagctcatgttatatcccgccgttaaccaccatcaaacaggattttcgcctgctggggcaaaccagcgtggaccgcttgctgcaactctctcagggccaggcggtgaagggcaatcagctgttgccagtctcactggtgaaaagaaaaaccaccctggcgcccaatacgcaaaccgcctctccccgcgcgttggccgattcattaatgcagctggcacgacaggtttcccgactggaaagcgggcagtgataatccaggaggaaaaaaatgtccagattagataaaagtaaagtgattaacagcgcattagagctgcttaatgaggtcggaatcgaaggtttaacaacccgtaaactcgcccagaagctaggtgtagagcagcctacattgtattggcatgtaaaaaataagcgggctttgctcgacgccttagccattgagatgttagataggcaccatactcacttttgccctttagaaggggaaagctggcaagattttttacgtaataacgctaaaagttttagatgtgctttactaagtcatcgcgatggagcaaaagtacatttaggtacacggcctacagaaaaacagtatgaaactctcgaaaatcaattagcctttttatgccaacaaggtttttcactagagaatgcattatatgcactcagcgctgtggggcattttactttaggttgcgtattggaagatcaagagcatcaagtcgctaaagaagaaagggaaacacctactactgatagtatgccgccattattacgacaagctatcgaattatttgatcaccaaggtgcagagccagccttcttattcggccttgaattgatcatatgcggattagaaaaacaacttaaatgtgaaagtgggtcctaataattggtaacgaatcagacaattgacggctcgagggagtagcatagggtttgcagaatccctgcttcgtccatttgacaggcacattatgcatcgatgataagctgtcaaacatgagcagatcctctacgccggacgcatcgtggccggcatcaccggcgccacaggtgcggttgctggcgcctatatcgccgacatcaccgatggggaagatcgggctcgccacttcgggctcatgagcaaatattttatctgaggt</sbol:elements>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="https://synbiohub.org/user/Gon/Cello0x6Fparts/pSrpR_sequence/1">
+    <sbol:displayId>pSrpR_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <dcterms:title>pSrpR Sequence</dcterms:title>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/pSrpR_sequence" />
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html" />
+    <sbol:elements>TCTATGATTGGTCCAGATTCGTTACCAATTGACAGCTAGCTCAGTCCTAGGTATATACATACATGCTTGTTTGTTTGTAAAC</sbol:elements>
+    <ns1:ownedBy rdf:resource="https://synbiohub.org/user/Gon" />
+    <ns1:topLevel rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/pSrpR_sequence/1" />
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="https://synbiohub.org/user/Gon/Cello0x6Fparts/E1_sequence/1">
+    <sbol:displayId>E1_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <dcterms:title>E1 Sequence</dcterms:title>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/E1_sequence" />
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html" />
+    <sbol:elements>CCCCCCGAGGAGTAGCAC</sbol:elements>
+    <ns1:ownedBy rdf:resource="https://synbiohub.org/user/Gon" />
+    <ns1:topLevel rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/E1_sequence/1" />
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="https://synbiohub.org/user/Gon/Cello0x6Fparts/BetI_sequence/1">
+    <sbol:displayId>BetI_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <dcterms:title>BetI Sequence</dcterms:title>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/BetI_sequence" />
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html" />
+    <sbol:elements>ATGCCGAAACTGGGTATGCAGAGCATTCGTCGTCGTCAGCTGATTGATGCAACCCTGGAAGCAATTAATGAAGTTGGTATGCATGATGCAACCATTGCACAGATTGCACGTCGTGCCGGTGTTAGCACCGGTATTATTAGCCATTATTTCCGCGATAAAAACGGTCTGCTGGAAGCAACCATGCGTGATATTACCAGCCAGCTGCGTGATGCAGTTCTGAATCGTCTGCATGCACTGCCGCAGGGTAGCGCAGAACAGCGTCTGCAGGCAATTGTTGGTGGTAATTTTGATGAAACCCAGGTTAGCAGCGCAGCAATGAAAGCATGGCTGGCATTTTGGGCAAGCAGCATGCATCAGCCGATGCTGTATCGTCTGCAGCAGGTTAGCAGTCGTCGTCTGCTGAGCAATCTGGTTAGCGAATTTCGTCGTGAACTGCCTCGTGAACAGGCACAAGAGGCAGGTTATGGTCTGGCAGCACTGATTGATGGTCTGTGGCTGCGTGCAGCACTGAGCGGTAAACCGCTGGATAAAACCCGTGCAAATAGCCTGACCCGTCATTTTATCACCCAGCATCTGCCGACCGATTAA</sbol:elements>
+    <ns1:ownedBy rdf:resource="https://synbiohub.org/user/Gon" />
+    <ns1:topLevel rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/BetI_sequence/1" />
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="https://synbiohub.org/user/Gon/Cello0x6Fparts/pTet_sequence/1">
+    <sbol:displayId>pTet_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <dcterms:title>pTet Sequence</dcterms:title>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/pTet_sequence" />
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html" />
+    <sbol:elements>TACTCCACCGTTGGCTTTTTTCCCTATCAGTGATAGAGATTGACATCCCTATCAGTGATAGAGATAATGAGCAC</sbol:elements>
+    <ns1:ownedBy rdf:resource="https://synbiohub.org/user/Gon" />
+    <ns1:topLevel rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/pTet_sequence/1" />
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="https://synbiohub.org/user/Gon/Cello0x6Fparts/pBetI_sequence/1">
+    <sbol:displayId>pBetI_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <dcterms:title>pBetI Sequence</dcterms:title>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/pBetI_sequence" />
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html" />
+    <sbol:elements>AGCGCGGGTGAGAGGGATTCGTTACCAATTGACAATTGATTGGACGTTCAATATAATGCTAGC</sbol:elements>
+    <ns1:ownedBy rdf:resource="https://synbiohub.org/user/Gon" />
+    <ns1:topLevel rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/pBetI_sequence/1" />
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="https://synbiohub.org/user/Gon/Cello0x6Fparts/L3S3P11_sequence/1">
+    <sbol:displayId>L3S3P11_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <dcterms:title>L3S3P11 Sequence</dcterms:title>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/L3S3P11_sequence" />
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html" />
+    <sbol:elements>CCAATTATTGAACACCCTTCGGGGTGTTTTTTTGTTTCTGGTCTACC</sbol:elements>
+    <ns1:ownedBy rdf:resource="https://synbiohub.org/user/Gon" />
+    <ns1:topLevel rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/L3S3P11_sequence/1" />
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="https://synbiohub.org/user/Gon/Cello0x6Fparts/RiboJ10_sequence/1">
+    <sbol:displayId>RiboJ10_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <dcterms:title>RiboJ10 Sequence</dcterms:title>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/RiboJ10_sequence" />
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html" />
+    <sbol:elements>CTGAAGCGCTCAACGGGTGTGCTTCCCGTTCTGATGAGTCCGTGAGGACGAAAGCGCCTCTACAAATAATTTTGTTTAA</sbol:elements>
+    <ns1:ownedBy rdf:resource="https://synbiohub.org/user/Gon" />
+    <ns1:topLevel rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/RiboJ10_sequence/1" />
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="https://synbiohub.org/user/Gon/Cello0x6Fparts/RiboJ51_sequence/1">
+    <sbol:displayId>RiboJ51_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <dcterms:title>RiboJ51 Sequence</dcterms:title>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/RiboJ51_sequence" />
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html" />
+    <sbol:elements>CTGAAGTAGTCACCGGCTGTGCTTGCCGGTCTGATGAGCCTGTGAAGGCGAAACTACCTCTACAAATAATTTTGTTTAA</sbol:elements>
+    <ns1:ownedBy rdf:resource="https://synbiohub.org/user/Gon" />
+    <ns1:topLevel rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/RiboJ51_sequence/1" />
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="https://synbiohub.org/user/Gon/Cello0x6Fparts/PhiF_sequence/1">
+    <sbol:displayId>PhiF_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <dcterms:title>PhiF Sequence</dcterms:title>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/PhiF_sequence" />
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html" />
+    <sbol:elements>ATGGCACGTACCCCGAGCCGTAGCAGCATTGGTAGCCTGCGTAGTCCGCATACCCATAAAGCAATTCTGACCAGCACCATTGAAATCCTGAAAGAATGTGGTTATAGCGGTCTGAGCATTGAAAGCGTTGCACGTCGTGCCGGTGCAAGCAAACCGACCATTTATCGTTGGTGGACCAATAAAGCAGCACTGATTGCCGAAGTGTATGAAAATGAAAGCGAACAGGTGCGTAAATTTCCGGATCTGGGTAGCTTTAAAGCCGATCTGGATTTTCTGCTGCGTAATCTGTGGAAAGTTTGGCGTGAAACCATTTGTGGTGAAGCATTTCGTTGTGTTATTGCAGAAGCACAGCTGGACCCTGCAACCCTGACCCAGCTGAAAGATCAGTTTATGGAACGTCGTCGTGAGATGCCGAAAAAACTGGTTGAAAATGCCATTAGCAATGGTGAACTGCCGAAAGATACCAATCGTGAACTGCTGCTGGATATGATTTTTGGTTTTTGTTGGTATCGCCTGCTGACCGAACAGCTGACCGTTGAACAGGATATTGAAGAATTTACCTTCCTGCTGATTAATGGTGTTTGTCCGGGTACACAGCGTTAA</sbol:elements>
+    <ns1:ownedBy rdf:resource="https://synbiohub.org/user/Gon" />
+    <ns1:topLevel rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/PhiF_sequence/1" />
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="https://synbiohub.org/user/Gon/Cello0x6Fparts/pBAD_sequence/1">
+    <sbol:displayId>pBAD_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <dcterms:title>pBAD Sequence</dcterms:title>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/pBAD_sequence" />
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html" />
+    <sbol:elements>ACTTTTCATACTCCCGCCATTCAGAGAAGAAACCAATTGTCCATATTGCATCAGACATTGCCGTCACTGCGTCTTTTACTGGCTCTTCTCGCTAACCAAACCGGTAACCCCGCTTATTAAAAGCATTCTGTAACAAAGCGGGACCAAAGCCATGACAAAAACGCGTAACAAAAGTGTCTATAATCACGGCAGAAAAGTCCACATTGATTATTTGCACGGCGTCACACTTTGCTATGCCATAGCATTTTTATCCATAAGATTAGCGGATCCTACCTGACGCTTTTTATCGCAACTCTCTACTGTTTCTCCATACCCGTTTTTTTGGGCTAGC</sbol:elements>
+    <ns1:ownedBy rdf:resource="https://synbiohub.org/user/Gon" />
+    <ns1:topLevel rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/pBAD_sequence/1" />
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="https://synbiohub.org/user/Gon/Cello0x6Fparts/J23105_sequence/1">
+    <sbol:displayId>J23105_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <dcterms:title>J23105 Sequence</dcterms:title>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/J23105_sequence" />
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html" />
+    <sbol:elements>TTTACGGCTAGCTCAGTCCTAGGTACTATGCTAGC</sbol:elements>
+    <ns1:ownedBy rdf:resource="https://synbiohub.org/user/Gon" />
+    <ns1:topLevel rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/J23105_sequence/1" />
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="https://synbiohub.org/user/Gon/Cello0x6Fparts/S3_sequence/1">
+    <sbol:displayId>S3_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <dcterms:title>S3 Sequence</dcterms:title>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/S3_sequence" />
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html" />
+    <sbol:elements>GAGTCTATGGACTATGTTTTCACAAAGGAAGTACCAGG</sbol:elements>
+    <ns1:ownedBy rdf:resource="https://synbiohub.org/user/Gon" />
+    <ns1:topLevel rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/S3_sequence/1" />
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="https://synbiohub.org/user/Gon/Cello0x6Fparts/L3S2P55_sequence/1">
+    <sbol:displayId>L3S2P55_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <dcterms:title>L3S2P55 Sequence</dcterms:title>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/L3S2P55_sequence" />
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html" />
+    <sbol:elements>CTCGGTACCAAAGACGAACAATAAGACGCTGAAAAGCGTCTTTTTTCGTTTTGGTCC</sbol:elements>
+    <ns1:ownedBy rdf:resource="https://synbiohub.org/user/Gon" />
+    <ns1:topLevel rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/L3S2P55_sequence/1" />
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="https://synbiohub.org/user/Gon/Cello0x6Fparts/LacI_sequence/1">
+    <sbol:displayId>LacI_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <dcterms:title>LacI Sequence</dcterms:title>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/LacI_sequence" />
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html" />
+    <sbol:elements>ATGAAACCAGTAACGTTATACGATGTCGCAGAGTATGCCGGTGTCTCTTATCAGACCGTTTCCCGCGTGGTGAACCAGGCCAGCCACGTTTCTGCGAAAACGCGGGAAAAAGTGGAAGCGGCGATGGCGGAGCTGAATTACATTCCCAACCGCGTGGCACAACAACTGGCGGGCAAACAGTCGTTGCTGATTGGCGTTGCCACCTCCAGTCTGGCCCTGCACGCGCCGTCGCAAATTGTCGCGGCGATTAAATCTCGCGCCGATCAACTGGGTGCCAGCGTGGTGGTGTCGATGGTAGAACGAAGCGGCGTCGAAGCCTGTAAAGCGGCGGTGCACAATCTTCTCGCGCAACGCGTCAGTGGGCTGATCATTAACTATCCGCTGGATGACCAGGATGCCATTGCTGTGGAAGCTGCCTGCACTAATGTTCCGGCGTTATTTCTTGATGTCTCTGACCAGACACCCATCAACAGTATTATTTTCTCCCATGAGGACGGTACGCGACTGGGCGTGGAGCATCTGGTCGCATTGGGTCACCAGCAAATCGCGCTGTTAGCGGGCCCATTAAGTTCTGTCTCGGCGCGTCTGCGTCTGGCTGGCTGGCATAAATATCTCACTCGCAATCAAATTCAGCCGATAGCGGAACGGGAAGGCGACTGGAGTGCCATGTCCGGTTTTCAACAAACCATGCAAATGCTGAATGAGGGCATCGTTCCCACTGCGATGCTGGTTGCCAACGATCAGATGGCGCTGGGCGCAATGCGCGCCATTACCGAGTCCGGGCTGCGCGTTGGTGCGGATATCTCGGTAGTGGGATACGACGATACCGAAGATAGCTCATGTTATATCCCGCCGTTAACCACCATCAAACAGGATTTTCGCCTGCTGGGGCAAACCAGCGTGGACCGCTTGCTGCAACTCTCTCAGGGCCAGGCGGTGAAGGGCAATCAGCTGTTGCCAGTCTCACTGGTGAAAAGAAAAACCACCCTGGCGCCCAATACGCAAACCGCCTCTCCCCGCGCGTTGGCCGATTCATTAATGCAGCTGGCACGACAGGTTTCCCGACTGGAAAGCGGGCAGTGATAA</sbol:elements>
+    <ns1:ownedBy rdf:resource="https://synbiohub.org/user/Gon" />
+    <ns1:topLevel rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/LacI_sequence/1" />
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="https://synbiohub.org/user/Gon/Cello0x6Fparts/F1_sequence/1">
+    <sbol:displayId>F1_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <dcterms:title>F1 Sequence</dcterms:title>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/F1_sequence" />
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html" />
+    <sbol:elements>CTATGGACTATGTTTTCACATACGAGGGGGATTAG</sbol:elements>
+    <ns1:ownedBy rdf:resource="https://synbiohub.org/user/Gon" />
+    <ns1:topLevel rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/F1_sequence/1" />
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="https://synbiohub.org/user/Gon/Cello0x6Fparts/ECK120029600_sequence/1">
+    <sbol:displayId>ECK120029600_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <dcterms:title>ECK120029600 Sequence</dcterms:title>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/ECK120029600_sequence" />
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html" />
+    <sbol:elements>TTCAGCCAAAAAACTTAAGACCGCCGGTCTTGTCCACTACCTTGCAGTAATGCGGTGGACAGGATCGGCGGTTTTCTTTTCTCTTCTCAA</sbol:elements>
+    <ns1:ownedBy rdf:resource="https://synbiohub.org/user/Gon" />
+    <ns1:topLevel rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/ECK120029600_sequence/1" />
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="https://synbiohub.org/user/Gon/Cello0x6Fparts/pHlyIIR_sequence/1">
+    <sbol:displayId>pHlyIIR_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <dcterms:title>pHlyIIR Sequence</dcterms:title>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/pHlyIIR_sequence" />
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html" />
+    <sbol:elements>ACCAGGAATCTGAACGATTCGTTACCAATTGACATATTTAAAATTCTTGTTTAAAATGCTAGC</sbol:elements>
+    <ns1:ownedBy rdf:resource="https://synbiohub.org/user/Gon" />
+    <ns1:topLevel rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/pHlyIIR_sequence/1" />
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="https://synbiohub.org/user/Gon/Cello0x6Fparts/P3_sequence/1">
+    <sbol:displayId>P3_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <dcterms:title>P3 Sequence</dcterms:title>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/P3_sequence" />
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html" />
+    <sbol:elements>CTTTACGAGGGCGATCCT</sbol:elements>
+    <ns1:ownedBy rdf:resource="https://synbiohub.org/user/Gon" />
+    <ns1:topLevel rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/P3_sequence/1" />
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="https://synbiohub.org/user/Gon/Cello0x6Fparts/ECK120033736_sequence/1">
+    <sbol:displayId>ECK120033736_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <dcterms:title>ECK120033736 Sequence</dcterms:title>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/ECK120033736_sequence" />
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html" />
+    <sbol:elements>AACGCATGAGAAAGCCCCCGGAAGATCACCTTCCGGGGGCTTTTTTATTGCGC</sbol:elements>
+    <ns1:ownedBy rdf:resource="https://synbiohub.org/user/Gon" />
+    <ns1:topLevel rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/ECK120033736_sequence/1" />
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="https://synbiohub.org/user/Gon/Cello0x6Fparts/SrpR_sequence/1">
+    <sbol:displayId>SrpR_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <dcterms:title>SrpR Sequence</dcterms:title>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/SrpR_sequence" />
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html" />
+    <sbol:elements>ATGGCACGTAAAACCGCAGCAGAAGCAGAAGAAACCCGTCAGCGTATTATTGATGCAGCACTGGAAGTTTTTGTTGCACAGGGTGTTAGTGATGCAACCCTGGATCAGATTGCACGTAAAGCCGGTGTTACCCGTGGTGCAGTTTATTGGCATTTTAATGGTAAACTGGAAGTTCTGCAGGCAGTTCTGGCAAGCCGTCAGCATCCGCTGGAACTGGATTTTACACCGGATCTGGGTATTGAACGTAGCTGGGAAGCAGTTGTTGTTGCAATGCTGGATGCAGTTCATAGTCCGCAGAGCAAACAGTTTAGCGAAATTCTGATTTATCAGGGTCTGGATGAAAGCGGTCTGATTCATAATCGTATGGTTCAGGCAAGCGATCGTTTTCTGCAGTATATTCATCAGGTTCTGCGTCATGCAGTTACCCAGGGTGAACTGCCGATTAATCTGGATCTGCAGACCAGCATTGGTGTTTTTAAAGGTCTGATTACCGGTCTGCTGTATGAAGGTCTGCGTAGCAAAGATCAGCAGGCACAGATTATCAAAGTTGCACTGGGTAGCTTTTGGGCACTGCTGCGTGAACCGCCTCGTTTTCTGCTGTGTGAAGAAGCACAGATTAAACAGGTGAAATCCTTCGAATAA</sbol:elements>
+    <ns1:ownedBy rdf:resource="https://synbiohub.org/user/Gon" />
+    <ns1:topLevel rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/SrpR_sequence/1" />
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="https://synbiohub.org/user/Gon/Cello0x6Fparts/AmtR_sequence/1">
+    <sbol:displayId>AmtR_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <dcterms:title>AmtR Sequence</dcterms:title>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/AmtR_sequence" />
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html" />
+    <sbol:elements>ATGGCAGGCGCAGTTGGTCGTCCGCGTCGTAGTGCACCGCGTCGTGCAGGTAAAAATCCGCGTGAAGAAATTCTGGATGCAAGCGCAGAACTGTTTACCCGTCAGGGTTTTGCAACCACCAGTACCCATCAGATTGCAGATGCAGTTGGTATTCGTCAGGCAAGCCTGTATTATCATTTTCCGAGCAAAACCGAAATCTTTCTGACCCTGCTGAAAAGCACCGTTGAACCGAGCACCGTTCTGGCAGAAGATCTGAGCACCCTGGATGCAGGTCCGGAAATGCGTCTGTGGGCAATTGTTGCAAGCGAAGTTCGTCTGCTGCTGAGCACCAAATGGAATGTTGGTCGTCTGTATCAGCTGCCGATTGTTGGTAGCGAAGAATTTGCAGAATATCATAGCCAGCGTGAAGCACTGACCAATGTTTTTCGTGATCTGGCAACCGAAATTGTTGGTGATGATCCGCGTGCAGAACTGCCGTTTCATATTACCATGAGCGTTATTGAAATGCGTCGCAATGATGGTAAAATTCCGAGTCCGCTGAGCGCAGATAGCCTGCCGGAAACCGCAATTATGCTGGCAGATGCAAGCCTGGCAGTTCTGGGTGCACCGCTGCCTGCAGATCGTGTTGAAAAAACCCTGGAACTGATTAAACAGGCAGATGCAAAATAA</sbol:elements>
+    <ns1:ownedBy rdf:resource="https://synbiohub.org/user/Gon" />
+    <ns1:topLevel rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/AmtR_sequence/1" />
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="https://synbiohub.org/user/Gon/Cello0x6Fparts/pTac_sequence/1">
+    <sbol:displayId>pTac_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <dcterms:title>pTac Sequence</dcterms:title>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/pTac_sequence" />
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html" />
+    <sbol:elements>AACGATCGTTGGCTGTGTTGACAATTAATCATCGGCTCGTATAATGTGTGGAATTGTGAGCGCTCACAATT</sbol:elements>
+    <ns1:ownedBy rdf:resource="https://synbiohub.org/user/Gon" />
+    <ns1:topLevel rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/pTac_sequence/1" />
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="https://synbiohub.org/user/Gon/Cello0x6Fparts/AmeR_sequence/1">
+    <sbol:displayId>AmeR_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <dcterms:title>AmeR Sequence</dcterms:title>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/AmeR_sequence" />
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html" />
+    <sbol:elements>ATGAACAAAACCATTGATCAGGTGCGTAAAGGTGATCGTAAAAGCGATCTGCCGGTTCGTCGTCGTCCGCGTCGTAGTGCCGAAGAAACCCGTCGTGATATTCTGGCAAAAGCCGAAGAACTGTTTCGTGAACGTGGTTTTAATGCAGTTGCCATTGCAGATATTGCAAGCGCACTGAATATGAGTCCGGCAAATGTGTTTAAACATTTTAGCAGCAAAAACGCACTGGTTGATGCAATTGGTTTTGGTCAGATTGGTGTTTTTGAACGTCAGATTTGTCCGCTGGATAAAAGCCATGCACCGCTGGATCGTCTGCGTCATCTGGCACGTAATCTGATGGAACAGCATCATCAGGATCATTTCAAACACATACGGGTTTTTATTCAGATCCTGATGACCGCCAAACAGGATATGAAATGTGGCGATTATTACAAAAGCGTGATTGCAAAACTGCTGGCCGAAATTATTCGTGATGGTGTTGAAGCAGGTCTGTATATTGCAACCGATATTCCGGTTCTGGCAGAAACCGTTCTGCATGCACTGACCAGCGTTATTCATCCGGTTCTGATTGCACAAGAAGATATTGGTAATCTGGCAACCCGTTGTGATCAGCTGGTTGATCTGATTGATGCAGGTCTGCGTAATCCGCTGGCAAAATAA</sbol:elements>
+    <ns1:ownedBy rdf:resource="https://synbiohub.org/user/Gon" />
+    <ns1:topLevel rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/AmeR_sequence/1" />
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="https://synbiohub.org/user/Gon/Cello0x6Fparts/RiboJ57_sequence/1">
+    <sbol:displayId>RiboJ57_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <dcterms:title>RiboJ57 Sequence</dcterms:title>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/RiboJ57_sequence" />
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html" />
+    <sbol:elements>CTGAAGAAGTCAATTAATGTGCTTTTAATTCTGATGAGTCGGTGACGACGAAACTTCCTCTACAAATAATTTTGTTTAA</sbol:elements>
+    <ns1:ownedBy rdf:resource="https://synbiohub.org/user/Gon" />
+    <ns1:topLevel rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/RiboJ57_sequence/1" />
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="https://synbiohub.org/user/Gon/Cello0x6Fparts/L3S3P31_sequence/1">
+    <sbol:displayId>L3S3P31_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <dcterms:title>L3S3P31 Sequence</dcterms:title>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/L3S3P31_sequence" />
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html" />
+    <sbol:elements>CCAATTATTGAACACCCTAACGGGTGTTTTTTTTTTTTTGGTCTACC</sbol:elements>
+    <ns1:ownedBy rdf:resource="https://synbiohub.org/user/Gon" />
+    <ns1:topLevel rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/L3S3P31_sequence/1" />
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="https://synbiohub.org/user/Gon/Cello0x6Fparts/pAmer_sequence/1">
+    <sbol:displayId>pAmer_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <dcterms:title>pAmer Sequence</dcterms:title>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/pAmer_sequence" />
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html" />
+    <sbol:elements>TCGTCACTAGAGGGCGATAGTGACAAACTTGACAACTCATCACTTCCTAGGTATAATGCTAGC</sbol:elements>
+    <ns1:ownedBy rdf:resource="https://synbiohub.org/user/Gon" />
+    <ns1:topLevel rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/pAmer_sequence/1" />
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="https://synbiohub.org/user/Gon/Cello0x6Fparts/RiboJ54_sequence/1">
+    <sbol:displayId>RiboJ54_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <dcterms:title>RiboJ54 Sequence</dcterms:title>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/RiboJ54_sequence" />
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html" />
+    <sbol:elements>CTGAAGGGGTCAGTTGATGTGCTTTCAACTCTGATGAGTCAGTGATGACGAAACCCCCTCTACAAATAATTTTGTTTAA</sbol:elements>
+    <ns1:ownedBy rdf:resource="https://synbiohub.org/user/Gon" />
+    <ns1:topLevel rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/RiboJ54_sequence/1" />
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="https://synbiohub.org/user/Gon/Cello0x6Fparts/HIyIIR_sequence/1">
+    <sbol:displayId>HIyIIR_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <dcterms:title>HIyIIR Sequence</dcterms:title>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/HIyIIR_sequence" />
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html" />
+    <sbol:elements>ATGAAATACATCCTGTTTGAGGTGTGCGAAATGGGTAAAAGCCGTGAACAGACCATGGAAAATATTCTGAAAGCAGCCAAAAAGAAATTCGGCGAACGTGGTTATGAAGGCACCAGCATTCAAGAAATTACCAAAGAAGCCAAAGTTAACGTTGCAATGGCCAGCTATTACTTTAATGGCAAAGAGAACCTGTACTACGAGGTGTTCAAAAAATACGGTCTGGCAAATGAACTGCCGAACTTTCTGGAAAAAAACCAGTTTAATCCGATTAATGCCCTGCGTGAATATCTGACCGTTTTTACCACCCACATTAAAGAAAATCCGGAAATTGGCACCCTGGCCTATGAAGAAATTATCAAAGAAAGCGCACGCCTGGAAAAAATCAAACCGTATTTTATCGGCAGCTTCGAACAGCTGAAAGAAATTCTGCAAGAGGGTGAAAAACAGGGTGTGTTTCACTTTTTTAGCATCAACCATACCATCCATTGGATTACCAGCATTGTTCTGTTTCCGAAATTCAAAAAATTCATCGATAGCCTGGGTCCGAATGAAACCAATGATACCAATCATGAATGGATGCCGGAAGATCTGGTTAGCCGTATTATTAGCGCACTGACCGATAAACCGAACATTTAA</sbol:elements>
+    <ns1:ownedBy rdf:resource="https://synbiohub.org/user/Gon" />
+    <ns1:topLevel rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/HIyIIR_sequence/1" />
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="https://synbiohub.org/user/Gon/Cello0x6Fparts/A1_sequence/1">
+    <sbol:displayId>A1_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <dcterms:title>A1 Sequence</dcterms:title>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/A1_sequence" />
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html" />
+    <sbol:elements>AATGTTCCCTAATAATCAGCAAAGAGGTTACTAG</sbol:elements>
+    <ns1:ownedBy rdf:resource="https://synbiohub.org/user/Gon" />
+    <ns1:topLevel rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/A1_sequence/1" />
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="https://synbiohub.org/user/Gon/Cello0x6Fparts/TetR_sequence/1">
+    <sbol:displayId>TetR_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <dcterms:title>TetR Sequence</dcterms:title>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/TetR_sequence" />
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html" />
+    <sbol:elements>ATGTCCAGATTAGATAAAAGTAAAGTGATTAACAGCGCATTAGAGCTGCTTAATGAGGTCGGAATCGAAGGTTTAACAACCCGTAAACTCGCCCAGAAGCTAGGTGTAGAGCAGCCTACATTGTATTGGCATGTAAAAAATAAGCGGGCTTTGCTCGACGCCTTAGCCATTGAGATGTTAGATAGGCACCATACTCACTTTTGCCCTTTAGAAGGGGAAAGCTGGCAAGATTTTTTACGTAATAACGCTAAAAGTTTTAGATGTGCTTTACTAAGTCATCGCGATGGAGCAAAAGTACATTTAGGTACACGGCCTACAGAAAAACAGTATGAAACTCTCGAAAATCAATTAGCCTTTTTATGCCAACAAGGTTTTTCACTAGAGAATGCATTATATGCACTCAGCGCTGTGGGGCATTTTACTTTAGGTTGCGTATTGGAAGATCAAGAGCATCAAGTCGCTAAAGAAGAAAGGGAAACACCTACTACTGATAGTATGCCGCCATTATTACGACAAGCTATCGAATTATTTGATCACCAAGGTGCAGAGCCAGCCTTCTTATTCGGCCTTGAATTGATCATATGCGGATTAGAAAAACAACTTAAATGTGAAAGTGGGTCCTAA</sbol:elements>
+    <ns1:ownedBy rdf:resource="https://synbiohub.org/user/Gon" />
+    <ns1:topLevel rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/TetR_sequence/1" />
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="https://synbiohub.org/user/Gon/Cello0x6Fparts/BydvJ_sequence/1">
+    <sbol:displayId>BydvJ_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <dcterms:title>BydvJ Sequence</dcterms:title>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/BydvJ_sequence" />
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html" />
+    <sbol:elements>CTGAAGGGTGTCTCAAGGTGCGTACCTTGACTGATGAGTCCGAAAGGACGAAACACCCCTCTACAAATAATTTTGTTTAA</sbol:elements>
+    <ns1:ownedBy rdf:resource="https://synbiohub.org/user/Gon" />
+    <ns1:topLevel rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/BydvJ_sequence/1" />
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="https://synbiohub.org/user/Gon/Cello0x6Fparts/RiboJ53_sequence/1">
+    <sbol:displayId>RiboJ53_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <dcterms:title>RiboJ53 Sequence</dcterms:title>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/RiboJ53_sequence" />
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html" />
+    <sbol:elements>CTGAAGCGGTCAACGCATGTGCTTTGCGTTCTGATGAGACAGTGATGTCGAAACCGCCTCTACAAATAATTTTGTTTAA</sbol:elements>
+    <ns1:ownedBy rdf:resource="https://synbiohub.org/user/Gon" />
+    <ns1:topLevel rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/RiboJ53_sequence/1" />
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="https://synbiohub.org/user/Gon/Cello0x6Fparts/ECK120033737_sequence/1">
+    <sbol:displayId>ECK120033737_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <dcterms:title>ECK120033737 Sequence</dcterms:title>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/ECK120033737_sequence" />
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html" />
+    <sbol:elements>GGAAACACAGAAAAAAGCCCGCACCTGACAGTGCGGGCTTTTTTTTTCGACCAAAGG</sbol:elements>
+    <ns1:ownedBy rdf:resource="https://synbiohub.org/user/Gon" />
+    <ns1:topLevel rdf:resource="https://synbiohub.org/user/Gon/Cello0x6Fparts/ECK120033737_sequence/1" />
+  </sbol:Sequence>
+</rdf:RDF>
