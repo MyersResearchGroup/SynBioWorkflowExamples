@@ -1,0 +1,2229 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<sbml xmlns="http://www.sbml.org/sbml/level3/version2/core" comp:required="true" layout:required="false" level="3" version="2" xmlns:comp="http://www.sbml.org/sbml/level3/version1/comp/version1" xmlns:layout="http://www.sbml.org/sbml/level3/version1/layout/version1">
+  <model id="module6" metaid="iBioSim1">
+    <annotation>
+      <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+          <rdf:Description rdf:about="#iBioSim1">
+            <mts:ModuleDefinitions>
+              <rdf:Bag>
+                <rdf:li rdf:resource="https://sbolcanvas.org/module6"/></rdf:Bag></mts:ModuleDefinitions></rdf:Description></rdf:RDF></ModelToSBOL>
+    </annotation>
+      <comp:listOfPorts xmlns:comp="http://www.sbml.org/sbml/level3/version1/comp/version1">
+      <comp:port comp:id="compartment__Cell" comp:idRef="Cell"/>
+      <comp:port comp:id="output__protein_TetR_12" comp:idRef="protein_TetR_12" sboTerm="SBO:0000601"/>
+      <comp:port comp:id="output__protein_SrpR_11" comp:idRef="protein_SrpR_11" sboTerm="SBO:0000601"/>
+      <comp:port comp:id="output__Ara_15" comp:idRef="Ara_15" sboTerm="SBO:0000601"/>
+      <comp:port comp:id="output__complex_IPTG_LacI_16" comp:idRef="complex_IPTG_LacI_16" sboTerm="SBO:0000601"/>
+      <comp:port comp:id="output__protein_HIyIIR_61" comp:idRef="protein_HIyIIR_61" sboTerm="SBO:0000601"/>
+      <comp:port comp:id="output__protein_PhiF_63" comp:idRef="protein_PhiF_63" sboTerm="SBO:0000601"/>
+      <comp:port comp:id="output__protein_BetI_62" comp:idRef="protein_BetI_62" sboTerm="SBO:0000601"/>
+      <comp:port comp:id="output__IPTG_13" comp:idRef="IPTG_13" sboTerm="SBO:0000601"/>
+      <comp:port comp:id="output__protein_AraC_43" comp:idRef="protein_AraC_43" sboTerm="SBO:0000601"/>
+      <comp:port comp:id="output__protein_LacI_14" comp:idRef="protein_LacI_14" sboTerm="SBO:0000601"/>
+      <comp:port comp:id="output__complex_ara_AraC_44" comp:idRef="complex_ara_AraC_44" sboTerm="SBO:0000601"/>
+      <comp:port comp:id="output__complex_aTc_TetR_34" comp:idRef="complex_aTc_TetR_34" sboTerm="SBO:0000601"/>
+      <comp:port comp:id="output__aTc_35" comp:idRef="aTc_35" sboTerm="SBO:0000601"/>
+      <comp:port comp:id="output__protein_GFP_273" comp:idRef="protein_GFP_273" sboTerm="SBO:0000601"/>
+      <comp:port comp:id="output__protein_AmtR_17" comp:idRef="protein_AmtR_17" sboTerm="SBO:0000601"/>
+      <comp:port comp:id="output__viqPKgnP_60" comp:idRef="viqPKgnP_60" sboTerm="SBO:0000601"/>
+    </comp:listOfPorts>
+    <layout:listOfLayouts xmlns:layout="http://www.sbml.org/sbml/level3/version1/layout/version1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <layout:layout layout:id="iBioSim">
+        <layout:dimensions layout:depth="0" layout:height="29" layout:width="99"/>
+        <layout:listOfSpeciesGlyphs>
+          <layout:speciesGlyph layout:id="Glyph__oD9RHKGt_36" layout:species="oD9RHKGt_36">
+            <layout:boundingBox>
+              <layout:position layout:x="-1" layout:y="-1"/>
+              <layout:dimensions layout:height="30" layout:width="100"/>
+            </layout:boundingBox>
+          </layout:speciesGlyph>
+          <layout:speciesGlyph layout:id="Glyph__pSrpR" layout:species="pSrpR">
+            <layout:boundingBox>
+              <layout:position layout:x="-1" layout:y="-1"/>
+              <layout:dimensions layout:height="30" layout:width="100"/>
+            </layout:boundingBox>
+          </layout:speciesGlyph>
+          <layout:speciesGlyph layout:id="Glyph__pBetI" layout:species="pBetI">
+            <layout:boundingBox>
+              <layout:position layout:x="-1" layout:y="-1"/>
+              <layout:dimensions layout:height="30" layout:width="100"/>
+            </layout:boundingBox>
+          </layout:speciesGlyph>
+          <layout:speciesGlyph layout:id="Glyph__i9PGKihNT_45" layout:species="i9PGKihNT_45">
+            <layout:boundingBox>
+              <layout:position layout:x="-1" layout:y="-1"/>
+              <layout:dimensions layout:height="30" layout:width="100"/>
+            </layout:boundingBox>
+          </layout:speciesGlyph>
+          <layout:speciesGlyph layout:id="Glyph__pTet" layout:species="pTet">
+            <layout:boundingBox>
+              <layout:position layout:x="-1" layout:y="-1"/>
+              <layout:dimensions layout:height="30" layout:width="100"/>
+            </layout:boundingBox>
+          </layout:speciesGlyph>
+          <layout:speciesGlyph layout:id="Glyph__pTac" layout:species="pTac">
+            <layout:boundingBox>
+              <layout:position layout:x="-1" layout:y="-1"/>
+              <layout:dimensions layout:height="30" layout:width="100"/>
+            </layout:boundingBox>
+          </layout:speciesGlyph>
+          <layout:speciesGlyph layout:id="Glyph__Pro_7WpY" layout:species="Pro_7WpY">
+            <layout:boundingBox>
+              <layout:position layout:x="-1" layout:y="-1"/>
+              <layout:dimensions layout:height="30" layout:width="100"/>
+            </layout:boundingBox>
+          </layout:speciesGlyph>
+          <layout:speciesGlyph layout:id="Glyph__Pro_uiFS" layout:species="Pro_uiFS">
+            <layout:boundingBox>
+              <layout:position layout:x="-1" layout:y="-1"/>
+              <layout:dimensions layout:height="30" layout:width="100"/>
+            </layout:boundingBox>
+          </layout:speciesGlyph>
+          <layout:speciesGlyph layout:id="Glyph__pHlyIIR" layout:species="pHlyIIR">
+            <layout:boundingBox>
+              <layout:position layout:x="-1" layout:y="-1"/>
+              <layout:dimensions layout:height="30" layout:width="100"/>
+            </layout:boundingBox>
+          </layout:speciesGlyph>
+          <layout:speciesGlyph layout:id="Glyph__pAmer" layout:species="pAmer">
+            <layout:boundingBox>
+              <layout:position layout:x="-1" layout:y="-1"/>
+              <layout:dimensions layout:height="30" layout:width="100"/>
+            </layout:boundingBox>
+          </layout:speciesGlyph>
+          <layout:speciesGlyph layout:id="Glyph__PPMkI055_64" layout:species="PPMkI055_64">
+            <layout:boundingBox>
+              <layout:position layout:x="-1" layout:y="-1"/>
+              <layout:dimensions layout:height="30" layout:width="100"/>
+            </layout:boundingBox>
+          </layout:speciesGlyph>
+          <layout:speciesGlyph layout:id="Glyph__PSrsRRJ0_18" layout:species="PSrsRRJ0_18">
+            <layout:boundingBox>
+              <layout:position layout:x="-1" layout:y="-1"/>
+              <layout:dimensions layout:height="30" layout:width="100"/>
+            </layout:boundingBox>
+          </layout:speciesGlyph>
+        </layout:listOfSpeciesGlyphs>
+        <layout:listOfTextGlyphs>
+          <layout:textGlyph layout:graphicalObject="Glyph__oD9RHKGt_36" layout:id="TextGlyph__oD9RHKGt_36" layout:text="oD9RHKGt_36">
+            <layout:boundingBox>
+              <layout:position layout:x="-1" layout:y="-1"/>
+              <layout:dimensions layout:height="30" layout:width="100"/>
+            </layout:boundingBox>
+          </layout:textGlyph>
+          <layout:textGlyph layout:graphicalObject="Glyph__pSrpR" layout:id="TextGlyph__pSrpR" layout:text="pSrpR">
+            <layout:boundingBox>
+              <layout:position layout:x="-1" layout:y="-1"/>
+              <layout:dimensions layout:height="30" layout:width="100"/>
+            </layout:boundingBox>
+          </layout:textGlyph>
+          <layout:textGlyph layout:graphicalObject="Glyph__pBetI" layout:id="TextGlyph__pBetI" layout:text="pBetI">
+            <layout:boundingBox>
+              <layout:position layout:x="-1" layout:y="-1"/>
+              <layout:dimensions layout:height="30" layout:width="100"/>
+            </layout:boundingBox>
+          </layout:textGlyph>
+          <layout:textGlyph layout:graphicalObject="Glyph__i9PGKihNT_45" layout:id="TextGlyph__i9PGKihNT_45" layout:text="i9PGKihNT_45">
+            <layout:boundingBox>
+              <layout:position layout:x="-1" layout:y="-1"/>
+              <layout:dimensions layout:height="30" layout:width="100"/>
+            </layout:boundingBox>
+          </layout:textGlyph>
+          <layout:textGlyph layout:graphicalObject="Glyph__pTet" layout:id="TextGlyph__pTet" layout:text="pTet">
+            <layout:boundingBox>
+              <layout:position layout:x="-1" layout:y="-1"/>
+              <layout:dimensions layout:height="30" layout:width="100"/>
+            </layout:boundingBox>
+          </layout:textGlyph>
+          <layout:textGlyph layout:graphicalObject="Glyph__pTac" layout:id="TextGlyph__pTac" layout:text="pTac">
+            <layout:boundingBox>
+              <layout:position layout:x="-1" layout:y="-1"/>
+              <layout:dimensions layout:height="30" layout:width="100"/>
+            </layout:boundingBox>
+          </layout:textGlyph>
+          <layout:textGlyph layout:graphicalObject="Glyph__Pro_7WpY" layout:id="TextGlyph__Pro_7WpY" layout:text="Pro_7WpY">
+            <layout:boundingBox>
+              <layout:position layout:x="-1" layout:y="-1"/>
+              <layout:dimensions layout:height="30" layout:width="100"/>
+            </layout:boundingBox>
+          </layout:textGlyph>
+          <layout:textGlyph layout:graphicalObject="Glyph__Pro_uiFS" layout:id="TextGlyph__Pro_uiFS" layout:text="Pro_uiFS">
+            <layout:boundingBox>
+              <layout:position layout:x="-1" layout:y="-1"/>
+              <layout:dimensions layout:height="30" layout:width="100"/>
+            </layout:boundingBox>
+          </layout:textGlyph>
+          <layout:textGlyph layout:graphicalObject="Glyph__pHlyIIR" layout:id="TextGlyph__pHlyIIR" layout:text="pHlyIIR">
+            <layout:boundingBox>
+              <layout:position layout:x="-1" layout:y="-1"/>
+              <layout:dimensions layout:height="30" layout:width="100"/>
+            </layout:boundingBox>
+          </layout:textGlyph>
+          <layout:textGlyph layout:graphicalObject="Glyph__pAmer" layout:id="TextGlyph__pAmer" layout:text="pAmer">
+            <layout:boundingBox>
+              <layout:position layout:x="-1" layout:y="-1"/>
+              <layout:dimensions layout:height="30" layout:width="100"/>
+            </layout:boundingBox>
+          </layout:textGlyph>
+          <layout:textGlyph layout:graphicalObject="Glyph__PPMkI055_64" layout:id="TextGlyph__PPMkI055_64" layout:text="PPMkI055_64">
+            <layout:boundingBox>
+              <layout:position layout:x="-1" layout:y="-1"/>
+              <layout:dimensions layout:height="30" layout:width="100"/>
+            </layout:boundingBox>
+          </layout:textGlyph>
+          <layout:textGlyph layout:graphicalObject="Glyph__PSrsRRJ0_18" layout:id="TextGlyph__PSrsRRJ0_18" layout:text="PSrsRRJ0_18">
+            <layout:boundingBox>
+              <layout:position layout:x="-1" layout:y="-1"/>
+              <layout:dimensions layout:height="30" layout:width="100"/>
+            </layout:boundingBox>
+          </layout:textGlyph>
+        </layout:listOfTextGlyphs>
+      </layout:layout>
+    </layout:listOfLayouts>
+    <listOfCompartments>
+      <compartment constant="true" id="Cell" size="1" spatialDimensions="3"/>
+    </listOfCompartments>
+    <listOfSpecies>
+      <species boundaryCondition="false" compartment="Cell" constant="false" hasOnlySubstanceUnits="true" id="protein_TetR_12" initialAmount="0" metaid="iBioSim2" sboTerm="SBO:0000252">
+        <annotation>
+          <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+            <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+              <rdf:Description rdf:about="#iBioSim2">
+                <mts:ComponentDefinitions>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="https://synbiohub.org/user/Gon/Cello0xF6parts/protein_TetR/1"/></rdf:Bag></mts:ComponentDefinitions><mts:FunctionalComponents>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="https://synbiohub.org/user/Gon/Cello0xF6parts/protein_TetR/1"/></rdf:Bag></mts:FunctionalComponents><mts:DNAComponents>
+                  <rdf:Seq>
+                    <rdf:li rdf:resource="https://sbolcanvas.org/PSrsRRJ0/1"/></rdf:Seq></mts:DNAComponents><mts:Strand>+</mts:Strand></rdf:Description></rdf:RDF></ModelToSBOL>
+        </annotation>
+            </species>
+      <species boundaryCondition="false" compartment="Cell" constant="false" hasOnlySubstanceUnits="true" id="protein_SrpR_11" initialAmount="0" metaid="iBioSim3" sboTerm="SBO:0000252">
+        <annotation>
+          <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+            <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+              <rdf:Description rdf:about="#iBioSim3">
+                <mts:ComponentDefinitions>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="https://synbiohub.org/user/Gon/Cello0xF6parts/protein_SrpR/1"/></rdf:Bag></mts:ComponentDefinitions><mts:FunctionalComponents>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="https://synbiohub.org/user/Gon/Cello0xF6parts/protein_SrpR/1"/></rdf:Bag></mts:FunctionalComponents><mts:DNAComponents>
+                  <rdf:Seq>
+                    <rdf:li rdf:resource="https://sbolcanvas.org/VgzDjWGC/1"/></rdf:Seq></mts:DNAComponents><mts:Strand>+</mts:Strand></rdf:Description></rdf:RDF></ModelToSBOL>
+        </annotation>
+            </species>
+      <species boundaryCondition="false" compartment="Cell" constant="false" hasOnlySubstanceUnits="true" id="Ara_15" initialAmount="0" metaid="iBioSim4" sboTerm="SBO:0000247">
+        <annotation>
+          <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+            <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+              <rdf:Description rdf:about="#iBioSim4">
+                <mts:ComponentDefinitions>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="https://synbiohub.org/user/Gon/Cello0xF6parts/Ara/1"/></rdf:Bag></mts:ComponentDefinitions><mts:FunctionalComponents>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="https://synbiohub.org/user/Gon/Cello0xF6parts/Ara/1"/></rdf:Bag></mts:FunctionalComponents></rdf:Description></rdf:RDF></ModelToSBOL>
+        </annotation>
+            </species>
+      <species boundaryCondition="false" compartment="Cell" constant="false" hasOnlySubstanceUnits="true" id="oD9RHKGt_36" initialAmount="2" metaid="iBioSim5" sboTerm="SBO:0000590">
+        <annotation>
+          <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+            <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+              <rdf:Description rdf:about="#iBioSim5">
+                <mts:ComponentDefinitions>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="https://sbolcanvas.org/oD9RHKGt/1"/></rdf:Bag></mts:ComponentDefinitions><mts:FunctionalComponents>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="https://sbolcanvas.org/oD9RHKGt/1"/></rdf:Bag></mts:FunctionalComponents><mts:DNAComponents>
+                  <rdf:Seq>
+                    <rdf:li rdf:resource="https://sbolcanvas.org/oD9RHKGt/1"/></rdf:Seq></mts:DNAComponents><mts:Strand>+</mts:Strand></rdf:Description></rdf:RDF></ModelToSBOL>
+        </annotation>
+            </species>
+      <species boundaryCondition="false" compartment="Cell" constant="false" hasOnlySubstanceUnits="true" id="complex_IPTG_LacI_16" initialAmount="0" metaid="iBioSim6" sboTerm="SBO:0000253">
+        <annotation>
+          <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+            <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+              <rdf:Description rdf:about="#iBioSim6">
+                <mts:ComponentDefinitions>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="https://synbiohub.org/user/Gon/Cello0xF6parts/complex_IPTG_LacI/1"/></rdf:Bag></mts:ComponentDefinitions><mts:FunctionalComponents>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="https://synbiohub.org/user/Gon/Cello0xF6parts/complex_IPTG_LacI/1"/></rdf:Bag></mts:FunctionalComponents></rdf:Description></rdf:RDF></ModelToSBOL>
+        </annotation>
+            </species>
+      <species boundaryCondition="false" compartment="Cell" constant="false" hasOnlySubstanceUnits="true" id="pSrpR" initialAmount="2" metaid="iBioSim7" sboTerm="SBO:0000590">
+        <annotation>
+          <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+            <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+              <rdf:Description rdf:about="#iBioSim7">
+                <mts:ComponentDefinitions>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="https://sbolcanvas.org/AUvlcivj/1"/></rdf:Bag></mts:ComponentDefinitions><mts:FunctionalComponents>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="https://sbolcanvas.org/AUvlcivj/1"/></rdf:Bag></mts:FunctionalComponents><mts:DNAComponents>
+                  <rdf:Seq>
+                    <rdf:li rdf:resource="https://sbolcanvas.org/AUvlcivj/1"/></rdf:Seq></mts:DNAComponents><mts:Strand>+</mts:Strand></rdf:Description></rdf:RDF></ModelToSBOL>
+        </annotation>
+            </species>
+      <species boundaryCondition="false" compartment="Cell" constant="false" hasOnlySubstanceUnits="true" id="pBetI" initialAmount="2" metaid="iBioSim8" sboTerm="SBO:0000590">
+        <annotation>
+          <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+            <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+              <rdf:Description rdf:about="#iBioSim8">
+                <mts:ComponentDefinitions>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="https://sbolcanvas.org/AUvlcivj/1"/></rdf:Bag></mts:ComponentDefinitions><mts:FunctionalComponents>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="https://sbolcanvas.org/AUvlcivj/1"/></rdf:Bag></mts:FunctionalComponents><mts:DNAComponents>
+                  <rdf:Seq>
+                    <rdf:li rdf:resource="https://sbolcanvas.org/AUvlcivj/1"/></rdf:Seq></mts:DNAComponents><mts:Strand>+</mts:Strand></rdf:Description></rdf:RDF></ModelToSBOL>
+        </annotation>
+            </species>
+      <species boundaryCondition="false" compartment="Cell" constant="false" hasOnlySubstanceUnits="true" id="protein_HIyIIR_61" initialAmount="0" metaid="iBioSim9" sboTerm="SBO:0000252">
+        <annotation>
+          <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+            <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+              <rdf:Description rdf:about="#iBioSim9">
+                <mts:ComponentDefinitions>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="https://synbiohub.org/user/Gon/Cello0xF6parts/protein_HIyIIR/1"/></rdf:Bag></mts:ComponentDefinitions><mts:FunctionalComponents>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="https://synbiohub.org/user/Gon/Cello0xF6parts/protein_HIyIIR/1"/></rdf:Bag></mts:FunctionalComponents><mts:DNAComponents>
+                  <rdf:Seq>
+                    <rdf:li rdf:resource="https://sbolcanvas.org/oD9RHKGt/1"/></rdf:Seq></mts:DNAComponents><mts:Strand>+</mts:Strand></rdf:Description></rdf:RDF></ModelToSBOL>
+        </annotation>
+            </species>
+      <species boundaryCondition="false" compartment="Cell" constant="false" hasOnlySubstanceUnits="true" id="protein_PhiF_63" initialAmount="0" metaid="iBioSim10" sboTerm="SBO:0000252">
+        <annotation>
+          <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+            <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+              <rdf:Description rdf:about="#iBioSim10">
+                <mts:ComponentDefinitions>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="https://synbiohub.org/user/Gon/Cello0xF6parts/protein_PhiF/1"/></rdf:Bag></mts:ComponentDefinitions><mts:FunctionalComponents>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="https://synbiohub.org/user/Gon/Cello0xF6parts/protein_PhiF/1"/></rdf:Bag></mts:FunctionalComponents><mts:DNAComponents>
+                  <rdf:Seq>
+                    <rdf:li rdf:resource="https://sbolcanvas.org/AUvlcivj/1"/></rdf:Seq></mts:DNAComponents><mts:Strand>+</mts:Strand></rdf:Description></rdf:RDF></ModelToSBOL>
+        </annotation>
+            </species>
+      <species boundaryCondition="false" compartment="Cell" constant="false" hasOnlySubstanceUnits="true" id="protein_BetI_62" initialAmount="0" metaid="iBioSim11" sboTerm="SBO:0000252">
+        <annotation>
+          <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+            <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+              <rdf:Description rdf:about="#iBioSim11">
+                <mts:ComponentDefinitions>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="https://synbiohub.org/user/Gon/Cello0xF6parts/protein_BetI/1"/></rdf:Bag></mts:ComponentDefinitions><mts:FunctionalComponents>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="https://synbiohub.org/user/Gon/Cello0xF6parts/protein_BetI/1"/></rdf:Bag></mts:FunctionalComponents><mts:DNAComponents>
+                  <rdf:Seq>
+                    <rdf:li rdf:resource="https://sbolcanvas.org/Fto8PjxH/1"/></rdf:Seq></mts:DNAComponents><mts:Strand>+</mts:Strand></rdf:Description></rdf:RDF></ModelToSBOL>
+        </annotation>
+            </species>
+      <species boundaryCondition="false" compartment="Cell" constant="false" hasOnlySubstanceUnits="true" id="i9PGKihNT_45" initialAmount="2" metaid="iBioSim12" sboTerm="SBO:0000590">
+        <annotation>
+          <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+            <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+              <rdf:Description rdf:about="#iBioSim12">
+                <mts:ComponentDefinitions>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="https://sbolcanvas.org/i9PGKihNT/1"/></rdf:Bag></mts:ComponentDefinitions><mts:FunctionalComponents>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="https://sbolcanvas.org/i9PGKihNT/1"/></rdf:Bag></mts:FunctionalComponents><mts:DNAComponents>
+                  <rdf:Seq>
+                    <rdf:li rdf:resource="https://sbolcanvas.org/i9PGKihNT/1"/></rdf:Seq></mts:DNAComponents><mts:Strand>+</mts:Strand></rdf:Description></rdf:RDF></ModelToSBOL>
+        </annotation>
+            </species>
+      <species boundaryCondition="false" compartment="Cell" constant="false" hasOnlySubstanceUnits="true" id="pTet" initialAmount="2" metaid="iBioSim13" sboTerm="SBO:0000590">
+        <annotation>
+          <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+            <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+              <rdf:Description rdf:about="#iBioSim13">
+                <mts:ComponentDefinitions>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="https://sbolcanvas.org/VgzDjWGC/1"/></rdf:Bag></mts:ComponentDefinitions><mts:FunctionalComponents>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="https://sbolcanvas.org/VgzDjWGC/1"/></rdf:Bag></mts:FunctionalComponents><mts:DNAComponents>
+                  <rdf:Seq>
+                    <rdf:li rdf:resource="https://sbolcanvas.org/VgzDjWGC/1"/></rdf:Seq></mts:DNAComponents><mts:Strand>+</mts:Strand></rdf:Description></rdf:RDF></ModelToSBOL>
+        </annotation>
+            </species>
+      <species boundaryCondition="false" compartment="Cell" constant="false" hasOnlySubstanceUnits="true" id="pTac" initialAmount="2" metaid="iBioSim14" sboTerm="SBO:0000590">
+        <annotation>
+          <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+            <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+              <rdf:Description rdf:about="#iBioSim14">
+                <mts:ComponentDefinitions>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="https://sbolcanvas.org/VgzDjWGC/1"/></rdf:Bag></mts:ComponentDefinitions><mts:FunctionalComponents>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="https://sbolcanvas.org/VgzDjWGC/1"/></rdf:Bag></mts:FunctionalComponents><mts:DNAComponents>
+                  <rdf:Seq>
+                    <rdf:li rdf:resource="https://sbolcanvas.org/VgzDjWGC/1"/></rdf:Seq></mts:DNAComponents><mts:Strand>+</mts:Strand></rdf:Description></rdf:RDF></ModelToSBOL>
+        </annotation>
+            </species>
+      <species boundaryCondition="false" compartment="Cell" constant="false" hasOnlySubstanceUnits="true" id="Pro_7WpY" initialAmount="2" metaid="iBioSim15" sboTerm="SBO:0000590">
+        <annotation>
+          <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+            <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+              <rdf:Description rdf:about="#iBioSim15">
+                <mts:ComponentDefinitions>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="https://sbolcanvas.org/JPzJhMix/1"/></rdf:Bag></mts:ComponentDefinitions><mts:FunctionalComponents>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="https://sbolcanvas.org/JPzJhMix/1"/></rdf:Bag></mts:FunctionalComponents><mts:DNAComponents>
+                  <rdf:Seq>
+                    <rdf:li rdf:resource="https://sbolcanvas.org/JPzJhMix/1"/></rdf:Seq></mts:DNAComponents><mts:Strand>+</mts:Strand></rdf:Description></rdf:RDF></ModelToSBOL>
+        </annotation>
+            </species>
+      <species boundaryCondition="false" compartment="Cell" constant="false" hasOnlySubstanceUnits="true" id="Pro_uiFS" initialAmount="2" metaid="iBioSim16" sboTerm="SBO:0000590">
+        <annotation>
+          <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+            <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+              <rdf:Description rdf:about="#iBioSim16">
+                <mts:ComponentDefinitions>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="https://sbolcanvas.org/JPzJhMix/1"/></rdf:Bag></mts:ComponentDefinitions><mts:FunctionalComponents>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="https://sbolcanvas.org/JPzJhMix/1"/></rdf:Bag></mts:FunctionalComponents><mts:DNAComponents>
+                  <rdf:Seq>
+                    <rdf:li rdf:resource="https://sbolcanvas.org/JPzJhMix/1"/></rdf:Seq></mts:DNAComponents><mts:Strand>+</mts:Strand></rdf:Description></rdf:RDF></ModelToSBOL>
+        </annotation>
+            </species>
+      <species boundaryCondition="false" compartment="Cell" constant="false" hasOnlySubstanceUnits="true" id="IPTG_13" initialAmount="0" metaid="iBioSim17" sboTerm="SBO:0000247">
+        <annotation>
+          <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+            <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+              <rdf:Description rdf:about="#iBioSim17">
+                <mts:ComponentDefinitions>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="https://synbiohub.org/user/Gon/Cello0xF6parts/IPTG/1"/></rdf:Bag></mts:ComponentDefinitions><mts:FunctionalComponents>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="https://synbiohub.org/user/Gon/Cello0xF6parts/IPTG/1"/></rdf:Bag></mts:FunctionalComponents></rdf:Description></rdf:RDF></ModelToSBOL>
+        </annotation>
+            </species>
+      <species boundaryCondition="false" compartment="Cell" constant="false" hasOnlySubstanceUnits="true" id="protein_AraC_43" initialAmount="0" metaid="iBioSim18" sboTerm="SBO:0000252">
+        <annotation>
+          <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+            <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+              <rdf:Description rdf:about="#iBioSim18">
+                <mts:ComponentDefinitions>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="https://synbiohub.org/user/Gon/Cello0xF6parts/protein_AraC/1"/></rdf:Bag></mts:ComponentDefinitions><mts:FunctionalComponents>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="https://synbiohub.org/user/Gon/Cello0xF6parts/protein_AraC/1"/></rdf:Bag></mts:FunctionalComponents><mts:DNAComponents>
+                  <rdf:Seq>
+                    <rdf:li rdf:resource="https://sbolcanvas.org/PSrsRRJ0/1"/></rdf:Seq></mts:DNAComponents><mts:Strand>+</mts:Strand></rdf:Description></rdf:RDF></ModelToSBOL>
+        </annotation>
+            </species>
+      <species boundaryCondition="false" compartment="Cell" constant="false" hasOnlySubstanceUnits="true" id="protein_LacI_14" initialAmount="0" metaid="iBioSim19" sboTerm="SBO:0000252">
+        <annotation>
+          <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+            <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+              <rdf:Description rdf:about="#iBioSim19">
+                <mts:ComponentDefinitions>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="https://synbiohub.org/user/Gon/Cello0xF6parts/protein_LacI/1"/></rdf:Bag></mts:ComponentDefinitions><mts:FunctionalComponents>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="https://synbiohub.org/user/Gon/Cello0xF6parts/protein_LacI/1"/></rdf:Bag></mts:FunctionalComponents><mts:DNAComponents>
+                  <rdf:Seq>
+                    <rdf:li rdf:resource="https://sbolcanvas.org/PSrsRRJ0/1"/></rdf:Seq></mts:DNAComponents><mts:Strand>+</mts:Strand></rdf:Description></rdf:RDF></ModelToSBOL>
+        </annotation>
+            </species>
+      <species boundaryCondition="false" compartment="Cell" constant="false" hasOnlySubstanceUnits="true" id="complex_ara_AraC_44" initialAmount="0" metaid="iBioSim20" sboTerm="SBO:0000253">
+        <annotation>
+          <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+            <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+              <rdf:Description rdf:about="#iBioSim20">
+                <mts:ComponentDefinitions>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="https://synbiohub.org/user/Gon/Cello0xF6parts/complex_ara_AraC/1"/></rdf:Bag></mts:ComponentDefinitions><mts:FunctionalComponents>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="https://synbiohub.org/user/Gon/Cello0xF6parts/complex_ara_AraC/1"/></rdf:Bag></mts:FunctionalComponents></rdf:Description></rdf:RDF></ModelToSBOL>
+        </annotation>
+            </species>
+      <species boundaryCondition="false" compartment="Cell" constant="false" hasOnlySubstanceUnits="true" id="complex_aTc_TetR_34" initialAmount="0" metaid="iBioSim21" sboTerm="SBO:0000253">
+        <annotation>
+          <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+            <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+              <rdf:Description rdf:about="#iBioSim21">
+                <mts:ComponentDefinitions>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="https://synbiohub.org/user/Gon/Cello0xF6parts/complex_aTc_TetR/1"/></rdf:Bag></mts:ComponentDefinitions><mts:FunctionalComponents>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="https://synbiohub.org/user/Gon/Cello0xF6parts/complex_aTc_TetR/1"/></rdf:Bag></mts:FunctionalComponents></rdf:Description></rdf:RDF></ModelToSBOL>
+        </annotation>
+            </species>
+      <species boundaryCondition="false" compartment="Cell" constant="false" hasOnlySubstanceUnits="true" id="aTc_35" initialAmount="0" metaid="iBioSim22" sboTerm="SBO:0000247">
+        <annotation>
+          <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+            <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+              <rdf:Description rdf:about="#iBioSim22">
+                <mts:ComponentDefinitions>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="https://synbiohub.org/user/Gon/Cello0xF6parts/aTc/1"/></rdf:Bag></mts:ComponentDefinitions><mts:FunctionalComponents>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="https://synbiohub.org/user/Gon/Cello0xF6parts/aTc/1"/></rdf:Bag></mts:FunctionalComponents></rdf:Description></rdf:RDF></ModelToSBOL>
+        </annotation>
+            </species>
+      <species boundaryCondition="false" compartment="Cell" constant="false" hasOnlySubstanceUnits="true" id="protein_GFP_273" initialAmount="0" metaid="iBioSim23" sboTerm="SBO:0000252">
+        <annotation>
+          <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+            <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+              <rdf:Description rdf:about="#iBioSim23">
+                <mts:ComponentDefinitions>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="https://sbolcanvas.org/protein_GFP/1"/></rdf:Bag></mts:ComponentDefinitions><mts:FunctionalComponents>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="https://sbolcanvas.org/protein_GFP/1"/></rdf:Bag></mts:FunctionalComponents><mts:DNAComponents>
+                  <rdf:Seq>
+                    <rdf:li rdf:resource="https://sbolcanvas.org/JPzJhMix/1"/></rdf:Seq></mts:DNAComponents><mts:Strand>+</mts:Strand></rdf:Description></rdf:RDF></ModelToSBOL>
+        </annotation>
+            </species>
+      <species boundaryCondition="false" compartment="Cell" constant="false" hasOnlySubstanceUnits="true" id="protein_AmtR_17" initialAmount="0" metaid="iBioSim24" sboTerm="SBO:0000252">
+        <annotation>
+          <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+            <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+              <rdf:Description rdf:about="#iBioSim24">
+                <mts:ComponentDefinitions>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="https://synbiohub.org/user/Gon/Cello0xF6parts/protein_AmtR/1"/></rdf:Bag></mts:ComponentDefinitions><mts:FunctionalComponents>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="https://synbiohub.org/user/Gon/Cello0xF6parts/protein_AmtR/1"/></rdf:Bag></mts:FunctionalComponents><mts:DNAComponents>
+                  <rdf:Seq>
+                    <rdf:li rdf:resource="https://sbolcanvas.org/PPMkI055/1"/></rdf:Seq></mts:DNAComponents><mts:Strand>+</mts:Strand></rdf:Description></rdf:RDF></ModelToSBOL>
+        </annotation>
+            </species>
+      <species boundaryCondition="false" compartment="Cell" constant="false" hasOnlySubstanceUnits="true" id="pHlyIIR" initialAmount="2" metaid="iBioSim25" sboTerm="SBO:0000590">
+        <annotation>
+          <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+            <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+              <rdf:Description rdf:about="#iBioSim25">
+                <mts:ComponentDefinitions>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="https://sbolcanvas.org/Fto8PjxH/1"/></rdf:Bag></mts:ComponentDefinitions><mts:FunctionalComponents>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="https://sbolcanvas.org/Fto8PjxH/1"/></rdf:Bag></mts:FunctionalComponents><mts:DNAComponents>
+                  <rdf:Seq>
+                    <rdf:li rdf:resource="https://sbolcanvas.org/Fto8PjxH/1"/></rdf:Seq></mts:DNAComponents><mts:Strand>+</mts:Strand></rdf:Description></rdf:RDF></ModelToSBOL>
+        </annotation>
+            </species>
+      <species boundaryCondition="false" compartment="Cell" constant="false" hasOnlySubstanceUnits="true" id="pAmer" initialAmount="2" metaid="iBioSim26" sboTerm="SBO:0000590">
+        <annotation>
+          <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+            <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+              <rdf:Description rdf:about="#iBioSim26">
+                <mts:ComponentDefinitions>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="https://sbolcanvas.org/Fto8PjxH/1"/></rdf:Bag></mts:ComponentDefinitions><mts:FunctionalComponents>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="https://sbolcanvas.org/Fto8PjxH/1"/></rdf:Bag></mts:FunctionalComponents><mts:DNAComponents>
+                  <rdf:Seq>
+                    <rdf:li rdf:resource="https://sbolcanvas.org/Fto8PjxH/1"/></rdf:Seq></mts:DNAComponents><mts:Strand>+</mts:Strand></rdf:Description></rdf:RDF></ModelToSBOL>
+        </annotation>
+            </species>
+      <species boundaryCondition="false" compartment="Cell" constant="false" hasOnlySubstanceUnits="true" id="PPMkI055_64" initialAmount="2" metaid="iBioSim27" sboTerm="SBO:0000590">
+        <annotation>
+          <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+            <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+              <rdf:Description rdf:about="#iBioSim27">
+                <mts:ComponentDefinitions>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="https://sbolcanvas.org/PPMkI055/1"/></rdf:Bag></mts:ComponentDefinitions><mts:FunctionalComponents>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="https://sbolcanvas.org/PPMkI055/1"/></rdf:Bag></mts:FunctionalComponents><mts:DNAComponents>
+                  <rdf:Seq>
+                    <rdf:li rdf:resource="https://sbolcanvas.org/PPMkI055/1"/></rdf:Seq></mts:DNAComponents><mts:Strand>+</mts:Strand></rdf:Description></rdf:RDF></ModelToSBOL>
+        </annotation>
+            </species>
+      <species boundaryCondition="false" compartment="Cell" constant="false" hasOnlySubstanceUnits="true" id="viqPKgnP_60" initialAmount="0" metaid="iBioSim28" sboTerm="SBO:0000252">
+        <annotation>
+          <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+            <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+              <rdf:Description rdf:about="#iBioSim28">
+                <mts:ComponentDefinitions>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="https://sbolcanvas.org/viqPKgnP/1"/></rdf:Bag></mts:ComponentDefinitions><mts:FunctionalComponents>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="https://sbolcanvas.org/viqPKgnP/1"/></rdf:Bag></mts:FunctionalComponents><mts:DNAComponents>
+                  <rdf:Seq>
+                    <rdf:li rdf:resource="https://sbolcanvas.org/i9PGKihNT/1"/></rdf:Seq></mts:DNAComponents><mts:Strand>+</mts:Strand></rdf:Description></rdf:RDF></ModelToSBOL>
+        </annotation>
+            </species>
+      <species boundaryCondition="false" compartment="Cell" constant="false" hasOnlySubstanceUnits="true" id="PSrsRRJ0_18" initialAmount="2" metaid="iBioSim29" sboTerm="SBO:0000590">
+        <annotation>
+          <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+            <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+              <rdf:Description rdf:about="#iBioSim29">
+                <mts:ComponentDefinitions>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="https://sbolcanvas.org/PSrsRRJ0/1"/></rdf:Bag></mts:ComponentDefinitions><mts:FunctionalComponents>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="https://sbolcanvas.org/PSrsRRJ0/1"/></rdf:Bag></mts:FunctionalComponents><mts:DNAComponents>
+                  <rdf:Seq>
+                    <rdf:li rdf:resource="https://sbolcanvas.org/PSrsRRJ0/1"/></rdf:Seq></mts:DNAComponents><mts:Strand>+</mts:Strand></rdf:Description></rdf:RDF></ModelToSBOL>
+        </annotation>
+            </species>
+    </listOfSpecies>
+    <listOfParameters>
+      <parameter constant="true" id="kr_f" name="Forward repression binding rate" value="0.5"/>
+      <parameter constant="true" id="kr_r" name="Reverse repression binding rate" value="1"/>
+      <parameter constant="true" id="ka_f" name="Forward activation binding rate" value="0.0033"/>
+      <parameter constant="true" id="ka_r" name="Reverse activation binding rate" value="1"/>
+      <parameter constant="true" id="ko_f" name="Forward RNAP binding rate" value="0.033"/>
+      <parameter constant="true" id="ko_r" name="Reverse RNAP binding rate" value="1"/>
+      <parameter constant="true" id="kao_f" name="Forward activated RNAP binding rate" value="1"/>
+      <parameter constant="true" id="kao_r" name="Reverse activated RNAP binding rate" value="1"/>
+      <parameter constant="true" id="nc" name="Stoichiometry of binding" value="2"/>
+      <parameter constant="true" id="nr" name="Initial RNAP count" value="30"/>
+      <parameter constant="true" id="ko" name="Open complex production rate" value="0.05"/>
+      <parameter constant="true" id="kb" name="Basal production rate" value="0.0001"/>
+      <parameter constant="true" id="ng" name="Initial promoter count" value="2"/>
+      <parameter constant="true" id="np" name="Stoichiometry of production" value="10"/>
+      <parameter constant="true" id="ka" name="Activated production rate" value="0.25"/>
+      <parameter constant="true" id="kd" name="Degradation rate" value="0.0075"/>
+    </listOfParameters>
+    <listOfReactions>
+      <reaction id="Interaction_XH0Pg664" reversible="false" sboTerm="SBO:0000589">
+        <listOfProducts>
+          <speciesReference constant="true" sboTerm="SBO:0000011" species="complex_aTc_TetR_34" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">          
+            <ci> k </ci>
+          </math>
+                  <listOfLocalParameters>
+            <localParameter id="k" value="0.1"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="Interaction_s8PFNk1H" reversible="false" sboTerm="SBO:0000589">
+        <listOfProducts>
+          <speciesReference constant="true" sboTerm="SBO:0000011" species="complex_IPTG_LacI_16" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">          
+            <ci> k </ci>
+          </math>
+                  <listOfLocalParameters>
+            <localParameter id="k" value="0.1"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction compartment="Cell" id="Interaction_ZU3NbAxh" reversible="false" sboTerm="SBO:0000179">
+        <annotation>
+          <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+            <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+              <rdf:Description rdf:about="#">
+                <mts:Interactions>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="https://sbolcanvas.org/module6/Interaction_ZU3NbAxh"/></rdf:Bag></mts:Interactions></rdf:Description></rdf:RDF></ModelToSBOL>
+        </annotation>
+              <listOfReactants>
+          <speciesReference constant="true" metaid="iBioSim30" species="protein_SrpR_11" stoichiometry="1">
+            <annotation>
+              <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+                <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+                  <rdf:Description rdf:about="#iBioSim30">
+                    <mts:Participations>
+                      <rdf:Bag>
+                        <rdf:li rdf:resource="https://sbolcanvas.org/module6/protein_SrpR_11"/></rdf:Bag></mts:Participations></rdf:Description></rdf:RDF></ModelToSBOL>
+            </annotation>
+                    </speciesReference>
+        </listOfReactants>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">          
+            <apply>
+              <times/>
+              <ci> kd </ci>
+              <ci> protein_SrpR_11 </ci>
+            </apply>
+          </math>
+                </kineticLaw>
+      </reaction>
+      <reaction compartment="Cell" id="Interaction_oYbFuYtx" reversible="false" sboTerm="SBO:0000179">
+        <annotation>
+          <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+            <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+              <rdf:Description rdf:about="#">
+                <mts:Interactions>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="https://sbolcanvas.org/module6/Interaction_oYbFuYtx"/></rdf:Bag></mts:Interactions></rdf:Description></rdf:RDF></ModelToSBOL>
+        </annotation>
+              <listOfReactants>
+          <speciesReference constant="true" metaid="iBioSim31" species="protein_LacI_14" stoichiometry="1">
+            <annotation>
+              <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+                <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+                  <rdf:Description rdf:about="#iBioSim31">
+                    <mts:Participations>
+                      <rdf:Bag>
+                        <rdf:li rdf:resource="https://sbolcanvas.org/module6/protein_LacI_14"/></rdf:Bag></mts:Participations></rdf:Description></rdf:RDF></ModelToSBOL>
+            </annotation>
+                    </speciesReference>
+        </listOfReactants>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">          
+            <apply>
+              <times/>
+              <ci> kd </ci>
+              <ci> protein_LacI_14 </ci>
+            </apply>
+          </math>
+                </kineticLaw>
+      </reaction>
+      <reaction compartment="Cell" id="Interaction_IZl195h4" reversible="false" sboTerm="SBO:0000179">
+        <annotation>
+          <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+            <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+              <rdf:Description rdf:about="#">
+                <mts:Interactions>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="https://sbolcanvas.org/module6/Interaction_IZl195h4"/></rdf:Bag></mts:Interactions></rdf:Description></rdf:RDF></ModelToSBOL>
+        </annotation>
+              <listOfReactants>
+          <speciesReference constant="true" metaid="iBioSim32" species="viqPKgnP_60" stoichiometry="1">
+            <annotation>
+              <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+                <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+                  <rdf:Description rdf:about="#iBioSim32">
+                    <mts:Participations>
+                      <rdf:Bag>
+                        <rdf:li rdf:resource="https://sbolcanvas.org/module6/viqPKgnP_60"/></rdf:Bag></mts:Participations></rdf:Description></rdf:RDF></ModelToSBOL>
+            </annotation>
+                    </speciesReference>
+        </listOfReactants>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">          
+            <apply>
+              <times/>
+              <ci> kd </ci>
+              <ci> viqPKgnP_60 </ci>
+            </apply>
+          </math>
+                </kineticLaw>
+      </reaction>
+      <reaction id="Interaction_w8m8U33n" reversible="false" sboTerm="SBO:0000589">
+        <listOfProducts>
+          <speciesReference constant="true" sboTerm="SBO:0000011" species="complex_ara_AraC_44" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">          
+            <ci> k </ci>
+          </math>
+                  <listOfLocalParameters>
+            <localParameter id="k" value="0.1"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction compartment="Cell" id="Interaction_RKnP3O2E" reversible="false" sboTerm="SBO:0000179">
+        <annotation>
+          <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+            <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+              <rdf:Description rdf:about="#">
+                <mts:Interactions>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="https://sbolcanvas.org/module6/Interaction_RKnP3O2E"/></rdf:Bag></mts:Interactions></rdf:Description></rdf:RDF></ModelToSBOL>
+        </annotation>
+              <listOfReactants>
+          <speciesReference constant="true" metaid="iBioSim33" species="protein_BetI_62" stoichiometry="1">
+            <annotation>
+              <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+                <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+                  <rdf:Description rdf:about="#iBioSim33">
+                    <mts:Participations>
+                      <rdf:Bag>
+                        <rdf:li rdf:resource="https://sbolcanvas.org/module6/protein_BetI_62"/></rdf:Bag></mts:Participations></rdf:Description></rdf:RDF></ModelToSBOL>
+            </annotation>
+                    </speciesReference>
+        </listOfReactants>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">          
+            <apply>
+              <times/>
+              <ci> kd </ci>
+              <ci> protein_BetI_62 </ci>
+            </apply>
+          </math>
+                </kineticLaw>
+      </reaction>
+      <reaction compartment="Cell" id="Interaction_rJHAneWD" reversible="false" sboTerm="SBO:0000179">
+        <annotation>
+          <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+            <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+              <rdf:Description rdf:about="#">
+                <mts:Interactions>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="https://sbolcanvas.org/module6/Interaction_rJHAneWD"/></rdf:Bag></mts:Interactions></rdf:Description></rdf:RDF></ModelToSBOL>
+        </annotation>
+              <listOfReactants>
+          <speciesReference constant="true" metaid="iBioSim34" species="protein_PhiF_63" stoichiometry="1">
+            <annotation>
+              <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+                <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+                  <rdf:Description rdf:about="#iBioSim34">
+                    <mts:Participations>
+                      <rdf:Bag>
+                        <rdf:li rdf:resource="https://sbolcanvas.org/module6/protein_PhiF_63"/></rdf:Bag></mts:Participations></rdf:Description></rdf:RDF></ModelToSBOL>
+            </annotation>
+                    </speciesReference>
+        </listOfReactants>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">          
+            <apply>
+              <times/>
+              <ci> kd </ci>
+              <ci> protein_PhiF_63 </ci>
+            </apply>
+          </math>
+                </kineticLaw>
+      </reaction>
+      <reaction id="Interaction_9eATXMja" reversible="false" sboTerm="SBO:0000589">
+        <listOfProducts>
+          <speciesReference constant="true" sboTerm="SBO:0000011" species="complex_IPTG_LacI_16" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">          
+            <ci> k </ci>
+          </math>
+                  <listOfLocalParameters>
+            <localParameter id="k" value="0.1"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction compartment="Cell" id="Interaction_ZSejsPHW" reversible="false" sboTerm="SBO:0000179">
+        <annotation>
+          <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+            <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+              <rdf:Description rdf:about="#">
+                <mts:Interactions>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="https://sbolcanvas.org/module6/Interaction_ZSejsPHW"/></rdf:Bag></mts:Interactions></rdf:Description></rdf:RDF></ModelToSBOL>
+        </annotation>
+              <listOfReactants>
+          <speciesReference constant="true" metaid="iBioSim35" species="protein_TetR_12" stoichiometry="1">
+            <annotation>
+              <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+                <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+                  <rdf:Description rdf:about="#iBioSim35">
+                    <mts:Participations>
+                      <rdf:Bag>
+                        <rdf:li rdf:resource="https://sbolcanvas.org/module6/protein_TetR_12"/></rdf:Bag></mts:Participations></rdf:Description></rdf:RDF></ModelToSBOL>
+            </annotation>
+                    </speciesReference>
+        </listOfReactants>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">          
+            <apply>
+              <times/>
+              <ci> kd </ci>
+              <ci> protein_TetR_12 </ci>
+            </apply>
+          </math>
+                </kineticLaw>
+      </reaction>
+      <reaction compartment="Cell" id="Interaction_Kg5VCdoz" reversible="false" sboTerm="SBO:0000179">
+        <annotation>
+          <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+            <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+              <rdf:Description rdf:about="#">
+                <mts:Interactions>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="https://sbolcanvas.org/module6/Interaction_Kg5VCdoz"/></rdf:Bag></mts:Interactions></rdf:Description></rdf:RDF></ModelToSBOL>
+        </annotation>
+              <listOfReactants>
+          <speciesReference constant="true" metaid="iBioSim36" species="protein_AmtR_17" stoichiometry="1">
+            <annotation>
+              <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+                <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+                  <rdf:Description rdf:about="#iBioSim36">
+                    <mts:Participations>
+                      <rdf:Bag>
+                        <rdf:li rdf:resource="https://sbolcanvas.org/module6/protein_AmtR_17"/></rdf:Bag></mts:Participations></rdf:Description></rdf:RDF></ModelToSBOL>
+            </annotation>
+                    </speciesReference>
+        </listOfReactants>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">          
+            <apply>
+              <times/>
+              <ci> kd </ci>
+              <ci> protein_AmtR_17 </ci>
+            </apply>
+          </math>
+                </kineticLaw>
+      </reaction>
+      <reaction compartment="Cell" id="Interaction_U8YHnm4D" reversible="false" sboTerm="SBO:0000179">
+        <annotation>
+          <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+            <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+              <rdf:Description rdf:about="#">
+                <mts:Interactions>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="https://sbolcanvas.org/module6/Interaction_U8YHnm4D"/></rdf:Bag></mts:Interactions></rdf:Description></rdf:RDF></ModelToSBOL>
+        </annotation>
+              <listOfReactants>
+          <speciesReference constant="true" metaid="iBioSim37" species="protein_HIyIIR_61" stoichiometry="1">
+            <annotation>
+              <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+                <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+                  <rdf:Description rdf:about="#iBioSim37">
+                    <mts:Participations>
+                      <rdf:Bag>
+                        <rdf:li rdf:resource="https://sbolcanvas.org/module6/protein_HIyIIR_61"/></rdf:Bag></mts:Participations></rdf:Description></rdf:RDF></ModelToSBOL>
+            </annotation>
+                    </speciesReference>
+        </listOfReactants>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">          
+            <apply>
+              <times/>
+              <ci> kd </ci>
+              <ci> protein_HIyIIR_61 </ci>
+            </apply>
+          </math>
+                </kineticLaw>
+      </reaction>
+      <reaction compartment="Cell" id="Interaction_vroMDlZe" reversible="false" sboTerm="SBO:0000179">
+        <annotation>
+          <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+            <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+              <rdf:Description rdf:about="#">
+                <mts:Interactions>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="https://sbolcanvas.org/module6/Interaction_vroMDlZe"/></rdf:Bag></mts:Interactions></rdf:Description></rdf:RDF></ModelToSBOL>
+        </annotation>
+              <listOfReactants>
+          <speciesReference constant="true" metaid="iBioSim38" species="complex_aTc_TetR_34" stoichiometry="1">
+            <annotation>
+              <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+                <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+                  <rdf:Description rdf:about="#iBioSim38">
+                    <mts:Participations>
+                      <rdf:Bag>
+                        <rdf:li rdf:resource="https://sbolcanvas.org/module6/complex_aTc_TetR_34"/></rdf:Bag></mts:Participations></rdf:Description></rdf:RDF></ModelToSBOL>
+            </annotation>
+                    </speciesReference>
+        </listOfReactants>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">          
+            <apply>
+              <times/>
+              <ci> kd </ci>
+              <ci> complex_aTc_TetR_34 </ci>
+            </apply>
+          </math>
+                </kineticLaw>
+      </reaction>
+      <reaction compartment="Cell" id="Interaction_By1e24mn" reversible="false" sboTerm="SBO:0000179">
+        <annotation>
+          <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+            <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+              <rdf:Description rdf:about="#">
+                <mts:Interactions>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="https://sbolcanvas.org/module6/Interaction_By1e24mn"/></rdf:Bag></mts:Interactions></rdf:Description></rdf:RDF></ModelToSBOL>
+        </annotation>
+              <listOfReactants>
+          <speciesReference constant="true" metaid="iBioSim39" species="protein_AraC_43" stoichiometry="1">
+            <annotation>
+              <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+                <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+                  <rdf:Description rdf:about="#iBioSim39">
+                    <mts:Participations>
+                      <rdf:Bag>
+                        <rdf:li rdf:resource="https://sbolcanvas.org/module6/protein_AraC_43"/></rdf:Bag></mts:Participations></rdf:Description></rdf:RDF></ModelToSBOL>
+            </annotation>
+                    </speciesReference>
+        </listOfReactants>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">          
+            <apply>
+              <times/>
+              <ci> kd </ci>
+              <ci> protein_AraC_43 </ci>
+            </apply>
+          </math>
+                </kineticLaw>
+      </reaction>
+      <reaction compartment="Cell" id="Interaction_KOCgPrdf" reversible="false" sboTerm="SBO:0000179">
+        <annotation>
+          <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+            <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+              <rdf:Description rdf:about="#">
+                <mts:Interactions>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="https://sbolcanvas.org/module6/Interaction_KOCgPrdf"/></rdf:Bag></mts:Interactions></rdf:Description></rdf:RDF></ModelToSBOL>
+        </annotation>
+              <listOfReactants>
+          <speciesReference constant="true" metaid="iBioSim40" species="complex_ara_AraC_44" stoichiometry="1">
+            <annotation>
+              <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+                <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+                  <rdf:Description rdf:about="#iBioSim40">
+                    <mts:Participations>
+                      <rdf:Bag>
+                        <rdf:li rdf:resource="https://sbolcanvas.org/module6/complex_ara_AraC_44"/></rdf:Bag></mts:Participations></rdf:Description></rdf:RDF></ModelToSBOL>
+            </annotation>
+                    </speciesReference>
+        </listOfReactants>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">          
+            <apply>
+              <times/>
+              <ci> kd </ci>
+              <ci> complex_ara_AraC_44 </ci>
+            </apply>
+          </math>
+                </kineticLaw>
+      </reaction>
+      <reaction compartment="Cell" id="Interaction_eSlALcMi" reversible="false" sboTerm="SBO:0000179">
+        <annotation>
+          <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+            <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+              <rdf:Description rdf:about="#">
+                <mts:Interactions>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="https://sbolcanvas.org/module6/Interaction_eSlALcMi"/></rdf:Bag></mts:Interactions></rdf:Description></rdf:RDF></ModelToSBOL>
+        </annotation>
+              <listOfReactants>
+          <speciesReference constant="true" metaid="iBioSim41" species="protein_GFP_273" stoichiometry="1">
+            <annotation>
+              <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+                <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+                  <rdf:Description rdf:about="#iBioSim41">
+                    <mts:Participations>
+                      <rdf:Bag>
+                        <rdf:li rdf:resource="https://sbolcanvas.org/module6/protein_GFP_273"/></rdf:Bag></mts:Participations></rdf:Description></rdf:RDF></ModelToSBOL>
+            </annotation>
+                    </speciesReference>
+        </listOfReactants>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">          
+            <apply>
+              <times/>
+              <ci> kd </ci>
+              <ci> protein_GFP_273 </ci>
+            </apply>
+          </math>
+                </kineticLaw>
+      </reaction>
+      <reaction compartment="Cell" id="Interaction_7TP5i56p" reversible="false" sboTerm="SBO:0000179">
+        <annotation>
+          <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+            <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+              <rdf:Description rdf:about="#">
+                <mts:Interactions>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="https://sbolcanvas.org/module6/Interaction_7TP5i56p"/></rdf:Bag></mts:Interactions></rdf:Description></rdf:RDF></ModelToSBOL>
+        </annotation>
+              <listOfReactants>
+          <speciesReference constant="true" metaid="iBioSim42" species="complex_IPTG_LacI_16" stoichiometry="1">
+            <annotation>
+              <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+                <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+                  <rdf:Description rdf:about="#iBioSim42">
+                    <mts:Participations>
+                      <rdf:Bag>
+                        <rdf:li rdf:resource="https://sbolcanvas.org/module6/complex_IPTG_LacI_16"/></rdf:Bag></mts:Participations></rdf:Description></rdf:RDF></ModelToSBOL>
+            </annotation>
+                    </speciesReference>
+        </listOfReactants>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">          
+            <apply>
+              <times/>
+              <ci> kd </ci>
+              <ci> complex_IPTG_LacI_16 </ci>
+            </apply>
+          </math>
+                </kineticLaw>
+      </reaction>
+      <reaction id="Interaction_WWqk2IbM" reversible="false" sboTerm="SBO:0000589">
+        <listOfProducts>
+          <speciesReference constant="true" sboTerm="SBO:0000011" species="complex_ara_AraC_44" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">          
+            <ci> k </ci>
+          </math>
+                  <listOfLocalParameters>
+            <localParameter id="k" value="0.1"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="Interaction_hHX0wn50" reversible="false" sboTerm="SBO:0000589">
+        <listOfProducts>
+          <speciesReference constant="true" sboTerm="SBO:0000011" species="complex_aTc_TetR_34" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">          
+            <ci> k </ci>
+          </math>
+                  <listOfLocalParameters>
+            <localParameter id="k" value="0.1"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction compartment="Cell" id="Interaction_57i9CZGd" metaid="iBioSim43" reversible="false" sboTerm="SBO:0000589">
+        <annotation>
+          <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+            <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+              <rdf:Description rdf:about="#iBioSim43">
+                <mts:Interactions>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="https://sbolcanvas.org/module6/Interaction_57i9CZGd"/><rdf:li rdf:resource="https://sbolcanvas.org/module6/Interaction_VTn2u7xv"/></rdf:Bag></mts:Interactions></rdf:Description></rdf:RDF></ModelToSBOL>
+        </annotation>
+              <listOfProducts>
+          <speciesReference constant="true" metaid="iBioSim45" species="protein_HIyIIR_61" stoichiometry="10">
+            <annotation>
+              <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+                <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+                  <rdf:Description rdf:about="#iBioSim45">
+                    <mts:Participations>
+                      <rdf:Bag>
+                        <rdf:li rdf:resource="https://sbolcanvas.org/module6/protein_HIyIIR_61"/></rdf:Bag></mts:Participations></rdf:Description></rdf:RDF></ModelToSBOL>
+            </annotation>
+                    </speciesReference>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference sboTerm="SBO:0000598" species="oD9RHKGt_36">
+            <annotation>
+              <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+                <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+                  <rdf:Description rdf:about="#">
+                    <mts:Participations>
+                      <rdf:Bag>
+                        <rdf:li rdf:resource="https://sbolcanvas.org/module6/Interaction_VTn2u7xv/Interaction_VTn2u7xv_1"/><rdf:li rdf:resource="https://sbolcanvas.org/module6/Interaction_57i9CZGd/Interaction_57i9CZGd_0"/></rdf:Bag></mts:Participations></rdf:Description></rdf:RDF></ModelToSBOL>
+            </annotation>
+                    </modifierSpeciesReference>
+          <modifierSpeciesReference metaid="iBioSim44" sboTerm="SBO:0000020" species="protein_LacI_14">
+            <annotation>
+              <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+                <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+                  <rdf:Description rdf:about="#iBioSim44">
+                    <mts:Participations>
+                      <rdf:Bag>
+                        <rdf:li rdf:resource="https://sbolcanvas.org/module6/protein_LacI_14"/></rdf:Bag></mts:Participations></rdf:Description></rdf:RDF></ModelToSBOL>
+            </annotation>
+                    </modifierSpeciesReference>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">          
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <apply>
+                  <times/>
+                  <apply>
+                    <times/>
+                    <ci> oD9RHKGt_36 </ci>
+                    <ci> ko </ci>
+                  </apply>
+                  <apply>
+                    <divide/>
+                    <ci> ko_f </ci>
+                    <ci> ko_r </ci>
+                  </apply>
+                </apply>
+                <ci> nr </ci>
+              </apply>
+              <apply>
+                <plus/>
+                <apply>
+                  <plus/>
+                  <cn type="integer"> 1 </cn>
+                  <apply>
+                    <times/>
+                    <apply>
+                      <divide/>
+                      <ci> ko_f </ci>
+                      <ci> ko_r </ci>
+                    </apply>
+                    <ci> nr </ci>
+                  </apply>
+                </apply>
+                <apply>
+                  <power/>
+                  <apply>
+                    <times/>
+                    <apply>
+                      <divide/>
+                      <ci> kr_f </ci>
+                      <ci> kr_r </ci>
+                    </apply>
+                    <ci> protein_LacI_14 </ci>
+                  </apply>
+                  <ci> nc </ci>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+                </kineticLaw>
+      </reaction>
+      <reaction compartment="Cell" id="Interaction_buQLOUzB_0" metaid="iBioSim46" reversible="false" sboTerm="SBO:0000589">
+        <annotation>
+          <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+            <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+              <rdf:Description rdf:about="#iBioSim46">
+                <mts:Interactions>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="https://sbolcanvas.org/module6/Interaction_buQLOUzB"/><rdf:li rdf:resource="https://sbolcanvas.org/module6/Interaction_rk30QLjo"/><rdf:li rdf:resource="https://sbolcanvas.org/module6/Interaction_kIGQs89W"/></rdf:Bag></mts:Interactions></rdf:Description></rdf:RDF></ModelToSBOL>
+        </annotation>
+              <listOfProducts>
+          <speciesReference constant="true" metaid="iBioSim48" species="protein_PhiF_63" stoichiometry="10">
+            <annotation>
+              <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+                <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+                  <rdf:Description rdf:about="#iBioSim48">
+                    <mts:Participations>
+                      <rdf:Bag>
+                        <rdf:li rdf:resource="https://sbolcanvas.org/module6/protein_PhiF_63"/></rdf:Bag></mts:Participations></rdf:Description></rdf:RDF></ModelToSBOL>
+            </annotation>
+                    </speciesReference>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference sboTerm="SBO:0000598" species="pSrpR">
+            <annotation>
+              <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+                <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+                  <rdf:Description rdf:about="#">
+                    <mts:Participations>
+                      <rdf:Bag>
+                        <rdf:li rdf:resource="https://sbolcanvas.org/module6/Interaction_rk30QLjo/Interaction_rk30QLjo_1"/><rdf:li rdf:resource="https://sbolcanvas.org/module6/Interaction_buQLOUzB/Interaction_buQLOUzB_0"/><rdf:li rdf:resource="https://sbolcanvas.org/module6/Interaction_kIGQs89W/Interaction_kIGQs89W_1"/></rdf:Bag></mts:Participations></rdf:Description></rdf:RDF></ModelToSBOL>
+            </annotation>
+                    </modifierSpeciesReference>
+          <modifierSpeciesReference metaid="iBioSim47" sboTerm="SBO:0000020" species="protein_SrpR_11">
+            <annotation>
+              <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+                <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+                  <rdf:Description rdf:about="#iBioSim47">
+                    <mts:Participations>
+                      <rdf:Bag>
+                        <rdf:li rdf:resource="https://sbolcanvas.org/module6/protein_SrpR_11"/></rdf:Bag></mts:Participations></rdf:Description></rdf:RDF></ModelToSBOL>
+            </annotation>
+                    </modifierSpeciesReference>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">          
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <apply>
+                  <times/>
+                  <apply>
+                    <times/>
+                    <ci> pSrpR </ci>
+                    <ci> ko </ci>
+                  </apply>
+                  <apply>
+                    <divide/>
+                    <ci> ko_f </ci>
+                    <ci> ko_r </ci>
+                  </apply>
+                </apply>
+                <ci> nr </ci>
+              </apply>
+              <apply>
+                <plus/>
+                <apply>
+                  <plus/>
+                  <cn type="integer"> 1 </cn>
+                  <apply>
+                    <times/>
+                    <apply>
+                      <divide/>
+                      <ci> ko_f </ci>
+                      <ci> ko_r </ci>
+                    </apply>
+                    <ci> nr </ci>
+                  </apply>
+                </apply>
+                <apply>
+                  <power/>
+                  <apply>
+                    <times/>
+                    <apply>
+                      <divide/>
+                      <ci> kr_f </ci>
+                      <ci> kr_r </ci>
+                    </apply>
+                    <ci> protein_SrpR_11 </ci>
+                  </apply>
+                  <ci> nc </ci>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+                </kineticLaw>
+      </reaction>
+      <reaction compartment="Cell" id="Interaction_buQLOUzB_1" metaid="iBioSim49" reversible="false" sboTerm="SBO:0000589">
+        <annotation>
+          <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+            <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+              <rdf:Description rdf:about="#iBioSim49">
+                <mts:Interactions>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="https://sbolcanvas.org/module6/Interaction_buQLOUzB"/><rdf:li rdf:resource="https://sbolcanvas.org/module6/Interaction_rk30QLjo"/><rdf:li rdf:resource="https://sbolcanvas.org/module6/Interaction_kIGQs89W"/></rdf:Bag></mts:Interactions></rdf:Description></rdf:RDF></ModelToSBOL>
+        </annotation>
+              <listOfProducts>
+          <speciesReference constant="true" metaid="iBioSim51" species="protein_PhiF_63" stoichiometry="10">
+            <annotation>
+              <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+                <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+                  <rdf:Description rdf:about="#iBioSim51">
+                    <mts:Participations>
+                      <rdf:Bag>
+                        <rdf:li rdf:resource="https://sbolcanvas.org/module6/protein_PhiF_63"/></rdf:Bag></mts:Participations></rdf:Description></rdf:RDF></ModelToSBOL>
+            </annotation>
+                    </speciesReference>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference sboTerm="SBO:0000598" species="pBetI">
+            <annotation>
+              <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+                <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+                  <rdf:Description rdf:about="#">
+                    <mts:Participations>
+                      <rdf:Bag>
+                        <rdf:li rdf:resource="https://sbolcanvas.org/module6/Interaction_rk30QLjo/Interaction_rk30QLjo_1"/><rdf:li rdf:resource="https://sbolcanvas.org/module6/Interaction_buQLOUzB/Interaction_buQLOUzB_0"/><rdf:li rdf:resource="https://sbolcanvas.org/module6/Interaction_kIGQs89W/Interaction_kIGQs89W_1"/></rdf:Bag></mts:Participations></rdf:Description></rdf:RDF></ModelToSBOL>
+            </annotation>
+                    </modifierSpeciesReference>
+          <modifierSpeciesReference metaid="iBioSim50" sboTerm="SBO:0000020" species="protein_BetI_62">
+            <annotation>
+              <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+                <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+                  <rdf:Description rdf:about="#iBioSim50">
+                    <mts:Participations>
+                      <rdf:Bag>
+                        <rdf:li rdf:resource="https://sbolcanvas.org/module6/protein_BetI_62"/></rdf:Bag></mts:Participations></rdf:Description></rdf:RDF></ModelToSBOL>
+            </annotation>
+                    </modifierSpeciesReference>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">          
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <apply>
+                  <times/>
+                  <apply>
+                    <times/>
+                    <ci> pBetI </ci>
+                    <ci> ko </ci>
+                  </apply>
+                  <apply>
+                    <divide/>
+                    <ci> ko_f </ci>
+                    <ci> ko_r </ci>
+                  </apply>
+                </apply>
+                <ci> nr </ci>
+              </apply>
+              <apply>
+                <plus/>
+                <apply>
+                  <plus/>
+                  <cn type="integer"> 1 </cn>
+                  <apply>
+                    <times/>
+                    <apply>
+                      <divide/>
+                      <ci> ko_f </ci>
+                      <ci> ko_r </ci>
+                    </apply>
+                    <ci> nr </ci>
+                  </apply>
+                </apply>
+                <apply>
+                  <power/>
+                  <apply>
+                    <times/>
+                    <apply>
+                      <divide/>
+                      <ci> kr_f </ci>
+                      <ci> kr_r </ci>
+                    </apply>
+                    <ci> protein_BetI_62 </ci>
+                  </apply>
+                  <ci> nc </ci>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+                </kineticLaw>
+      </reaction>
+      <reaction compartment="Cell" id="Interaction_93Tjbqk7" metaid="iBioSim52" reversible="false" sboTerm="SBO:0000589">
+        <annotation>
+          <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+            <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+              <rdf:Description rdf:about="#iBioSim52">
+                <mts:Interactions>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="https://sbolcanvas.org/module6/Interaction_93Tjbqk7"/><rdf:li rdf:resource="https://sbolcanvas.org/module6/Interaction_oR1Vlngf"/></rdf:Bag></mts:Interactions></rdf:Description></rdf:RDF></ModelToSBOL>
+        </annotation>
+              <listOfProducts>
+          <speciesReference constant="true" metaid="iBioSim54" species="viqPKgnP_60" stoichiometry="10">
+            <annotation>
+              <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+                <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+                  <rdf:Description rdf:about="#iBioSim54">
+                    <mts:Participations>
+                      <rdf:Bag>
+                        <rdf:li rdf:resource="https://sbolcanvas.org/module6/viqPKgnP_60"/></rdf:Bag></mts:Participations></rdf:Description></rdf:RDF></ModelToSBOL>
+            </annotation>
+                    </speciesReference>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference sboTerm="SBO:0000598" species="i9PGKihNT_45">
+            <annotation>
+              <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+                <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+                  <rdf:Description rdf:about="#">
+                    <mts:Participations>
+                      <rdf:Bag>
+                        <rdf:li rdf:resource="https://sbolcanvas.org/module6/Interaction_93Tjbqk7/Interaction_93Tjbqk7_0"/><rdf:li rdf:resource="https://sbolcanvas.org/module6/Interaction_oR1Vlngf/Interaction_oR1Vlngf_1"/></rdf:Bag></mts:Participations></rdf:Description></rdf:RDF></ModelToSBOL>
+            </annotation>
+                    </modifierSpeciesReference>
+          <modifierSpeciesReference metaid="iBioSim53" sboTerm="SBO:0000020" species="protein_TetR_12">
+            <annotation>
+              <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+                <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+                  <rdf:Description rdf:about="#iBioSim53">
+                    <mts:Participations>
+                      <rdf:Bag>
+                        <rdf:li rdf:resource="https://sbolcanvas.org/module6/protein_TetR_12"/></rdf:Bag></mts:Participations></rdf:Description></rdf:RDF></ModelToSBOL>
+            </annotation>
+                    </modifierSpeciesReference>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">          
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <apply>
+                  <times/>
+                  <apply>
+                    <times/>
+                    <ci> i9PGKihNT_45 </ci>
+                    <ci> ko </ci>
+                  </apply>
+                  <apply>
+                    <divide/>
+                    <ci> ko_f </ci>
+                    <ci> ko_r </ci>
+                  </apply>
+                </apply>
+                <ci> nr </ci>
+              </apply>
+              <apply>
+                <plus/>
+                <apply>
+                  <plus/>
+                  <cn type="integer"> 1 </cn>
+                  <apply>
+                    <times/>
+                    <apply>
+                      <divide/>
+                      <ci> ko_f </ci>
+                      <ci> ko_r </ci>
+                    </apply>
+                    <ci> nr </ci>
+                  </apply>
+                </apply>
+                <apply>
+                  <power/>
+                  <apply>
+                    <times/>
+                    <apply>
+                      <divide/>
+                      <ci> kr_f </ci>
+                      <ci> kr_r </ci>
+                    </apply>
+                    <ci> protein_TetR_12 </ci>
+                  </apply>
+                  <ci> nc </ci>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+                </kineticLaw>
+      </reaction>
+      <reaction compartment="Cell" id="Interaction_RvpFBrYh_0" metaid="iBioSim55" reversible="false" sboTerm="SBO:0000589">
+        <annotation>
+          <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+            <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+              <rdf:Description rdf:about="#iBioSim55">
+                <mts:Interactions>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="https://sbolcanvas.org/module6/Interaction_RvpFBrYh"/><rdf:li rdf:resource="https://sbolcanvas.org/module6/Interaction_3uAkjjYh"/><rdf:li rdf:resource="https://sbolcanvas.org/module6/Interaction_KTbREqnw"/></rdf:Bag></mts:Interactions></rdf:Description></rdf:RDF></ModelToSBOL>
+        </annotation>
+              <listOfProducts>
+          <speciesReference constant="true" metaid="iBioSim57" species="protein_SrpR_11" stoichiometry="10">
+            <annotation>
+              <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+                <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+                  <rdf:Description rdf:about="#iBioSim57">
+                    <mts:Participations>
+                      <rdf:Bag>
+                        <rdf:li rdf:resource="https://sbolcanvas.org/module6/protein_SrpR_11"/></rdf:Bag></mts:Participations></rdf:Description></rdf:RDF></ModelToSBOL>
+            </annotation>
+                    </speciesReference>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference sboTerm="SBO:0000598" species="pTet">
+            <annotation>
+              <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+                <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+                  <rdf:Description rdf:about="#">
+                    <mts:Participations>
+                      <rdf:Bag>
+                        <rdf:li rdf:resource="https://sbolcanvas.org/module6/Interaction_3uAkjjYh/Interaction_3uAkjjYh_1"/><rdf:li rdf:resource="https://sbolcanvas.org/module6/Interaction_RvpFBrYh/Interaction_RvpFBrYh_0"/><rdf:li rdf:resource="https://sbolcanvas.org/module6/Interaction_KTbREqnw/Interaction_KTbREqnw_1"/></rdf:Bag></mts:Participations></rdf:Description></rdf:RDF></ModelToSBOL>
+            </annotation>
+                    </modifierSpeciesReference>
+          <modifierSpeciesReference metaid="iBioSim56" sboTerm="SBO:0000020" species="protein_LacI_14">
+            <annotation>
+              <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+                <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+                  <rdf:Description rdf:about="#iBioSim56">
+                    <mts:Participations>
+                      <rdf:Bag>
+                        <rdf:li rdf:resource="https://sbolcanvas.org/module6/protein_LacI_14"/></rdf:Bag></mts:Participations></rdf:Description></rdf:RDF></ModelToSBOL>
+            </annotation>
+                    </modifierSpeciesReference>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">          
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <apply>
+                  <times/>
+                  <apply>
+                    <times/>
+                    <ci> pTet </ci>
+                    <ci> ko </ci>
+                  </apply>
+                  <apply>
+                    <divide/>
+                    <ci> ko_f </ci>
+                    <ci> ko_r </ci>
+                  </apply>
+                </apply>
+                <ci> nr </ci>
+              </apply>
+              <apply>
+                <plus/>
+                <apply>
+                  <plus/>
+                  <cn type="integer"> 1 </cn>
+                  <apply>
+                    <times/>
+                    <apply>
+                      <divide/>
+                      <ci> ko_f </ci>
+                      <ci> ko_r </ci>
+                    </apply>
+                    <ci> nr </ci>
+                  </apply>
+                </apply>
+                <apply>
+                  <power/>
+                  <apply>
+                    <times/>
+                    <apply>
+                      <divide/>
+                      <ci> kr_f </ci>
+                      <ci> kr_r </ci>
+                    </apply>
+                    <ci> protein_LacI_14 </ci>
+                  </apply>
+                  <ci> nc </ci>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+                </kineticLaw>
+      </reaction>
+      <reaction compartment="Cell" id="Interaction_RvpFBrYh_1" metaid="iBioSim58" reversible="false" sboTerm="SBO:0000589">
+        <annotation>
+          <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+            <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+              <rdf:Description rdf:about="#iBioSim58">
+                <mts:Interactions>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="https://sbolcanvas.org/module6/Interaction_RvpFBrYh"/><rdf:li rdf:resource="https://sbolcanvas.org/module6/Interaction_3uAkjjYh"/><rdf:li rdf:resource="https://sbolcanvas.org/module6/Interaction_KTbREqnw"/></rdf:Bag></mts:Interactions></rdf:Description></rdf:RDF></ModelToSBOL>
+        </annotation>
+              <listOfProducts>
+          <speciesReference constant="true" metaid="iBioSim60" species="protein_SrpR_11" stoichiometry="10">
+            <annotation>
+              <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+                <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+                  <rdf:Description rdf:about="#iBioSim60">
+                    <mts:Participations>
+                      <rdf:Bag>
+                        <rdf:li rdf:resource="https://sbolcanvas.org/module6/protein_SrpR_11"/></rdf:Bag></mts:Participations></rdf:Description></rdf:RDF></ModelToSBOL>
+            </annotation>
+                    </speciesReference>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference sboTerm="SBO:0000598" species="pTac">
+            <annotation>
+              <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+                <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+                  <rdf:Description rdf:about="#">
+                    <mts:Participations>
+                      <rdf:Bag>
+                        <rdf:li rdf:resource="https://sbolcanvas.org/module6/Interaction_3uAkjjYh/Interaction_3uAkjjYh_1"/><rdf:li rdf:resource="https://sbolcanvas.org/module6/Interaction_RvpFBrYh/Interaction_RvpFBrYh_0"/><rdf:li rdf:resource="https://sbolcanvas.org/module6/Interaction_KTbREqnw/Interaction_KTbREqnw_1"/></rdf:Bag></mts:Participations></rdf:Description></rdf:RDF></ModelToSBOL>
+            </annotation>
+                    </modifierSpeciesReference>
+          <modifierSpeciesReference metaid="iBioSim59" sboTerm="SBO:0000020" species="protein_TetR_12">
+            <annotation>
+              <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+                <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+                  <rdf:Description rdf:about="#iBioSim59">
+                    <mts:Participations>
+                      <rdf:Bag>
+                        <rdf:li rdf:resource="https://sbolcanvas.org/module6/protein_TetR_12"/></rdf:Bag></mts:Participations></rdf:Description></rdf:RDF></ModelToSBOL>
+            </annotation>
+                    </modifierSpeciesReference>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">          
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <apply>
+                  <times/>
+                  <apply>
+                    <times/>
+                    <ci> pTac </ci>
+                    <ci> ko </ci>
+                  </apply>
+                  <apply>
+                    <divide/>
+                    <ci> ko_f </ci>
+                    <ci> ko_r </ci>
+                  </apply>
+                </apply>
+                <ci> nr </ci>
+              </apply>
+              <apply>
+                <plus/>
+                <apply>
+                  <plus/>
+                  <cn type="integer"> 1 </cn>
+                  <apply>
+                    <times/>
+                    <apply>
+                      <divide/>
+                      <ci> ko_f </ci>
+                      <ci> ko_r </ci>
+                    </apply>
+                    <ci> nr </ci>
+                  </apply>
+                </apply>
+                <apply>
+                  <power/>
+                  <apply>
+                    <times/>
+                    <apply>
+                      <divide/>
+                      <ci> kr_f </ci>
+                      <ci> kr_r </ci>
+                    </apply>
+                    <ci> protein_TetR_12 </ci>
+                  </apply>
+                  <ci> nc </ci>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+                </kineticLaw>
+      </reaction>
+      <reaction compartment="Cell" id="Interaction_We6LSV86_0" metaid="iBioSim61" reversible="false" sboTerm="SBO:0000589">
+        <annotation>
+          <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+            <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+              <rdf:Description rdf:about="#iBioSim61">
+                <mts:Interactions>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="https://sbolcanvas.org/module6/Interaction_We6LSV86"/><rdf:li rdf:resource="https://sbolcanvas.org/module6/Interaction_el9uxmSR"/><rdf:li rdf:resource="https://sbolcanvas.org/module6/Interaction_L4SKi9Hf"/></rdf:Bag></mts:Interactions></rdf:Description></rdf:RDF></ModelToSBOL>
+        </annotation>
+              <listOfProducts>
+          <speciesReference constant="true" metaid="iBioSim63" species="protein_GFP_273" stoichiometry="10">
+            <annotation>
+              <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+                <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+                  <rdf:Description rdf:about="#iBioSim63">
+                    <mts:Participations>
+                      <rdf:Bag>
+                        <rdf:li rdf:resource="https://sbolcanvas.org/module6/protein_GFP_273"/></rdf:Bag></mts:Participations></rdf:Description></rdf:RDF></ModelToSBOL>
+            </annotation>
+                    </speciesReference>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference sboTerm="SBO:0000598" species="Pro_7WpY">
+            <annotation>
+              <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+                <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+                  <rdf:Description rdf:about="#">
+                    <mts:Participations>
+                      <rdf:Bag>
+                        <rdf:li rdf:resource="https://sbolcanvas.org/module6/Interaction_We6LSV86/Interaction_We6LSV86_0"/><rdf:li rdf:resource="https://sbolcanvas.org/module6/Interaction_el9uxmSR/Interaction_el9uxmSR_1"/><rdf:li rdf:resource="https://sbolcanvas.org/module6/Interaction_L4SKi9Hf/Interaction_L4SKi9Hf_1"/></rdf:Bag></mts:Participations></rdf:Description></rdf:RDF></ModelToSBOL>
+            </annotation>
+                    </modifierSpeciesReference>
+          <modifierSpeciesReference metaid="iBioSim62" sboTerm="SBO:0000020" species="protein_AmtR_17">
+            <annotation>
+              <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+                <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+                  <rdf:Description rdf:about="#iBioSim62">
+                    <mts:Participations>
+                      <rdf:Bag>
+                        <rdf:li rdf:resource="https://sbolcanvas.org/module6/protein_AmtR_17"/></rdf:Bag></mts:Participations></rdf:Description></rdf:RDF></ModelToSBOL>
+            </annotation>
+                    </modifierSpeciesReference>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">          
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <apply>
+                  <times/>
+                  <apply>
+                    <times/>
+                    <ci> Pro_7WpY </ci>
+                    <ci> ko </ci>
+                  </apply>
+                  <apply>
+                    <divide/>
+                    <ci> ko_f </ci>
+                    <ci> ko_r </ci>
+                  </apply>
+                </apply>
+                <ci> nr </ci>
+              </apply>
+              <apply>
+                <plus/>
+                <apply>
+                  <plus/>
+                  <cn type="integer"> 1 </cn>
+                  <apply>
+                    <times/>
+                    <apply>
+                      <divide/>
+                      <ci> ko_f </ci>
+                      <ci> ko_r </ci>
+                    </apply>
+                    <ci> nr </ci>
+                  </apply>
+                </apply>
+                <apply>
+                  <power/>
+                  <apply>
+                    <times/>
+                    <apply>
+                      <divide/>
+                      <ci> kr_f </ci>
+                      <ci> kr_r </ci>
+                    </apply>
+                    <ci> protein_AmtR_17 </ci>
+                  </apply>
+                  <ci> nc </ci>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+                </kineticLaw>
+      </reaction>
+      <reaction compartment="Cell" id="Interaction_We6LSV86_1" metaid="iBioSim64" reversible="false" sboTerm="SBO:0000589">
+        <annotation>
+          <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+            <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+              <rdf:Description rdf:about="#iBioSim64">
+                <mts:Interactions>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="https://sbolcanvas.org/module6/Interaction_We6LSV86"/><rdf:li rdf:resource="https://sbolcanvas.org/module6/Interaction_el9uxmSR"/><rdf:li rdf:resource="https://sbolcanvas.org/module6/Interaction_L4SKi9Hf"/></rdf:Bag></mts:Interactions></rdf:Description></rdf:RDF></ModelToSBOL>
+        </annotation>
+              <listOfProducts>
+          <speciesReference constant="true" metaid="iBioSim66" species="protein_GFP_273" stoichiometry="10">
+            <annotation>
+              <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+                <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+                  <rdf:Description rdf:about="#iBioSim66">
+                    <mts:Participations>
+                      <rdf:Bag>
+                        <rdf:li rdf:resource="https://sbolcanvas.org/module6/protein_GFP_273"/></rdf:Bag></mts:Participations></rdf:Description></rdf:RDF></ModelToSBOL>
+            </annotation>
+                    </speciesReference>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference sboTerm="SBO:0000598" species="Pro_uiFS">
+            <annotation>
+              <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+                <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+                  <rdf:Description rdf:about="#">
+                    <mts:Participations>
+                      <rdf:Bag>
+                        <rdf:li rdf:resource="https://sbolcanvas.org/module6/Interaction_We6LSV86/Interaction_We6LSV86_0"/><rdf:li rdf:resource="https://sbolcanvas.org/module6/Interaction_el9uxmSR/Interaction_el9uxmSR_1"/><rdf:li rdf:resource="https://sbolcanvas.org/module6/Interaction_L4SKi9Hf/Interaction_L4SKi9Hf_1"/></rdf:Bag></mts:Participations></rdf:Description></rdf:RDF></ModelToSBOL>
+            </annotation>
+                    </modifierSpeciesReference>
+          <modifierSpeciesReference metaid="iBioSim65" sboTerm="SBO:0000020" species="protein_PhiF_63">
+            <annotation>
+              <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+                <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+                  <rdf:Description rdf:about="#iBioSim65">
+                    <mts:Participations>
+                      <rdf:Bag>
+                        <rdf:li rdf:resource="https://sbolcanvas.org/module6/protein_PhiF_63"/></rdf:Bag></mts:Participations></rdf:Description></rdf:RDF></ModelToSBOL>
+            </annotation>
+                    </modifierSpeciesReference>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">          
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <apply>
+                  <times/>
+                  <apply>
+                    <times/>
+                    <ci> Pro_uiFS </ci>
+                    <ci> ko </ci>
+                  </apply>
+                  <apply>
+                    <divide/>
+                    <ci> ko_f </ci>
+                    <ci> ko_r </ci>
+                  </apply>
+                </apply>
+                <ci> nr </ci>
+              </apply>
+              <apply>
+                <plus/>
+                <apply>
+                  <plus/>
+                  <cn type="integer"> 1 </cn>
+                  <apply>
+                    <times/>
+                    <apply>
+                      <divide/>
+                      <ci> ko_f </ci>
+                      <ci> ko_r </ci>
+                    </apply>
+                    <ci> nr </ci>
+                  </apply>
+                </apply>
+                <apply>
+                  <power/>
+                  <apply>
+                    <times/>
+                    <apply>
+                      <divide/>
+                      <ci> kr_f </ci>
+                      <ci> kr_r </ci>
+                    </apply>
+                    <ci> protein_PhiF_63 </ci>
+                  </apply>
+                  <ci> nc </ci>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+                </kineticLaw>
+      </reaction>
+      <reaction compartment="Cell" id="Interaction_Enlk005x_0" metaid="iBioSim67" reversible="false" sboTerm="SBO:0000589">
+        <annotation>
+          <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+            <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+              <rdf:Description rdf:about="#iBioSim67">
+                <mts:Interactions>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="https://sbolcanvas.org/module6/Interaction_Enlk005x"/><rdf:li rdf:resource="https://sbolcanvas.org/module6/Interaction_a0rYcPyc"/><rdf:li rdf:resource="https://sbolcanvas.org/module6/Interaction_JmAztDJQ"/></rdf:Bag></mts:Interactions></rdf:Description></rdf:RDF></ModelToSBOL>
+        </annotation>
+              <listOfProducts>
+          <speciesReference constant="true" metaid="iBioSim69" species="protein_BetI_62" stoichiometry="10">
+            <annotation>
+              <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+                <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+                  <rdf:Description rdf:about="#iBioSim69">
+                    <mts:Participations>
+                      <rdf:Bag>
+                        <rdf:li rdf:resource="https://sbolcanvas.org/module6/protein_BetI_62"/></rdf:Bag></mts:Participations></rdf:Description></rdf:RDF></ModelToSBOL>
+            </annotation>
+                    </speciesReference>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference sboTerm="SBO:0000598" species="pHlyIIR">
+            <annotation>
+              <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+                <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+                  <rdf:Description rdf:about="#">
+                    <mts:Participations>
+                      <rdf:Bag>
+                        <rdf:li rdf:resource="https://sbolcanvas.org/module6/Interaction_Enlk005x/Interaction_Enlk005x_0"/><rdf:li rdf:resource="https://sbolcanvas.org/module6/Interaction_a0rYcPyc/Interaction_a0rYcPyc_1"/><rdf:li rdf:resource="https://sbolcanvas.org/module6/Interaction_JmAztDJQ/Interaction_JmAztDJQ_1"/></rdf:Bag></mts:Participations></rdf:Description></rdf:RDF></ModelToSBOL>
+            </annotation>
+                    </modifierSpeciesReference>
+          <modifierSpeciesReference metaid="iBioSim68" sboTerm="SBO:0000020" species="viqPKgnP_60">
+            <annotation>
+              <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+                <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+                  <rdf:Description rdf:about="#iBioSim68">
+                    <mts:Participations>
+                      <rdf:Bag>
+                        <rdf:li rdf:resource="https://sbolcanvas.org/module6/viqPKgnP_60"/></rdf:Bag></mts:Participations></rdf:Description></rdf:RDF></ModelToSBOL>
+            </annotation>
+                    </modifierSpeciesReference>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">          
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <apply>
+                  <times/>
+                  <apply>
+                    <times/>
+                    <ci> pHlyIIR </ci>
+                    <ci> ko </ci>
+                  </apply>
+                  <apply>
+                    <divide/>
+                    <ci> ko_f </ci>
+                    <ci> ko_r </ci>
+                  </apply>
+                </apply>
+                <ci> nr </ci>
+              </apply>
+              <apply>
+                <plus/>
+                <apply>
+                  <plus/>
+                  <cn type="integer"> 1 </cn>
+                  <apply>
+                    <times/>
+                    <apply>
+                      <divide/>
+                      <ci> ko_f </ci>
+                      <ci> ko_r </ci>
+                    </apply>
+                    <ci> nr </ci>
+                  </apply>
+                </apply>
+                <apply>
+                  <power/>
+                  <apply>
+                    <times/>
+                    <apply>
+                      <divide/>
+                      <ci> kr_f </ci>
+                      <ci> kr_r </ci>
+                    </apply>
+                    <ci> viqPKgnP_60 </ci>
+                  </apply>
+                  <ci> nc </ci>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+                </kineticLaw>
+      </reaction>
+      <reaction compartment="Cell" id="Interaction_Enlk005x_1" metaid="iBioSim70" reversible="false" sboTerm="SBO:0000589">
+        <annotation>
+          <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+            <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+              <rdf:Description rdf:about="#iBioSim70">
+                <mts:Interactions>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="https://sbolcanvas.org/module6/Interaction_Enlk005x"/><rdf:li rdf:resource="https://sbolcanvas.org/module6/Interaction_a0rYcPyc"/><rdf:li rdf:resource="https://sbolcanvas.org/module6/Interaction_JmAztDJQ"/></rdf:Bag></mts:Interactions></rdf:Description></rdf:RDF></ModelToSBOL>
+        </annotation>
+              <listOfProducts>
+          <speciesReference constant="true" metaid="iBioSim72" species="protein_BetI_62" stoichiometry="10">
+            <annotation>
+              <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+                <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+                  <rdf:Description rdf:about="#iBioSim72">
+                    <mts:Participations>
+                      <rdf:Bag>
+                        <rdf:li rdf:resource="https://sbolcanvas.org/module6/protein_BetI_62"/></rdf:Bag></mts:Participations></rdf:Description></rdf:RDF></ModelToSBOL>
+            </annotation>
+                    </speciesReference>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference sboTerm="SBO:0000598" species="pAmer">
+            <annotation>
+              <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+                <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+                  <rdf:Description rdf:about="#">
+                    <mts:Participations>
+                      <rdf:Bag>
+                        <rdf:li rdf:resource="https://sbolcanvas.org/module6/Interaction_Enlk005x/Interaction_Enlk005x_0"/><rdf:li rdf:resource="https://sbolcanvas.org/module6/Interaction_a0rYcPyc/Interaction_a0rYcPyc_1"/><rdf:li rdf:resource="https://sbolcanvas.org/module6/Interaction_JmAztDJQ/Interaction_JmAztDJQ_1"/></rdf:Bag></mts:Participations></rdf:Description></rdf:RDF></ModelToSBOL>
+            </annotation>
+                    </modifierSpeciesReference>
+          <modifierSpeciesReference metaid="iBioSim71" sboTerm="SBO:0000020" species="protein_HIyIIR_61">
+            <annotation>
+              <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+                <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+                  <rdf:Description rdf:about="#iBioSim71">
+                    <mts:Participations>
+                      <rdf:Bag>
+                        <rdf:li rdf:resource="https://sbolcanvas.org/module6/protein_HIyIIR_61"/></rdf:Bag></mts:Participations></rdf:Description></rdf:RDF></ModelToSBOL>
+            </annotation>
+                    </modifierSpeciesReference>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">          
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <apply>
+                  <times/>
+                  <apply>
+                    <times/>
+                    <ci> pAmer </ci>
+                    <ci> ko </ci>
+                  </apply>
+                  <apply>
+                    <divide/>
+                    <ci> ko_f </ci>
+                    <ci> ko_r </ci>
+                  </apply>
+                </apply>
+                <ci> nr </ci>
+              </apply>
+              <apply>
+                <plus/>
+                <apply>
+                  <plus/>
+                  <cn type="integer"> 1 </cn>
+                  <apply>
+                    <times/>
+                    <apply>
+                      <divide/>
+                      <ci> ko_f </ci>
+                      <ci> ko_r </ci>
+                    </apply>
+                    <ci> nr </ci>
+                  </apply>
+                </apply>
+                <apply>
+                  <power/>
+                  <apply>
+                    <times/>
+                    <apply>
+                      <divide/>
+                      <ci> kr_f </ci>
+                      <ci> kr_r </ci>
+                    </apply>
+                    <ci> protein_HIyIIR_61 </ci>
+                  </apply>
+                  <ci> nc </ci>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+                </kineticLaw>
+      </reaction>
+      <reaction compartment="Cell" id="Interaction_soOftQUO" metaid="iBioSim73" reversible="false" sboTerm="SBO:0000589">
+        <annotation>
+          <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+            <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+              <rdf:Description rdf:about="#iBioSim73">
+                <mts:Interactions>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="https://sbolcanvas.org/module6/Interaction_soOftQUO"/><rdf:li rdf:resource="https://sbolcanvas.org/module6/Interaction_ox38gqOp"/></rdf:Bag></mts:Interactions></rdf:Description></rdf:RDF></ModelToSBOL>
+        </annotation>
+              <listOfProducts>
+          <speciesReference constant="true" metaid="iBioSim75" species="protein_AmtR_17" stoichiometry="10">
+            <annotation>
+              <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+                <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+                  <rdf:Description rdf:about="#iBioSim75">
+                    <mts:Participations>
+                      <rdf:Bag>
+                        <rdf:li rdf:resource="https://sbolcanvas.org/module6/protein_AmtR_17"/></rdf:Bag></mts:Participations></rdf:Description></rdf:RDF></ModelToSBOL>
+            </annotation>
+                    </speciesReference>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference sboTerm="SBO:0000598" species="PPMkI055_64">
+            <annotation>
+              <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+                <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+                  <rdf:Description rdf:about="#">
+                    <mts:Participations>
+                      <rdf:Bag>
+                        <rdf:li rdf:resource="https://sbolcanvas.org/module6/Interaction_ox38gqOp/Interaction_ox38gqOp_1"/><rdf:li rdf:resource="https://sbolcanvas.org/module6/Interaction_soOftQUO/Interaction_soOftQUO_0"/></rdf:Bag></mts:Participations></rdf:Description></rdf:RDF></ModelToSBOL>
+            </annotation>
+                    </modifierSpeciesReference>
+          <modifierSpeciesReference metaid="iBioSim74" sboTerm="SBO:0000020" species="protein_AraC_43">
+            <annotation>
+              <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+                <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+                  <rdf:Description rdf:about="#iBioSim74">
+                    <mts:Participations>
+                      <rdf:Bag>
+                        <rdf:li rdf:resource="https://sbolcanvas.org/module6/protein_AraC_43"/></rdf:Bag></mts:Participations></rdf:Description></rdf:RDF></ModelToSBOL>
+            </annotation>
+                    </modifierSpeciesReference>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">          
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <apply>
+                  <times/>
+                  <apply>
+                    <times/>
+                    <ci> PPMkI055_64 </ci>
+                    <ci> ko </ci>
+                  </apply>
+                  <apply>
+                    <divide/>
+                    <ci> ko_f </ci>
+                    <ci> ko_r </ci>
+                  </apply>
+                </apply>
+                <ci> nr </ci>
+              </apply>
+              <apply>
+                <plus/>
+                <apply>
+                  <plus/>
+                  <cn type="integer"> 1 </cn>
+                  <apply>
+                    <times/>
+                    <apply>
+                      <divide/>
+                      <ci> ko_f </ci>
+                      <ci> ko_r </ci>
+                    </apply>
+                    <ci> nr </ci>
+                  </apply>
+                </apply>
+                <apply>
+                  <power/>
+                  <apply>
+                    <times/>
+                    <apply>
+                      <divide/>
+                      <ci> kr_f </ci>
+                      <ci> kr_r </ci>
+                    </apply>
+                    <ci> protein_AraC_43 </ci>
+                  </apply>
+                  <ci> nc </ci>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+                </kineticLaw>
+      </reaction>
+      <reaction compartment="Cell" id="Interaction_uJMT7DxL_Interaction_cW3woGa1_Interaction_pO8oOJmL" metaid="iBioSim76" reversible="false" sboTerm="SBO:0000589">
+        <annotation>
+          <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+            <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+              <rdf:Description rdf:about="#iBioSim76">
+                <mts:Interactions>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="https://sbolcanvas.org/module6/Interaction_uJMT7DxL"/><rdf:li rdf:resource="https://sbolcanvas.org/module6/Interaction_cW3woGa1"/><rdf:li rdf:resource="https://sbolcanvas.org/module6/Interaction_pO8oOJmL"/></rdf:Bag></mts:Interactions></rdf:Description></rdf:RDF></ModelToSBOL>
+        </annotation>
+              <listOfProducts>
+          <speciesReference constant="true" metaid="iBioSim77" species="protein_LacI_14" stoichiometry="10">
+            <annotation>
+              <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+                <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+                  <rdf:Description rdf:about="#iBioSim77">
+                    <mts:Participations>
+                      <rdf:Bag>
+                        <rdf:li rdf:resource="https://sbolcanvas.org/module6/protein_LacI_14"/></rdf:Bag></mts:Participations></rdf:Description></rdf:RDF></ModelToSBOL>
+            </annotation>
+                    </speciesReference>
+          <speciesReference constant="true" metaid="iBioSim78" species="protein_AraC_43" stoichiometry="10">
+            <annotation>
+              <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+                <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+                  <rdf:Description rdf:about="#iBioSim78">
+                    <mts:Participations>
+                      <rdf:Bag>
+                        <rdf:li rdf:resource="https://sbolcanvas.org/module6/protein_AraC_43"/></rdf:Bag></mts:Participations></rdf:Description></rdf:RDF></ModelToSBOL>
+            </annotation>
+                    </speciesReference>
+          <speciesReference constant="true" metaid="iBioSim79" species="protein_TetR_12" stoichiometry="10">
+            <annotation>
+              <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+                <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+                  <rdf:Description rdf:about="#iBioSim79">
+                    <mts:Participations>
+                      <rdf:Bag>
+                        <rdf:li rdf:resource="https://sbolcanvas.org/module6/protein_TetR_12"/></rdf:Bag></mts:Participations></rdf:Description></rdf:RDF></ModelToSBOL>
+            </annotation>
+                    </speciesReference>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference sboTerm="SBO:0000598" species="PSrsRRJ0_18">
+            <annotation>
+              <ModelToSBOL xmlns="http://sbolstandard.org/modeltosbol/1.0#">
+                <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mts="http://sbolstandard.org/modeltosbol/1.0#">
+                  <rdf:Description rdf:about="#">
+                    <mts:Participations>
+                      <rdf:Bag>
+                        <rdf:li rdf:resource="https://sbolcanvas.org/module6/Interaction_uJMT7DxL/Interaction_uJMT7DxL_0"/><rdf:li rdf:resource="https://sbolcanvas.org/module6/Interaction_cW3woGa1/Interaction_cW3woGa1_0"/><rdf:li rdf:resource="https://sbolcanvas.org/module6/Interaction_pO8oOJmL/Interaction_pO8oOJmL_0"/></rdf:Bag></mts:Participations></rdf:Description></rdf:RDF></ModelToSBOL>
+            </annotation>
+                    </modifierSpeciesReference>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">          
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <apply>
+                  <times/>
+                  <apply>
+                    <times/>
+                    <ci> PSrsRRJ0_18 </ci>
+                    <ci> ko </ci>
+                  </apply>
+                  <apply>
+                    <divide/>
+                    <ci> ko_f </ci>
+                    <ci> ko_r </ci>
+                  </apply>
+                </apply>
+                <ci> nr </ci>
+              </apply>
+              <apply>
+                <plus/>
+                <cn type="integer"> 1 </cn>
+                <apply>
+                  <times/>
+                  <apply>
+                    <divide/>
+                    <ci> ko_f </ci>
+                    <ci> ko_r </ci>
+                  </apply>
+                  <ci> nr </ci>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+                </kineticLaw>
+      </reaction>
+    </listOfReactions>
+  </model>
+</sbml>
